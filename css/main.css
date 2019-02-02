@@ -7,4 +7,25 @@
   left: 68px;
   color: #ffffff;
 }
+.best_seller .best_product img {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.best_seller .best_product .cover {
+  opacity: 0;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  transition: all 0.5s ease;
+}
+.best_seller .best_product:hover img {
+  opacity: 0.5;
+}
+.best_seller .best_product:hover .cover {
+  opacity: 1;
+}
+.best_seller .tag {
+  left: 0;
+  top: 10%;
+}
 /*# sourceMappingURL=main.css.map */

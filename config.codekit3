@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/_config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/_config.yml",
+		"oF": 0
+		},
 	"/css/bootstrap-grid.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -42,16 +49,6 @@
 		"oA": 0,
 		"oAP": "/css/bootstrap.min.css.map",
 		"oF": 0
-		},
-	"/css/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/main-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/css/main.css.map": {
 		"cB": 0,
@@ -185,6 +182,24 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -193,7 +208,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 570673658.53446698,
-	"displayValue": "Schon-Websites",
+	"displayValue": "Schon-Website",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-crying",
 	"iconImageWasSetByUser": 0

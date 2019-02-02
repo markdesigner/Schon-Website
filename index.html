@@ -51,18 +51,63 @@
 
             </div>
             <div id="nav">
-                <ul class="nav nav-pills">
-                    <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">PRODUCTS</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">PAGES</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">ABOUT</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">BLOG</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#">CONTACT</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-search"></i>search</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i>SHOPPING CART
-                            <br>3 items
-                            $74.00</a></li>
-                </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PRODUCTS <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PAGES <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-search"></i>search</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i>SHOPPING CART
+                                    <br>3 items
+                                    $74.00</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
@@ -294,11 +339,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col"><img src="http://unsplash.it/213/213" alt="pic">
-                    <div class="cover position-absolute">
-                        <div class="nav"></div>
+                <div class="col">
+                    <div class="best_product position-relative">
+                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <div class="tag position-absolute ">
+                            <p class="tag text-white bg-dark m-0"> NEW</p>
+                        </div>
+                        <div class="cover">
+                            <ul class="nav bg-secondary">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
-                    <span class="tag">NEW</span>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -308,20 +369,114 @@
                     <h3 class="title">Puff Chair</h3>
                     <h3 class="price"><i class="fas fa-euro-sign"></i>287,00</h3>
                 </div>
-                <div class="col"><img src="http://unsplash.it/213/213" alt="pic"></div>
-                <div class="col"><img src="http://unsplash.it/213/213" alt="pic"></div>
-                <div class="col"><img src="http://unsplash.it/213/213" alt="pic"></div>
-                <div class="col"><img src="http://unsplash.it/213/213" alt="pic"></div>
+                <div class="col">
+                    <div class="best_product position-relative">
+                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <div class="cover">
+                            <ul class="nav bg-secondary">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3 class="title">Bombi Chair</h3>
+                    <h3 class="price"><i class="fas fa-euro-sign"></i>399,00</h3>
+                </div>
+                <div class="col">
+                    <div class="best_product position-relative">
+                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <div class="cover">
+                            <ul class="nav bg-secondary">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 class="title">Wood Chair</h3>
+                    <h3 class="price"><i class="fas fa-euro-sign"></i>198,00</h3>
+                </div>
+                <div class="col">
+                    <div class="best_product position-relative">
+                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <div class="tag position-absolute ">
+                            <p class="tag text-white bg-success m-0">15% Off</p>
+                            <p class="tag text-white bg-dark m-0"> NEW</p>
+                        </div>
+                        <div class="cover">
+                            <ul class="nav bg-secondary">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h3 class="title">Puff Chair</h3>
+                    <h3 class="price"><i class="fas fa-euro-sign"></i>287,00</h3>
+                </div>
+                <div class="col">
+                    <div class="best_product position-relative">
+                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <div class="cover">
+                            <ul class="nav bg-secondary">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i> | </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
 
 
+                    <span class="tag">NEW</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h3 class="title">Fancy Chair</h3>
+                    <h3 class="price"><i class="fas fa-euro-sign"></i>200,00</h3>
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 </html>
-
-<!-- test git desktop -->
-
-
-
