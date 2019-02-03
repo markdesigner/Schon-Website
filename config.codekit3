@@ -50,6 +50,16 @@
 		"oAP": "/css/bootstrap.min.css.map",
 		"oF": 0
 		},
+	"/css/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
@@ -139,6 +149,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/brands/artek.png": {
+		"ft": 32768,
+		"iS": 3791,
+		"oA": 0,
+		"oAP": "/pics/brands/artek.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/brands/devon.png": {
+		"ft": 32768,
+		"iS": 2055,
+		"oA": 0,
+		"oAP": "/pics/brands/devon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/brands/duravit.png": {
+		"ft": 32768,
+		"iS": 3292,
+		"oA": 0,
+		"oAP": "/pics/brands/duravit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/brands/gan.png": {
+		"ft": 32768,
+		"iS": 2651,
+		"oA": 0,
+		"oAP": "/pics/brands/gan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/brands/toncelli.png": {
+		"ft": 32768,
+		"iS": 2257,
+		"oA": 0,
+		"oAP": "/pics/brands/toncelli.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/brands/zanotta.png": {
+		"ft": 32768,
+		"iS": 4698,
+		"oA": 0,
+		"oAP": "/pics/brands/zanotta.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/leather_sofa.png": {
 		"ft": 32768,
 		"iS": 284350,
@@ -161,11 +237,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/logo_grey.png": {
+		"ft": 32768,
+		"iS": 2699,
+		"oA": 0,
+		"oAP": "/pics/logo_grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/new_collection.png": {
 		"ft": 32768,
 		"iS": 190544,
 		"oA": 0,
 		"oAP": "/pics/new_collection.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/payment.png": {
+		"ft": 32768,
+		"iS": 4238,
+		"oA": 0,
+		"oAP": "/pics/payment.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
