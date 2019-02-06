@@ -1,51 +1,235 @@
-@white_color:#ffffff;
+@white_color: #ffffff;
+@short_info_text: #a1a1a1;
+@top-bar-grey: #282828;
+@deep-blue:#2c3e65;
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
 
-#logo{
-    margin-right: 209px;
+
+
+
+// 以上為變數
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
-.main_items{
-    
-    .words{
+
+
+.short_info {
+    font-size: 0.5rem;
+    background-color: @top-bar-grey;
+
+    .nav-item {
+
+
+        color: @short_info_text;
+        transition: all .5s ease;
+
+        a {
+            float: right;
+            color: @short_info_text;
+
+
+        }
+
+        &:hover {
+            background-color: #3f3e43;
+        }
+    }
+}
+
+
+header {
+
+
+
+    #logo {
+
+        margin: 2rem 0 1rem 0;
+    }
+
+    nav {
+        font-family: 'Montserrat', sans-serif;
+
+        float: right;
+
+        li {
+            margin: 1.5rem 0.1rem;
+        }
+
+        .nav-link {
+            color: #a6a6a6;
+            font-size: 0.9rem;
+
+            &:hover {
+
+                color: @white_color ;
+            }
+        }
+
+        .search {
+            i {
+                font-size: 1.5rem;
+            }
+        }
+
+        .shopping_cart {
+            i {
+                font-size: 1.5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+.main_items {
+
+    .new_collection {
+        .words {
+            position: absolute;
+            top: 234px;
+            left: 68px;
+            color: @white_color;
+        }
+
+    }
+
+    .middle_item {
+        color: @white_color;
+        position: relative;
+
+        p {
+            position: absolute;
+            top: 29px;
+            left: 24px;
+        }
+
+        h3 {
+            position: absolute;
+            top: 71px;
+            left: 25px;
+        }
+
+        .price {
+            position: absolute;
+            width: 7rem;
+            height: 7rem;
+            top: 28%;
+            left: 45%;
+            background-color: #62c5de;
+            border-radius: 50%;
+
+        }
+
+        .shopnow_angle {
+            position: absolute;
+            left: 10%;
+            top: 70%;
+
+            a {
+                color: @white_color;
+                font-size: 0.8rem;
+            }
+
+            span {
+
+            }
+
+            i {
+                padding: 10px;
+                margin: 10px;
+                border: solid @white_color 2px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .bag{
+        .top_words{
+            font-size: 1rem;
+            position: absolute;
+            top:5%;
+            left:50%;
+        }
+        .bottom_words{
+            position: absolute;
+            top:30%;
+            left:50%;
+        }
+    }
+    .bottom{
+     h4{
+         font-size: 1rem;
         position: absolute;
-        top:234px;
-        left:68px;
-        color:@white_color;
+        top:50%;
+            left:10%;
+     }
+     .bottom_words{
+        position: absolute;
+        top:60%;
+        left:10%; 
+     }
+     .shopnow_angle{
+        position: absolute;
+        top:80%;
+        left:10%; 
+        i {
+            padding: 10px;
+            margin: 10px;
+            border: solid @deep-blue 2px;
+            border-radius: 50%;
+        }  
+        a {
+            color: @deep-blue;
+            font-size: 0.8rem;
+        }
+     }
     }
-    
+
+
+
+
 }
 
-.best_seller{
-    .best_product{
+.best_seller {
+    .best_product {
 
-      
-      img{
-          opacity: 1;
-          transition:all .5s ease;
-      
-      }
-      .cover{
-          opacity: 0;
-          position: absolute;
-          left:10%;
-          bottom: 10%;
-          transition:all .5s ease;
-      
-      }
 
-      &:hover{
-        img{
-            opacity: .5;
-        }
-        .cover{
+        img {
             opacity: 1;
+            transition: all .5s ease;
+
         }
-      }
+
+        .cover {
+            opacity: 0;
+            position: absolute;
+            left: 10%;
+            bottom: 10%;
+            transition: all .5s ease;
+
+        }
+
+        &:hover {
+            img {
+                opacity: .5;
+            }
+
+            .cover {
+                opacity: 1;
+            }
+        }
 
     }
-    .tag{
-        left:0;
-        top:10%;
+
+    .tag {
+        left: 0;
+        top: 10%;
     }
-    
-    
+
+
 }

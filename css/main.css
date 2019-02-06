@@ -1,11 +1,129 @@
-#logo {
-  margin-right: 209px;
+body {
+  font-family: 'Source Sans Pro', sans-serif;
 }
-.main_items .words {
+body img {
+  width: 100%;
+  height: auto;
+}
+.short_info {
+  font-size: 0.5rem;
+  background-color: #282828;
+}
+.short_info .nav-item {
+  color: #a1a1a1;
+  transition: all 0.5s ease;
+}
+.short_info .nav-item a {
+  float: right;
+  color: #a1a1a1;
+}
+.short_info .nav-item:hover {
+  background-color: #3f3e43;
+}
+header #logo {
+  margin: 2rem 0 1rem 0;
+}
+header nav {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+}
+header nav li {
+  margin: 1.5rem 0.1rem;
+}
+header nav .nav-link {
+  color: #a6a6a6;
+  font-size: 0.9rem;
+}
+header nav .nav-link:hover {
+  color: #ffffff;
+}
+header nav .search i {
+  font-size: 1.5rem;
+}
+header nav .shopping_cart i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.main_items .new_collection .words {
   position: absolute;
   top: 234px;
   left: 68px;
   color: #ffffff;
+}
+.main_items .middle_item {
+  color: #ffffff;
+  position: relative;
+}
+.main_items .middle_item p {
+  position: absolute;
+  top: 29px;
+  left: 24px;
+}
+.main_items .middle_item h3 {
+  position: absolute;
+  top: 71px;
+  left: 25px;
+}
+.main_items .middle_item .price {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  top: 28%;
+  left: 45%;
+  background-color: #62c5de;
+  border-radius: 50%;
+}
+.main_items .middle_item .shopnow_angle {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+.main_items .middle_item .shopnow_angle a {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.main_items .middle_item .shopnow_angle i {
+  padding: 10px;
+  margin: 10px;
+  border: solid #ffffff 2px;
+  border-radius: 50%;
+}
+.main_items .bag .top_words {
+  font-size: 1rem;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+.main_items .bag .bottom_words {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.main_items .bottom h4 {
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.main_items .bottom .bottom_words {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.main_items .bottom .shopnow_angle {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.main_items .bottom .shopnow_angle i {
+  padding: 10px;
+  margin: 10px;
+  border: solid #2c3e65 2px;
+  border-radius: 50%;
+}
+.main_items .bottom .shopnow_angle a {
+  color: #2c3e65;
+  font-size: 0.8rem;
 }
 .best_seller .best_product img {
   opacity: 1;
