@@ -15,3 +15,8 @@ navbar，算是有些構造的更改，所以就先將這個草版上傳了。
 2019.2.3
 
 今天把home的架構刻完了，再來就是修改CSS拉
+
+
+把header & main_item上面大致調完，回來再把剩下的慢慢調到位。
+
+略過：header的hover效果以及dropdown div內容
