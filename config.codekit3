@@ -138,6 +138,13 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/note/note.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/note/note.html",
+		"oF": 0
+		},
 	"/pics/blue_chair.png": {
 		"ft": 32768,
 		"iS": 56011,
