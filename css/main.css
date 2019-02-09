@@ -476,8 +476,30 @@ header nav .shopping_cart i {
 }
 .best_seller .cover {
   opacity: 0;
+  background-color: #ffffff;
   position: absolute;
-  bottom: calc(30rem/16);
+  bottom: calc(50rem/16);
+  left: calc(10rem/16);
+  transition: all 0.5s ease;
+  padding: 10px 5px;
+  font-size: calc(10rem/16);
+}
+.best_seller .cover .nav-link {
+  padding: 0;
+}
+.best_seller .cover a {
+  color: #979797;
+}
+.best_seller .cover a .fa-shopping-bag:after {
+  content: "|";
+  padding: 0 20px;
+}
+.best_seller .cover a .fa-heart:after {
+  content: "|";
+  padding: 10px 20px;
+}
+.best_seller img {
+  transition: all 0.5s ease;
 }
 .best_seller:hover img {
   opacity: 0.5;
@@ -565,8 +587,55 @@ header nav .shopping_cart i {
   line-height: 1;
   font-weight: 700;
 }
-.tag {
-  left: 0;
-  top: 10%;
+.brands .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(20rem/16);
+  padding-bottom: calc(60rem/16);
+}
+.brands .title small {
+  color: #dbdbdb;
+  font-size: calc(10rem/16);
+  letter-spacing: 3px;
+}
+.brands .row {
+  width: 95%;
+  margin: 0 auto;
+}
+footer .container-fluid {
+  background-color: #f6f6f6;
+}
+footer .container-fluid .main_footer .guarantee {
+  font-family: 'Montserrat', sans-serif;
+  padding: calc(50rem/16) 0;
+}
+footer .container-fluid .main_footer .guarantee .col-md-3 {
+  display: flex;
+  justify-content: center;
+}
+footer .container-fluid .main_footer .guarantee i {
+  margin-right: calc(20rem/16);
+  margin-top: calc(6rem/16);
+  font-size: calc(36rem/16);
+  color: #808080;
+}
+footer .container-fluid .main_footer .guarantee .words {
+  padding-right: 10px;
+}
+footer .container-fluid .main_footer .guarantee .words span {
+  text-align: center;
+}
+footer .container-fluid .main_footer .guarantee .words span .title {
+  font-size: calc(14rem/16);
+}
+footer .container-fluid .main_footer .guarantee .words span .description {
+  font-size: calc(12rem/16);
+}
+footer .container-fluid .main_footer .guarantee .words .title {
+  font-size: calc(14rem/16);
+  margin-bottom: 0;
+}
+footer .container-fluid .main_footer .guarantee .words .description {
+  color: #808080;
+  font-size: calc(10rem/16);
 }
 /*# sourceMappingURL=main.css.map */

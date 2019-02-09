@@ -3,6 +3,7 @@
 @top-bar-grey: #282828;
 @deep-blue: #2c3e65;
 @grey-text: #dbdbdb;
+@grey_deep_text:#808080;
 @black-text: #535353;
 @grey_shopnow: #979797;
 @black: #000000;
@@ -26,9 +27,6 @@
 
     }
 }
-
-
-
 
 // 以上為變數
 body {
@@ -680,11 +678,43 @@ header {
     transition: all .5s ease;
     position: relative;
     padding-bottom: calc(30rem/16);
+    
 
         .cover {
             opacity: 0;
+            background-color: @white_color;
             position: absolute;
-            bottom: calc(30rem/16);
+            bottom: calc(50rem/16);
+            left:calc(10rem/16);
+            transition: all .5s ease;
+            padding:10px 5px;
+            font-size: calc(10rem/16);;
+
+            .nav-link{
+                padding: 0;
+            }
+            a{
+                color:@grey_shopnow;
+                
+                .fa-shopping-bag{
+                    &:after{
+                    content:"|";
+                    padding:0 20px;
+                    }
+                }
+                    
+                    
+                .fa-heart{
+                    &:after{
+                        content:"|";
+                        padding:10px 20px;
+                    }
+                    
+                }
+            }
+        }
+        img{
+            transition: all .5s ease;
         }
 
         &:hover {
@@ -803,11 +833,66 @@ header {
 
     
 }
+.brands{
+    .title{
+        font-family: @mont;
+        font-size: calc(20rem/16);;
+        small{
+            color:@grey-text;
+            font-size: calc(10rem/16);
+            letter-spacing: 3px;
+        }
+        padding-bottom: calc(60rem/16);;
+    }
+    .row{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+}
+footer{
+    .container-fluid{
+        background-color: #f6f6f6;
 
+        .main_footer{
+            .guarantee{
+                font-family: @mont;
+                padding: calc(50rem/16) 0;
 
+                .col-md-3{
+                    display: flex;
+                    justify-content: center;
+                }
+                i{  margin-right:calc(20rem/16);
+                    margin-top: calc(6rem/16);;
+                    font-size: calc(36rem/16);
+                    color:@grey_deep_text;
+                }
+                .words{
+                    padding-right: 10px;
+                    span{
+                        .title{
+                            font-size: calc(14rem/16);;
+                        }
+                        .description{
+                            font-size: calc(12rem/16);;
+                        }
+                        text-align: center;
+                    }
 
+                    .title{
+                        font-size: calc(14rem/16);;
+                        margin-bottom:0;
+                    }
+                    .description{
+                        color:@grey_deep_text;
+                        font-size: calc(10rem/16);;
+    
+                    }
+                }
+                
 
-.tag {
-    left: 0;
-    top: 10%;
+            }
+        }
+    }
 }
