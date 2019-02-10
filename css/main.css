@@ -15,6 +15,9 @@ body img {
   width: 100%;
   height: auto;
 }
+a:hover {
+  text-decoration-line: none;
+}
 .short_info {
   font-size: 1vmin;
   background-color: #282828;
@@ -145,9 +148,6 @@ header nav .shopping_cart i {
   font-size: 0.8rem;
   letter-spacing: calc(0.5rem/16);
 }
-.main_items .middle_item .shopnow_angle a:hover {
-  text-decoration-line: none;
-}
 .main_items .middle_item .shopnow_angle i {
   padding: calc(6rem/16);
   margin: 10px;
@@ -198,9 +198,6 @@ header nav .shopping_cart i {
   background-color: #2e2d32;
   padding: 3px;
 }
-.main_items .bag .bottom_words .shopnow:hover {
-  text-decoration-line: none;
-}
 .main_items .chair {
   font-family: 'Montserrat', sans-serif;
   position: relative;
@@ -246,16 +243,10 @@ header nav .shopping_cart i {
   bottom: calc(20rem/16);
   left: calc(20rem/16);
 }
-.main_items .chair .shopnow_angle:hover {
-  text-decoration-line: none;
-}
 .main_items .chair .shopnow_angle a {
   color: #2c3e65;
   font-size: calc(10rem/16);
   font-weight: 600;
-}
-.main_items .chair .shopnow_angle a:hover {
-  text-decoration-line: none;
 }
 .main_items .chair .shopnow_angle a i {
   padding: calc(6rem/16);
@@ -297,9 +288,6 @@ header nav .shopping_cart i {
   font-size: 0.8rem;
   letter-spacing: calc(0.5rem/16);
 }
-.main_items .row.bottom .top .shopnow_angle a:hover {
-  text-decoration-line: none;
-}
 .main_items .row.bottom .top .shopnow_angle i {
   padding: calc(6rem/16);
   margin: 10px;
@@ -334,9 +322,6 @@ header nav .shopping_cart i {
   color: #979797;
   font-size: 0.8rem;
   letter-spacing: calc(0.5rem/16);
-}
-.main_items .row.bottom .bottom .shopnow_angle a:hover {
-  text-decoration-line: none;
 }
 .main_items .row.bottom .bottom .shopnow_angle i {
   padding: calc(6rem/16);
@@ -459,9 +444,6 @@ header nav .shopping_cart i {
   color: #979797;
   font-size: calc(4rem/16);
   letter-spacing: calc(0.5rem/16);
-}
-.feature_bar .still_products .shopnow_angle a:hover {
-  text-decoration-line: none;
 }
 .feature_bar .still_products .shopnow_angle i {
   padding: calc(6rem/16);
@@ -604,6 +586,10 @@ header nav .shopping_cart i {
 footer .container-fluid {
   background-color: #f6f6f6;
 }
+footer .container-fluid .main_footer {
+  padding-top: calc(20rem/16);
+  padding-bottom: calc(60rem/16);
+}
 footer .container-fluid .main_footer .guarantee {
   font-family: 'Montserrat', sans-serif;
   padding: calc(50rem/16) 0;
@@ -621,21 +607,87 @@ footer .container-fluid .main_footer .guarantee i {
 footer .container-fluid .main_footer .guarantee .words {
   padding-right: 10px;
 }
-footer .container-fluid .main_footer .guarantee .words span {
-  text-align: center;
-}
-footer .container-fluid .main_footer .guarantee .words span .title {
-  font-size: calc(14rem/16);
-}
-footer .container-fluid .main_footer .guarantee .words span .description {
-  font-size: calc(12rem/16);
-}
 footer .container-fluid .main_footer .guarantee .words .title {
   font-size: calc(14rem/16);
-  margin-bottom: 0;
+  letter-spacing: 1px;
 }
 footer .container-fluid .main_footer .guarantee .words .description {
+  font-family: 'Oxygen', sans-serif;
   color: #808080;
   font-size: calc(10rem/16);
+}
+footer .container-fluid .main_footer .footer_info {
+  color: #a0a0a0;
+}
+footer .container-fluid .main_footer .footer_info a {
+  color: #a0a0a0;
+}
+footer .container-fluid .main_footer .footer_info .contact {
+  font-family: 'Open Sans', sans-serif;
+}
+footer .container-fluid .main_footer .footer_info .contact .logo {
+  width: 102px;
+  height: 29px;
+  margin-bottom: calc(28rem/16);
+}
+footer .container-fluid .main_footer .footer_info .contact .description {
+  font-size: calc(12rem/16);
+}
+footer .container-fluid .main_footer .footer_info .contact .address {
+  font-size: calc(10rem/16);
+  margin-bottom: calc(20rem/16);
+}
+footer .container-fluid .main_footer .footer_info .contact .address .fas_div {
+  padding: 4px 12px 2px 0px;
+}
+footer .container-fluid .main_footer .footer_info .contact .address span {
+  line-height: 1;
+}
+footer .container-fluid .main_footer .footer_info .contact .phone {
+  font-size: calc(12rem/16);
+}
+footer .container-fluid .main_footer .footer_info .contact .phone i {
+  padding-right: 6px;
+}
+footer .container-fluid .main_footer .footer_info .contact .mail {
+  font-size: calc(12rem/16);
+}
+footer .container-fluid .main_footer .footer_info .contact .mail i {
+  padding-right: 6px;
+}
+footer .container-fluid .main_footer .footer_info .site_link {
+  font-family: 'Open Sans', sans-serif;
+}
+footer .container-fluid .main_footer .footer_info .site_link .title {
+  font-size: calc(16rem/16);
+  font-weight: 600;
+  color: #575757;
+  margin-bottom: calc(15rem/16);
+}
+footer .container-fluid .main_footer .footer_info .site_link .list-group-item {
+  font-size: calc(12rem/16);
+  background-color: transparent;
+  border: 0px;
+  padding: 0.3rem 1.25rem;
+}
+footer .container-fluid .main_footer .footer_info .subscribe .title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: calc(14rem/16);
+  color: #575757;
+}
+footer .container-fluid .main_footer .footer_info .subscribe .user_input input ::placeholder {
+  font-size: calc(2rem/16) !important;
+}
+footer .container-fluid .main_footer .footer_info .subscribe .user_input .user_email {
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border: none;
+}
+footer .container-fluid .main_footer .footer_info .subscribe .user_input .sub_bt {
+  background-color: #575757;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
