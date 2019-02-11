@@ -18,18 +18,6 @@
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Oxygen', sans-serif;
 
-@media (max-width: 540px) {
-    html {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 769px)and (min-width:541px) {
-    html {
-        font-size: 14px;
-
-    }
-}
 
 // 以上為變數
 body {
@@ -52,7 +40,7 @@ a {
 
 
 .short_info {
-    font-size: 1vmin;
+    font-size: calc(14rem/16);;
     background-color: @top-bar-grey;
 
     .nav-item {
@@ -1013,6 +1001,7 @@ footer {
                 }
 
                 .subscribe {
+                    text-align: center;
                     .title {
                         font-family: @open;
                         font-weight: 600;
@@ -1082,4 +1071,47 @@ footer {
             }
         }
     }
+}
+
+//media query 
+
+// iphone
+@media (max-width: 767.98px) {
+    .short_info{
+        .info_container{
+            max-width: 328px;
+        }
+    }
+
+   footer{
+       .guarantee{
+        .col-md-3{
+            padding-bottom: 20px;
+        }   
+        
+       }
+       .footer_info{
+            text-align: center;
+            
+            .site_link{
+                margin-bottom: calc(16rem/16);;
+            }
+       }
+       .all_rights{
+           text-align: center;
+           .visa{
+               display: flex;
+               justify-content: center;
+            img{
+                width: 50%;
+            }
+           }
+           
+       }
+   }
+}
+
+// ipad
+@media (max-width: 991.98px)and (min-width:768px) {
+    
 }

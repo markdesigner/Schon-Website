@@ -16,23 +16,6 @@
 		"oAP": "/_config.yml",
 		"oF": 0
 		},
-	"/css/bootstrap-grid.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/bootstrap-grid.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/bootstrap-grid.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/bootstrap-grid.min.css.map",
-		"oF": 0
-		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,

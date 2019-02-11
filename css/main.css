@@ -1,13 +1,3 @@
-@media (max-width: 540px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media (max-width: 769px) and (min-width: 541px) {
-  html {
-    font-size: 14px;
-  }
-}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -19,7 +9,7 @@ a:hover {
   text-decoration-line: none;
 }
 .short_info {
-  font-size: 1vmin;
+  font-size: calc(14rem/16);
   background-color: #282828;
 }
 .short_info .nav-item {
@@ -700,6 +690,9 @@ footer .container-fluid .main_footer .footer_info .site_link .list-group-item {
   border: 0px;
   padding: 0.3rem 1.25rem;
 }
+footer .container-fluid .main_footer .footer_info .subscribe {
+  text-align: center;
+}
 footer .container-fluid .main_footer .footer_info .subscribe .title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -743,5 +736,29 @@ footer .all_rights .words {
 }
 footer .all_rights .words .logo {
   font-weight: 700;
+}
+@media (max-width: 767.98px) {
+  .short_info .info_container {
+    max-width: 328px;
+  }
+  footer .guarantee .col-md-3 {
+    padding-bottom: 20px;
+  }
+  footer .footer_info {
+    text-align: center;
+  }
+  footer .footer_info .site_link {
+    margin-bottom: calc(16rem/16);
+  }
+  footer .all_rights {
+    text-align: center;
+  }
+  footer .all_rights .visa {
+    display: flex;
+    justify-content: center;
+  }
+  footer .all_rights .visa img {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
