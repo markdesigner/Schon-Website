@@ -1,4 +1,5 @@
 @white_color: #ffffff;
+@header_nav:#494949;
 @short_info_text: #a1a1a1;
 @top-bar-grey: #282828;
 @deep-blue: #2c3e65;
@@ -8,6 +9,7 @@
 @grey_shopnow: #979797;
 @black: #000000;
 @footer_title: #575757;
+
 //font-family var
 @mont: 'Montserrat', sans-serif;
 @open: 'Open Sans', sans-serif;
@@ -82,13 +84,13 @@ header {
         }
 
         .nav-item {
-            color: #a6a6a6;
+
             font-size: 0.9rem;
 
             .nav-link {
 
                 font-weight: 500;
-                color: #8b8b8b !important;
+                color: @header_nav !important;
                 transition: all .4s ease;
 
                 &:hover {
@@ -1103,7 +1105,7 @@ footer {
                display: flex;
                justify-content: center;
             img{
-                width: 50%;
+                width: 70%;
             }
            }
            

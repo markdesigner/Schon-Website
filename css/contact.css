@@ -760,4 +760,45 @@ footer .all_rights .words .logo {
     width: 70%;
   }
 }
-/*# sourceMappingURL=main.css.map */
+.contact header .phone {
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.contact header .phone a {
+  color: #494949;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(12rem/16);
+}
+.contact .cover {
+  background-image: url(http://unsplash.it/1902/207);
+}
+.contact .cover .title {
+  color: #494949;
+  padding-top: 50px;
+  margin-bottom: -6px;
+}
+.contact .cover .breadcrumb {
+  justify-content: center;
+  background-color: transparent;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.contact .cover .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+}
+.contact .cover .breadcrumb a {
+  color: #717171;
+  font-size: calc(12rem/16);
+}
+.contact .map {
+  height: 30vh;
+}
+.contact .map iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact footer .container-fluid {
+  background-color: transparent;
+}
+/*# sourceMappingURL=contact.css.map */

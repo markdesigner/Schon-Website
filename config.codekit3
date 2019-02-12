@@ -16,6 +16,13 @@
 		"oAP": "/_config.yml",
 		"oF": 0
 		},
+	"/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/contact.html",
+		"oF": 0
+		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -31,6 +38,23 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/css/bootstrap.min.css.map",
+		"oF": 0
+		},
+	"/css/contact.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/contact-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/contact.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/contact.css.map",
 		"oF": 0
 		},
 	"/css/main.css": {
@@ -104,7 +128,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/less/main.less": {
+	"/less/contact.less": {
 		"aP": 0,
 		"bl": 0,
 		"eJ": 0,
@@ -114,6 +138,23 @@
 		"ma": 1,
 		"mS": 0,
 		"oA": 0,
+		"oAP": "/css/contact.css",
+		"oF": 2,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/main.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
 		"oAP": "/css/main.css",
 		"oF": 2,
 		"oS": 0,
@@ -199,6 +240,17 @@
 		"iS": 4698,
 		"oA": 0,
 		"oAP": "/pics/brands/zanotta.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/contact_bg.png": {
+		"ft": 32768,
+		"iS": 136389,
+		"oA": 0,
+		"oAP": "/pics/contact_bg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

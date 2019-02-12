@@ -1,0 +1,82 @@
+// @white_color: #ffffff;
+// @header_nav:#494949;
+// @short_info_text: #a1a1a1;
+// @top-bar-grey: #282828;
+// @deep-blue: #2c3e65;
+// @grey-text: #dbdbdb;
+// @grey_deep_text: #808080;
+// @black-text: #535353;
+// @grey_shopnow: #979797;
+// @black: #000000;
+// @footer_title: #575757;
+
+@import "main.less";
+
+.contact{
+
+header{
+  .phone{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    a{
+        color:@header_nav;
+        font-family: @mont;
+        font-size: calc(12rem/16);
+    }
+  }
+}
+
+.cover{
+
+    background-image: url(http://unsplash.it/1902/207);
+
+    .title{
+        color:@header_nav;
+        padding-top: 50px;
+        margin-bottom: -6px;
+    }
+    .breadcrumb{
+        justify-content: center;
+        background-color: transparent;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        .breadcrumb-item + .breadcrumb-item::before{
+            content:">";
+
+           
+        }
+        a{
+            color:#717171;
+            font-size: calc(12rem/16);;
+        }
+       
+    }
+}
+
+
+
+.map{
+    height: 30vh;
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+footer{
+    .container-fluid{
+        background-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+}
