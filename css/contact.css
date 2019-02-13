@@ -760,6 +760,9 @@ footer .all_rights .words .logo {
     width: 70%;
   }
 }
+.contact section {
+  margin-bottom: 60px;
+}
 .contact header .phone {
   float: left;
   margin-top: 40px;
@@ -771,9 +774,12 @@ footer .all_rights .words .logo {
   font-size: calc(12rem/16);
 }
 .contact .cover {
-  background-image: url(http://unsplash.it/1902/207);
+  background-image: url(../pics/contact_pad.png);
+  background-repeat: cover;
 }
 .contact .cover .title {
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
   color: #494949;
   padding-top: 50px;
   margin-bottom: -6px;
@@ -791,6 +797,34 @@ footer .all_rights .words .logo {
   color: #717171;
   font-size: calc(12rem/16);
 }
+.contact .user_input .contact_info {
+  color: #494949;
+}
+.contact .user_input .contact_info h3.title {
+  font-size: calc(26rem/16);
+  letter-spacing: 1px;
+}
+.contact .user_input .contact_info .description {
+  font-size: calc(12rem/16);
+  margin-bottom: 80px;
+}
+.contact .user_input .contact_info .row .title {
+  font-size: calc(14rem/16);
+  font-weight: 700;
+}
+.contact .user_input .contact_info .row a {
+  font-size: calc(12rem/16);
+  color: #494949;
+}
+.contact .user_input .user_form .title {
+  font-size: calc(16rem/16);
+  color: #494949;
+  font-weight: 600;
+}
+.contact .user_input .user_form .input-group input,
+.contact .user_input .user_form .input-group textarea {
+  border-radius: 20px;
+}
 .contact .map {
   height: 30vh;
 }
@@ -798,7 +832,24 @@ footer .all_rights .words .logo {
   width: 100%;
   height: 100%;
 }
+.contact footer {
+  padding-bottom: 100px;
+}
 .contact footer .container-fluid {
   background-color: transparent;
+}
+.contact footer .container-fluid .contact {
+  text-align: right;
+}
+.contact footer .all_rights {
+  text-align: center;
+}
+.contact footer .all_rights img {
+  width: 140px;
+  height: 20px;
+}
+.contact footer .all_rights p {
+  color: #a0a0a0;
+  font-size: calc(12rem/16);
 }
 /*# sourceMappingURL=contact.css.map */

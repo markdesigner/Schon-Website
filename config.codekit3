@@ -246,11 +246,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/pics/contact_bg.png": {
+	"/pics/contact_pad.png": {
 		"ft": 32768,
-		"iS": 136389,
+		"iS": 307200,
 		"oA": 0,
-		"oAP": "/pics/contact_bg.png",
+		"oAP": "/pics/contact_pad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -273,6 +273,17 @@
 		"iS": 2075,
 		"oA": 0,
 		"oAP": "/pics/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/logo_AllBlack.png": {
+		"ft": 32768,
+		"iS": 2030,
+		"oA": 0,
+		"oAP": "/pics/logo_AllBlack.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -306,6 +317,17 @@
 		"iS": 4238,
 		"oA": 0,
 		"oAP": "/pics/payment.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/payment_grey_small.png": {
+		"ft": 32768,
+		"iS": 1669,
+		"oA": 0,
+		"oAP": "/pics/payment_grey_small.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -14,6 +14,11 @@
 
 .contact{
 
+    section{
+        margin-bottom: 60px;
+}
+    
+
 header{
   .phone{
     float: left;
@@ -29,9 +34,14 @@ header{
 
 .cover{
 
-    background-image: url(http://unsplash.it/1902/207);
+    // background-image: url(http://unsplash.it/1902/207);
+    background-image: url(../pics/contact_pad.png);
+    background-repeat: cover;
+
 
     .title{
+        letter-spacing: 1px;
+        font-family: @mont;
         color:@header_nav;
         padding-top: 50px;
         margin-bottom: -6px;
@@ -54,7 +64,44 @@ header{
     }
 }
 
-
+.user_input{
+ 
+    .contact_info{
+        color:@header_nav;
+        h3.title{
+            font-size: calc(26rem/16);;
+            letter-spacing: 1px;
+        }
+        .description{
+            font-size: calc(12rem/16);;
+            margin-bottom: 80px;
+        }
+        .row{
+            .title{
+                font-size: calc(14rem/16);;
+                font-weight: 700;
+            }
+            a{
+                font-size: calc(12rem/16);;
+                color:@header_nav;
+            }
+        }
+    }
+   
+    .user_form{
+        .title{
+            font-size: calc(16rem/16);
+            color:@header_nav;
+            font-weight: 600;
+        }
+        .input-group{
+            input, textarea{
+                border-radius: 20px;
+            }
+            
+        }
+    }
+}
 
 .map{
     height: 30vh;
@@ -66,8 +113,29 @@ header{
 }
 
 footer{
+
+    padding-bottom: 100px;
+
     .container-fluid{
         background-color: transparent;
+        .contact{
+            text-align: right;
+
+            img{
+
+            }
+        }
+    }
+    .all_rights{
+        text-align: center;
+        img{
+            width: 140px;
+            height: 20px;
+        }
+        p{
+            color:@footer_link;
+            font-size: calc(12rem/16);;
+        }
     }
 }
 
