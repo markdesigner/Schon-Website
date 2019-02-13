@@ -825,6 +825,17 @@ footer .all_rights .words .logo {
 .contact .user_input .user_form .input-group textarea {
   border-radius: 20px;
 }
+.contact .user_input .user_form .send {
+  background-color: #494949;
+  border-radius: 25px;
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: calc(12rem/16);
+}
+.contact .user_input .user_form .send:hover {
+  text-decoration: none;
+}
 .contact .map {
   height: 30vh;
 }
