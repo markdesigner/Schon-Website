@@ -10,157 +10,82 @@
 // @black: #000000;
 // @footer_title: #575757;
 
-@import "main.less";
+@import "basic.less";
 
 
-.contact{
+.contact {
+    .user_input {
 
-    section{
-        margin-bottom: 60px;
-}
-    
+        .contact_info {
+            color: @header_nav;
 
-header{
-  .phone{
-    float: left;
-    margin-top: 40px;
-    margin-left: 20px;
-    a{
-        color:@header_nav;
-        font-family: @mont;
-        font-size: calc(12rem/16);
-    }
-  }
-}
-
-.cover{
-
-    // background-image: url(http://unsplash.it/1902/207);
-    background-image: url(../pics/contact_pad.png);
-    background-repeat: cover;
-
-
-    .title{
-        font-weight: 600;
-        letter-spacing: 1px;
-        font-family: @mont;
-        color:@header_nav;
-        padding-top: 50px;
-        margin-bottom: -6px;
-    }
-    .breadcrumb{
-        justify-content: center;
-        background-color: transparent;
-        padding-bottom: 50px;
-        margin: 0 auto;
-        .breadcrumb-item + .breadcrumb-item::before{
-            content:">";
-
-           
-        }
-        a{
-            color:#717171;
-            font-size: calc(12rem/16);;
-        }
-       
-    }
-}
-
-.user_input{
- 
-    .contact_info{
-        color:@header_nav;
-        h3.title{
-            font-size: calc(26rem/16);;
-            letter-spacing: 1px;
-        }
-        .description{
-            font-size: calc(12rem/16);;
-            margin-bottom: 80px;
-        }
-        .row{
-            .title{
-                font-size: calc(14rem/16);;
-                font-weight: 700;
+            h3.title {
+                font-size: calc(26rem/16);
+                ;
+                letter-spacing: 1px;
             }
-            a{
-                font-size: calc(12rem/16);;
-                color:@header_nav;
+
+            .description {
+                font-size: calc(12rem/16);
+                ;
+                margin-bottom: 80px;
+            }
+
+            .row {
+                .title {
+                    font-size: calc(14rem/16);
+                    ;
+                    font-weight: 700;
+                }
+
+                a {
+                    font-size: calc(12rem/16);
+                    ;
+                    color: @header_nav;
+                }
             }
         }
-    }
-   
-    .user_form{
-        .title{
-            font-size: calc(16rem/16);
-            color:@header_nav;
-            font-weight: 600;
-        }
-        .input-group{
-            input, textarea{
-                border-radius: 20px;
-            }
-            
-        }
-        .send{
-            background-color: @header_nav;
-            border-radius:25px;
-            color:@white_color;
-            margin-top: 10px;
-            font-weight: 300;
-            font-size: calc(12rem/16);
 
-            &:hover{
-                text-decoration: none;
+        .user_form {
+            .title {
+                font-size: calc(16rem/16);
+                color: @header_nav;
+                font-weight: 600;
+            }
+
+            .input-group {
+
+                input,
+                textarea {
+                    border-radius: 20px;
+                }
+
+            }
+
+            .send {
+                background-color: @header_nav;
+                border-radius: 25px;
+                color: @white_color;
+                margin-top: 10px;
+                font-weight: 300;
+                font-size: calc(12rem/16);
+
+                &:hover {
+                    text-decoration: none;
+                }
+
             }
 
         }
-        
     }
-}
 
-.map{
-    height: 30vh;
+    .map {
+        height: 30vh;
 
-    iframe{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-footer{
-
-    padding-bottom: 100px;
-
-    .container-fluid{
-        background-color: transparent;
-        .contact{
-            text-align: right;
-
-            img{
-
-            }
+        iframe {
+            width: 100%;
+            height: 100%;
         }
     }
-    .all_rights{
-        text-align: center;
-        img{
-            width: 140px;
-            height: 20px;
-        }
-        p{
-            color:@footer_link;
-            font-size: calc(12rem/16);;
-        }
-    }
-}
-
-
-
-
-
-
-
-
 
 }

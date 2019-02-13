@@ -1,3 +1,10 @@
+@import "contact.less";
+@import "about.less";
+
+
+
+// 以上為import
+
 @white_color: #ffffff;
 @header_nav:#494949;
 @short_info_text: #a1a1a1;
@@ -30,6 +37,9 @@ body {
         width: 100%;
         height: auto;
 
+    }
+    section{
+        margin-bottom: 60px;
     }
 }
 
@@ -115,6 +125,54 @@ header {
         }
     }
 }
+
+header.full_width{
+    
+        .phone{
+          float: left;
+          margin-top: 40px;
+          margin-left: 20px;
+          a{
+              color:@header_nav;
+              font-family: @mont;
+              font-size: calc(12rem/16);
+          }
+        }
+      
+}
+.cover{
+
+    // background-image: url(http://unsplash.it/1902/207);
+    background-image: url(../pics/contact_pad.png);
+    background-repeat: cover;
+
+
+    .title{
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: @mont;
+        color:@header_nav;
+        padding-top: 50px;
+        margin-bottom: -6px;
+    }
+    .breadcrumb{
+        justify-content: center;
+        background-color: transparent;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        .breadcrumb-item + .breadcrumb-item::before{
+            content:">";
+
+           
+        }
+        a{
+            color:#717171;
+            font-size: calc(12rem/16);;
+        }
+       
+    }
+}
+
 
 .main_items {
 
@@ -1075,6 +1133,32 @@ footer {
         }
     }
 }
+footer.simple{
+
+    padding-bottom: 100px;
+
+    .container-fluid{
+        background-color: transparent;
+        .contact{
+            text-align: right;
+
+            img{
+
+            }
+        }
+    }
+    .all_rights{
+        text-align: center;
+        img{
+            width: 140px;
+            height: 20px;
+        }
+        p{
+            color:@footer_link;
+            font-size: calc(12rem/16);;
+        }
+    }
+}
 
 //media query 
 
@@ -1115,6 +1199,6 @@ footer {
 }
 
 // ipad
-@media (max-width: 991.98px)and (min-width:768px) {
+// @media (max-width: 991.98px)and (min-width:768px) {
     
-}
+// }

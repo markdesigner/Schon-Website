@@ -30,23 +30,6 @@
 		"oAP": "/contact.html",
 		"oF": 0
 		},
-	"/css/about.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/about-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/about.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/about.css.map",
-		"oF": 0
-		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -62,23 +45,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/css/bootstrap.min.css.map",
-		"oF": 0
-		},
-	"/css/contact.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/contact-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/contact.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/contact.css.map",
 		"oF": 0
 		},
 	"/css/main.css": {
@@ -161,9 +127,26 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/css/about.css",
 		"oF": 2,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/basic.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/basic.css",
+		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -178,7 +161,7 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/css/contact.css",
 		"oF": 2,
 		"oS": 0,
@@ -195,7 +178,7 @@
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/css/main.css",
 		"oF": 2,
 		"oS": 0,
