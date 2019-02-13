@@ -760,108 +760,84 @@ footer .all_rights .words .logo {
     width: 70%;
   }
 }
-.contact section {
-  margin-bottom: 60px;
+body .about main .cover {
+  background-color: #f4f4f4;
+  background-image: none;
 }
-.contact header .phone {
-  float: left;
-  margin-top: 40px;
-  margin-left: 20px;
-}
-.contact header .phone a {
+body .about main .who_we_are {
   color: #494949;
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(12rem/16);
 }
-.contact .cover {
-  background-image: url(../pics/contact_pad.png);
-  background-repeat: cover;
-}
-.contact .cover .title {
+body .about main .who_we_are .title {
+  font-size: calc(24rem/16);
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  letter-spacing: 1px;
-  font-family: 'Montserrat', sans-serif;
-  color: #494949;
-  padding-top: 50px;
-  margin-bottom: -6px;
+  margin-bottom: 40px;
 }
-.contact .cover .breadcrumb {
-  justify-content: center;
-  background-color: transparent;
-  padding-bottom: 50px;
-  margin: 0 auto;
+body .about main .who_we_are .social {
+  margin-top: 60px;
 }
-.contact .cover .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: ">";
-}
-.contact .cover .breadcrumb a {
-  color: #717171;
-  font-size: calc(12rem/16);
-}
-.contact .user_input .contact_info {
-  color: #494949;
-}
-.contact .user_input .contact_info h3.title {
-  font-size: calc(26rem/16);
-  letter-spacing: 1px;
-}
-.contact .user_input .contact_info .description {
-  font-size: calc(12rem/16);
-  margin-bottom: 80px;
-}
-.contact .user_input .contact_info .row .title {
-  font-size: calc(14rem/16);
-  font-weight: 700;
-}
-.contact .user_input .contact_info .row a {
-  font-size: calc(12rem/16);
-  color: #494949;
-}
-.contact .user_input .user_form .title {
-  font-size: calc(16rem/16);
-  color: #494949;
+body .about main .who_we_are .social .follow {
   font-weight: 600;
 }
-.contact .user_input .user_form .input-group input,
-.contact .user_input .user_form .input-group textarea {
-  border-radius: 20px;
+body .about main .who_we_are .social .social_icon a {
+  color: #494949;
 }
-.contact .user_input .user_form .send {
-  background-color: #494949;
-  border-radius: 25px;
-  color: #ffffff;
-  margin-top: 10px;
-  font-weight: 300;
-  font-size: calc(12rem/16);
+body .about main .who_we_are .social .social_icon a i {
+  margin-right: 0.5rem;
 }
-.contact .user_input .user_form .send:hover {
-  text-decoration: none;
+body .about main .team {
+  color: #494949;
 }
-.contact .map {
-  height: 30vh;
+body .about main .team .title {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(24rem/16);
+  margin-bottom: calc(35rem/16);
 }
-.contact .map iframe {
+body .about main .team .person .avatar {
+  padding-right: 20px;
+  width: calc(280rem/16);
+  height: calc(280rem/16);
+}
+body .about main .team .person .avatar img {
   width: 100%;
   height: 100%;
 }
-.contact footer {
-  padding-bottom: 100px;
+body .about main .team .person .words {
+  margin-top: 26px;
 }
-.contact footer .container-fluid {
-  background-color: transparent;
+body .about main .team .person .words .block {
+  width: calc(7rem/16);
+  height: calc(31rem/16);
+  background-color: #eee;
 }
-.contact footer .container-fluid .contact {
-  text-align: right;
+body .about main .team .person .words .name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-right: 80px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: 600;
 }
-.contact footer .all_rights {
-  text-align: center;
+body .about main .team .person .words .position {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #808080;
 }
-.contact footer .all_rights img {
-  width: 140px;
-  height: 20px;
+body .about main .workspace .title {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(24rem/16);
+  margin-bottom: calc(35rem/16);
 }
-.contact footer .all_rights p {
+body .about #footer .main_footer .subscribe .user_input input.user_email {
+  background-color: transparent ;
+  border: 1px solid ;
+  border-right: none ;
+}
+body .about #footer .main_footer .subscribe .user_input button.sub_bt {
+  background-color: transparent ;
+  border-left: none ;
   color: #a0a0a0;
-  font-size: calc(12rem/16);
 }
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=about.css.map */

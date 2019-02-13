@@ -16,11 +16,35 @@
 		"oAP": "/_config.yml",
 		"oF": 0
 		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/contact.html",
+		"oF": 0
+		},
+	"/css/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/about-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/about.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/about.css.map",
 		"oF": 0
 		},
 	"/css/bootstrap.min.css": {
@@ -127,6 +151,23 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/less/about.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/css/about.css",
+		"oF": 2,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
 		},
 	"/less/contact.less": {
 		"aP": 0,
