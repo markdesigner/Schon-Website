@@ -252,12 +252,7 @@
 
                 </div>
                 <div class="col-md-8 big_item">
-                    <!-- <img src="http://unsplash.it/765/579" alt="pic">
-                    <div class="words">
-                        <p class="tag">FURNITURE DESIGNS IDEAS</p>
-                        <h3 class="title"><strong>Upholstered fabric</strong><br>Counter stool</h3>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="">
+                                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -303,30 +298,36 @@
     </div>
 
 
+  
     <div class="feature_bar">
         <div class="container">
             <div class="control_bar clearfix">
                 <ul class="nav float-left">
                     <li class="nav-item active">
-                        <a class="nav-link feature" href="#">FEATURED</a>
+                        <a class="nav-link feature_bt feature" href="#feature">FEATURED</a>
 
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link latest" href="#">LATEST</a>
+                        <a class="nav-link latest_bt feature" href="#latest">LATEST</a>
 
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link best_seller_bt" href="#">BEST SELLER</a>
+                        <a class="nav-link best_seller_bt" href="#best">BEST SELLER</a>
                     </li>
                 </ul>
                 <div class="control_bt float-right">
-                    <a href="#"><i class="fas fa-angle-left"></i></a>
-                    <a href="#"><i class="fas fa-angle-right"></i></a>
-                </div>
+
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn owl_prev_bt feature_bt_prev"><i class="fas fa-angle-left"></i></button>
+                            <button type="button" class="btn owl_next_bt feature_bt_next"><i class="fas fa-angle-right"></i></button>
+    
+                        </div>
+                    </div>
             </div>
             <div class="moving_products">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="owl-carousel owl-theme owl_feature">
+
+                    <div class="item" >
                         <img src="http://unsplash.it/275/275" alt="pic">
                         <div class="words">
                             <div class="star">
@@ -343,9 +344,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-3">
-                        <img src="http://unsplash.it/275/275" alt="pic">
+                    <div class="item">
+                        <img src="http://unsplash.it/273/274" alt="pic">
                         <div class="words">
                             <h4 class="title">Marvelous Modern 3 Seater</h4>
                             <div class="price">
@@ -354,8 +354,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="http://unsplash.it/275/275" alt="pic">
+                    <div class="item" data-hash="feature">
+                        <img src="http://unsplash.it/274/275" alt="pic">
                         <div class="words">
                             <span class="discount">15% Off</span>
                             <div class="star">
@@ -372,8 +372,63 @@
                         </div>
 
                     </div>
-                    <div class="col-md-3">
-                        <img src="http://unsplash.it/275/275" alt="pic">
+                    <div class="item">
+                        <img src="http://unsplash.it/273/275" alt="pic">
+                        <div class="words">
+                            <h4 class="title">Bombi Chair</h4>
+                            <div class="price">
+                                <i class="fas fa-euro-sign"></i>
+                                <span>399.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-hash="latest">
+                        <img src="http://unsplash.it/275/273" alt="pic">
+                        <div class="words">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+
+                            <h4 class="title">Bombi Chair</h4>
+                            <div class="price">
+                                <i class="fas fa-euro-sign"></i>
+                                <span>399.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://unsplash.it/274/274" alt="pic">
+                        <div class="words">
+                            <h4 class="title">Marvelous Modern 3 Seater</h4>
+                            <div class="price">
+                                <i class="fas fa-euro-sign"></i>
+                                <span>399.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://unsplash.it/272/275" alt="pic">
+                        <div class="words">
+                            <span class="discount">15% Off</span>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h4 class="title">Chair with armrests</h4>
+                            <div class="price">
+                                <i class="fas fa-euro-sign"></i>
+                                <span>399.00</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item" data-hash="best">
+                        <img src="http://unsplash.it/275/272" alt="pic">
                         <div class="words">
                             <h4 class="title">Bombi Chair</h4>
                             <div class="price">
@@ -384,6 +439,7 @@
                     </div>
                 </div>
             </div>
+          
 
 
             <div class="still_products">
@@ -433,15 +489,15 @@
                 <div class="control_bt float-right">
 
                     <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn owl_prev_bt"><i class="fas fa-angle-left"></i></button>
-                        <button type="button" class="btn owl_next_bt"><i class="fas fa-angle-right"></i></button>
+                        <button type="button" class="btn owl_prev_bt best_bt_prev"><i class="fas fa-angle-left"></i></button>
+                        <button type="button" class="btn owl_next_bt best_bt_next"><i class="fas fa-angle-right"></i></button>
 
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme owl_best">
 
-                <div class="item ">
+                <div class="item">
 
                     <div class="product">
                         <img src="http://unsplash.it/213/213" alt="pic">

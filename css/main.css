@@ -171,8 +171,9 @@
   content: "|";
   margin-left: 20px;
 }
-.index .feature_bar .control_bar .best_seller_bt {
+.index .feature_bar .control_bar .nav-link {
   color: #838182;
+  font-weight: 600;
 }
 .index .feature_bar .moving_products {
   position: relative;
@@ -202,7 +203,7 @@
 .index .feature_bar .moving_products .words .discount {
   position: absolute;
   top: calc(45rem/16);
-  left: calc(15rem/16);
+  left: calc(0rem/16);
   background-color: #b2cc29;
   padding: 0 5px;
 }
@@ -237,7 +238,7 @@
   letter-spacing: calc(0.5rem/16);
 }
 .index .feature_bar .still_products .shopnow_angle i {
-  padding: calc(6rem/16);
+  padding: 6px 8px;
   margin: 10px;
   border: solid #979797 2px;
   border-radius: 50%;
@@ -321,7 +322,7 @@
   position: absolute;
   font-size: calc(10rem/16);
   top: calc(45rem/16);
-  left: calc(0rem/16);
+  left: 0px;
   background-color: #b2cc29;
   padding: 0 5px;
 }
@@ -537,7 +538,7 @@ header.full_width .phone a {
   letter-spacing: calc(0.5rem/16);
 }
 .main_items .middle_item .shopnow_angle i {
-  padding: calc(6rem/16);
+  padding: 6px 8px;
   margin: 10px;
   border: solid #ffffff 2px;
   border-radius: 50%;
@@ -637,7 +638,7 @@ header.full_width .phone a {
   font-weight: 600;
 }
 .main_items .chair .shopnow_angle a i {
-  padding: calc(6rem/16);
+  padding: 6px 8px;
   margin: calc(5rem/16);
   border: solid #2c3e65 2px;
   border-radius: 50%;
@@ -677,7 +678,7 @@ header.full_width .phone a {
   letter-spacing: calc(0.5rem/16);
 }
 .main_items .row.bottom .top .shopnow_angle i {
-  padding: calc(6rem/16);
+  padding: 6px 8px;
   margin: 10px;
   border: solid #ffffff 2px;
   border-radius: 50%;
@@ -712,7 +713,7 @@ header.full_width .phone a {
   letter-spacing: calc(0.5rem/16);
 }
 .main_items .row.bottom .bottom .shopnow_angle i {
-  padding: calc(6rem/16);
+  padding: 6px 8px;
   margin: 10px;
   border: solid #979797 2px;
   border-radius: 50%;
