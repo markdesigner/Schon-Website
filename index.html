@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="plug_in/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plug_in/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
         crossorigin="anonymous">
@@ -15,11 +17,12 @@
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="plug_in/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="js/action.js"></script>
     <title>Schon Home </title>
 </head>
 
-<body>
+<body class="index">
     <div class="short_info">
         <div class="container clearfix info_container">
             <ul class="nav contact_info float-left">
@@ -223,7 +226,7 @@
                 <div class="col-md-4">
 
                     <div class="top">
-                        <img src="http://unsplash.it/414/223" alt="pic">
+                        <img src="http://unsplash.it/414/260" alt="pic">
                         <div class="words">
                             <p class="category">Chairs</p>
                             <h3 class="title">ZIO FINNING CHAIR</h3>
@@ -235,7 +238,7 @@
                     </div>
 
                     <div class="bottom">
-                        <img src="http://unsplash.it/414/334" alt="pic">
+                        <img src="http://unsplash.it/414/360" alt="pic">
                         <div class="words">
                             <p class="category">Accessories / Lighting</p>
                             <h3 class="title">TOTEM FLOOR LAMP</h3>
@@ -249,19 +252,57 @@
 
                 </div>
                 <div class="col-md-8 big_item">
-                    <img src="http://unsplash.it/765/579" alt="pic">
+                    <!-- <img src="http://unsplash.it/765/579" alt="pic">
                     <div class="words">
                         <p class="tag">FURNITURE DESIGNS IDEAS</p>
                         <h3 class="title"><strong>Upholstered fabric</strong><br>Counter stool</h3>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="http://unsplash.it/764/579" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="tag">FURNITURE DESIGNS IDEAS</p>
+                                    <h3 class="title"><strong>Upholstered fabric</strong><br>Counter stool</h3>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="http://unsplash.it/765/578" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="tag">FURNITURE DESIGNS IDEAS</p>
+                                    <h3 class="title"><strong>SINNERLIG bamboo</strong><br>Peadant lamp</h3>
+                                    <p class="description">Designer Ilse Crawford created this lamp shade made of
+                                        bamboo lattice.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="http://unsplash.it/765/577" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p class="tag">FURNITURE DESIGNS IDEAS</p>
+                                    <h3 class="title"><strong>Gunnared sofa</strong><br>Gunnared medium gray</h3>
+                                    <p class="description">This sofa can be arranged any way you like for your space at
+                                        home.</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
+
+
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
+
+
     <div class="feature_bar">
         <div class="container">
             <div class="control_bar clearfix">
@@ -278,7 +319,7 @@
                         <a class="nav-link best_seller_bt" href="#">BEST SELLER</a>
                     </li>
                 </ul>
-                <div class="feature_bt float-right">
+                <div class="control_bt float-right">
                     <a href="#"><i class="fas fa-angle-left"></i></a>
                     <a href="#"><i class="fas fa-angle-right"></i></a>
                 </div>
@@ -386,16 +427,21 @@
         </div>
     </div>
     <div class="best_seller">
-        <div class="container">
+        <div class="container ">
             <div class="control_bar clearfix">
                 <h2 class="title float-left">BEST SELLER</h2>
-                <div class="feature_bt float-right">
-                    <a href="#"><i class="fas fa-angle-left"></i></a>
-                    <a href="#"><i class="fas fa-angle-right"></i></a>
+                <div class="control_bt float-right">
+
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn owl_prev_bt"><i class="fas fa-angle-left"></i></button>
+                        <button type="button" class="btn owl_next_bt"><i class="fas fa-angle-right"></i></button>
+
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md  best_1">
+            <div class="owl-carousel owl-theme">
+
+                <div class="item ">
 
                     <div class="product">
                         <img src="http://unsplash.it/213/213" alt="pic">
@@ -432,9 +478,9 @@
                     </div>
 
                 </div>
-                <div class="col-md  best_2">
+                <div class="item">
                     <div class="product">
-                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <img src="http://unsplash.it/213/212" alt="pic">
                         <div class="cover">
                             <ul class="nav">
                                 <li class="nav-item ">
@@ -456,9 +502,9 @@
                         <span class="price"><i class="fas fa-euro-sign"></i>399,00</span>
                     </div>
                 </div>
-                <div class="col-md  best_3">
+                <div class="item">
                     <div class="product">
-                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <img src="http://unsplash.it/212/213" alt="pic">
                         <div class="cover">
                             <ul class="nav">
                                 <li class="nav-item ">
@@ -478,11 +524,10 @@
                         <h3 class="title">Wood Chair</h3>
                         <span class="price"><i class="fas fa-euro-sign"></i>198,00</span>
                     </div>
-
                 </div>
-                <div class="col-md  best_4">
+                <div class="item">
                     <div class="product">
-                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <img src="http://unsplash.it/213/211" alt="pic">
                         <div class="tag">
                             <p class="discount">15% Off</p>
                             <p class="new"> NEW</p>
@@ -506,11 +551,10 @@
                         <h3 class="title">Puff Chair</h3>
                         <span class="price"><i class="fas fa-euro-sign"></i>287,00</span>
                     </div>
-
                 </div>
-                <div class="col-md  best_5">
+                <div class="item">
                     <div class="product">
-                        <img src="http://unsplash.it/213/213" alt="pic">
+                        <img src="http://unsplash.it/211/213" alt="pic">
                         <div class="cover">
                             <ul class="nav">
                                 <li class="nav-item ">
@@ -531,7 +575,140 @@
                         <span class="price"><i class="fas fa-euro-sign"></i>200,00</span>
                     </div>
                 </div>
+                <div class="item ">
 
+                    <div class="product">
+                        <img src="http://unsplash.it/212/212" alt="pic">
+                        <div class="tag">
+                            <p class="new"> NEW</p>
+                        </div>
+                        <div class="cover">
+                            <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="words">
+                        <h3 class="title">Puff Chair</h3>
+                        <span class="price"><i class="fas fa-euro-sign"></i>287,00</span>
+
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="product">
+                        <img src="http://unsplash.it/212/211" alt="pic">
+                        <div class="cover">
+                            <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li></a>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="words">
+                        <h3 class="title">Bombi Chair</h3>
+                        <span class="price"><i class="fas fa-euro-sign"></i>399,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product">
+                        <img src="http://unsplash.it/211/212" alt="pic">
+                        <div class="cover">
+                            <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <h3 class="title">Wood Chair</h3>
+                        <span class="price"><i class="fas fa-euro-sign"></i>198,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product">
+                        <img src="http://unsplash.it/210/213" alt="pic">
+                        <div class="tag">
+                            <p class="discount">15% Off</p>
+                            <p class="new"> NEW</p>
+                        </div>
+                        <div class="cover">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <h3 class="title">Puff Chair</h3>
+                        <span class="price"><i class="fas fa-euro-sign"></i>287,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product">
+                        <img src="http://unsplash.it/213/210" alt="pic">
+                        <div class="cover">
+                            <ul class="nav">
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#"> <i class="fas fa-shopping-bag"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-eye"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <h3 class="title">Fancy Chair</h3>
+                        <span class="price"><i class="fas fa-euro-sign"></i>200,00</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
