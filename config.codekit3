@@ -1739,22 +1739,6 @@
 		"oAP": "/plug_in/OwlCarousel2-2.3.4/LICENSE",
 		"oF": 0
 		},
-	"/plug_in/OwlCarousel2-2.3.4/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/plug_in/OwlCarousel2-2.3.4/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/plug_in/OwlCarousel2-2.3.4/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/plug_in/OwlCarousel2-2.3.4/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/plug_in/OwlCarousel2-2.3.4/README.md": {
 		"cB": 0,
 		"cS": 0,
