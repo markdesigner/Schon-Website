@@ -36,5 +36,8 @@ contact與about頁面都建立完成，接下來剩下效果以及RWD的部分�
 也把css整理好了。只用一隻main.less輸出的main.css。
 只有每個頁面獨有的區塊，才會特別寫在他自己的less檔案中，但仍會到main一起合併。
 
+2019.2.14
+今天把bootstrap的carousel新增到index上面了，並且找到owl carousel外掛，也用上了。還搭上了 control_bt。
+也新建index.css把只有home才有的區塊移過去。
 
 
