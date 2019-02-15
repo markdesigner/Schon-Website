@@ -44,6 +44,21 @@
   width: 100%;
   height: 100%;
 }
+@media (max-width: 767.98px) {
+  .contact .user_input .contact_ways {
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+  .contact .user_input .contact_ways > div {
+    text-align: center;
+  }
+  .contact .user_input .user_form .title {
+    text-align: center;
+  }
+  .contact .map {
+    margin-bottom: 10px;
+  }
+}
 .about main .cover {
   background-color: #f4f4f4;
   background-image: none;
@@ -78,6 +93,9 @@
   font-size: calc(24rem/16);
   margin-bottom: calc(35rem/16);
 }
+.about main .team .person {
+  margin-top: 26px;
+}
 .about main .team .person .avatar {
   padding-right: 20px;
   width: calc(280rem/16);
@@ -87,15 +105,15 @@
   width: 100%;
   height: 100%;
 }
-.about main .team .person .words {
+.about main .team .words {
   margin-top: 26px;
 }
-.about main .team .person .words .block {
+.about main .team .block {
   width: calc(7rem/16);
   height: calc(31rem/16);
   background-color: #eee;
 }
-.about main .team .person .words .name {
+.about main .team .name {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   padding-right: 80px;
@@ -103,7 +121,7 @@
   margin-left: 10px;
   font-weight: 600;
 }
-.about main .team .person .words .position {
+.about main .team .position {
   margin-left: 10px;
   font-size: 10px;
   color: #808080;
@@ -115,14 +133,36 @@
   margin-bottom: calc(35rem/16);
 }
 .about #footer .main_footer .subscribe .user_input input.user_email {
-  background-color: transparent ;
-  border: 1px solid ;
-  border-right: none ;
+  background-color: transparent;
+  border: 1px solid;
+  border-right: none;
 }
 .about #footer .main_footer .subscribe .user_input button.sub_bt {
-  background-color: transparent ;
-  border-left: none ;
+  background-color: transparent;
+  border-left: none;
   color: #a0a0a0;
+}
+@media (max-width: 767.98px) {
+  .about main .who_we_are .follow {
+    text-align: center;
+  }
+  .about main .who_we_are .social_icon {
+    text-align: center;
+  }
+  .about main .team .person .avatar {
+    margin: 0 auto;
+  }
+  .about main .team .words {
+    margin-left: 34px;
+  }
+  .about main .team .name {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .about main .team .name {
+    padding-right: 150px;
+  }
 }
 .index .control_bt button {
   background-color: #eeeeee;
@@ -946,6 +986,9 @@ footer.simple .all_rights p {
   footer .guarantee .col-md-3 {
     padding-bottom: 20px;
   }
+  footer .main_footer .row > div {
+    padding: 20px 0;
+  }
   footer .footer_info {
     text-align: center;
   }
@@ -961,6 +1004,12 @@ footer.simple .all_rights p {
   }
   footer .all_rights .visa img {
     width: 70%;
+  }
+  footer.simple .container-fluid .row > div {
+    padding: 20px 0;
+  }
+  footer.simple .container-fluid .contact {
+    text-align: center;
   }
 }
 @media (min-width: 992px) {
