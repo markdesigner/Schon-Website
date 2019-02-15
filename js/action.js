@@ -26,7 +26,7 @@ $(document).ready(function(){
         margin:10,
         nav:false,
         dots:false,
-        autoplay:true,
+        autoplay:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
 
@@ -62,6 +62,29 @@ $(document).ready(function(){
             },
             992:{
                 items:5
+            }
+        }
+
+
+    })
+    $('.owl_workspace').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:true,
+        autoplay:true,
+    autoplayTimeout:3500,
+    autoplayHoverPause:true,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:4
             }
         }
 
@@ -113,8 +136,20 @@ $(document).ready(function(){
     $('.brands_bt_next').click(function() {
         owl3.trigger('next.owl.carousel');
     })
-   
 
+    // workspace control
+
+   
+var owl4 = $('.owl_workspace');
+
+
+    $('.workspace_bt_prev').click(function(e){
+        owl4.trigger('prev.owl.carousel', [300]);
+        
+    })
+    $('.workspace_bt_next').click(function() {
+        owl4.trigger('next.owl.carousel');
+    })
 
 
 

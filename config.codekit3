@@ -355,6 +355,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/workspace/workspace_1.jpg": {
+		"ft": 16384,
+		"iS": 364097,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/workspace_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pics/workspace/workspace_2.jpg": {
+		"ft": 16384,
+		"iS": 331978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/workspace_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/plug_in/OwlCarousel2-2.3.4/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,

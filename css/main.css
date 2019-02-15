@@ -132,6 +132,21 @@
   font-size: calc(24rem/16);
   margin-bottom: calc(35rem/16);
 }
+.about main .workspace .brands_bar {
+  position: relative;
+}
+.about main .workspace .brands_bar .workspace_bt_prev {
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.about main .workspace .brands_bar .workspace_bt_next {
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
 .about #footer .main_footer .subscribe .user_input input.user_email {
   background-color: transparent;
   border: 1px solid;
@@ -158,10 +173,40 @@
   .about main .team .name {
     padding-right: 150px;
   }
+  .about main .workspace .brands_bar {
+    position: relative;
+  }
+  .about main .workspace .brands_bar .workspace_bt_prev {
+    z-index: 2;
+    position: absolute;
+    top: 148px;
+    left: 40px;
+  }
+  .about main .workspace .brands_bar .workspace_bt_next {
+    z-index: 2;
+    position: absolute;
+    top: 148px;
+    right: 40px;
+  }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
   .about main .team .name {
     padding-right: 150px;
+  }
+  .about main .workspace .brands_bar {
+    position: relative;
+  }
+  .about main .workspace .brands_bar .workspace_bt_prev {
+    z-index: 2;
+    position: absolute;
+    top: 144px;
+    left: 40px;
+  }
+  .about main .workspace .brands_bar .workspace_bt_next {
+    z-index: 2;
+    position: absolute;
+    top: 144px;
+    right: 40px;
   }
 }
 .index .control_bt button {
@@ -477,23 +522,6 @@
 .index .main_items .row.bottom .big_item .carousel-caption .tag {
   font-size: calc(8rem/16);
 }
-.index .brands {
-  padding: 40px 0 80px 0;
-}
-.index .brands .title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(20rem/16);
-  padding-bottom: calc(60rem/16);
-}
-.index .brands .title small {
-  color: #dbdbdb;
-  font-size: calc(10rem/16);
-  letter-spacing: 3px;
-}
-.index .brands .owl_brands img {
-  width: 60%;
-  margin: 0 auto;
-}
 .index .feature_bar {
   padding-bottom: calc(60rem/16);
 }
@@ -610,7 +638,6 @@
   padding: 10px 20px;
   left: 20px;
   bottom: 12px;
-  box-shadow: 3px -3px 8px 6px grey;
 }
 .index .best_seller .cover .nav-link {
   padding: 0;
@@ -634,7 +661,7 @@
   transition: all 0.5s ease;
 }
 .index .best_seller .product:hover img {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .index .best_seller .product:hover .cover {
   opacity: 1;
@@ -715,6 +742,11 @@
   }
   .index .best_seller .control_bar .title {
     margin-top: 10px;
+  }
+  .index .best_seller .owl_best .cover {
+    padding: 20px 60px;
+    left: 40px;
+    font-size: calc(16rem/16);
   }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -824,6 +856,23 @@ a:hover {
 .cover .breadcrumb a {
   color: #717171;
   font-size: calc(12rem/16);
+}
+.brands {
+  padding: 40px 0 80px 0;
+}
+.brands .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(20rem/16);
+  padding-bottom: calc(60rem/16);
+}
+.brands .title small {
+  color: #dbdbdb;
+  font-size: calc(10rem/16);
+  letter-spacing: 3px;
+}
+.brands .owl_brands img {
+  width: 60%;
+  margin: 0 auto;
 }
 footer .container-fluid {
   background-color: #f6f6f6;

@@ -84,7 +84,7 @@
             }
 
 
-            .words{
+            .words {
                 margin-top: 26px;
             }
 
@@ -124,6 +124,26 @@
                 font-size: calc(24rem/16);
                 margin-bottom: calc(35rem/16);
             }
+
+            .brands_bar {
+                position: relative;
+
+                .workspace_bt_prev {
+                    z-index: 2;
+                    position: absolute;
+                    top: 200px;
+                    left: 100px;
+                }
+
+                .workspace_bt_next {
+                    z-index: 2;
+                    position: absolute;
+                    top: 200px;
+                    right: 100px;
+                }
+            }
+
+
         }
 
     }
@@ -153,42 +173,95 @@
     //media query 
 
     // iphone
-    @media (max-width: 767.98px){
+    @media (max-width: 767.98px) {
         main {
-            .who_we_are{
-                .follow{
+            .who_we_are {
+                .follow {
                     text-align: center;
                 }
-                .social_icon{
+
+                .social_icon {
                     text-align: center;
                 }
 
             }
+
             .team {
-                .person{
-                    .avatar{
+                .person {
+                    .avatar {
                         margin: 0 auto;
                     }
                 }
-                .words{
+
+                .words {
                     margin-left: 34px;
 
                 }
+
                 .name {
                     padding-right: 150px;
                 }
             }
+
+            .workspace {
+
+                .brands_bar {
+                    position: relative;
+
+                    .workspace_bt_prev {
+                        z-index: 2;
+                        position: absolute;
+                        top: 148px;
+                        left: 40px;
+                    }
+
+                    .workspace_bt_next {
+                        z-index: 2;
+                        position: absolute;
+                        top: 148px;
+                        right: 40px;
+                    }
+                }
+
+
+            }
+
         }
     }
+
+
 
     // ipad
     @media (max-width: 991.98px)and (min-width:768px) {
         main {
             .team {
-               
+
                 .name {
                     padding-right: 150px;
                 }
+            }
+
+            .workspace {
+
+                .brands_bar {
+                    position: relative;
+
+                    .workspace_bt_prev {
+                        z-index: 2;
+                        position: absolute;
+                        top: 144px;
+                        left: 40px;
+                    }
+
+                    .workspace_bt_next {
+                        z-index: 2;
+                        position: absolute;
+                        top: 144px;
+                        right: 40px;
+                    }
+                }
+
+
             }
         }
 
@@ -198,6 +271,7 @@
     // @media(min-width:992px){
 
     // }
+
 
 
 }
