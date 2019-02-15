@@ -44,6 +44,29 @@ $(document).ready(function(){
 
 
     })
+    $('.owl_brands').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:false,
+        autoplay:true,
+    autoplayTimeout:3500,
+    autoplayHoverPause:true,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:5
+            }
+        }
+
+
+    })
 
 
     // feature control
@@ -76,6 +99,19 @@ $(document).ready(function(){
     })
     $('.best_bt_next').click(function() {
         owl2.trigger('next.owl.carousel');
+    })
+
+    // brands control
+
+    var owl3 = $('.owl_brands');
+
+
+    $('.brands_bt_prev').click(function(e){
+        owl3.trigger('prev.owl.carousel', [300]);
+        
+    })
+    $('.brands_bt_next').click(function() {
+        owl3.trigger('next.owl.carousel');
     })
    
 

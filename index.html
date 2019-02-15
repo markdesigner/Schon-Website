@@ -61,18 +61,20 @@
             </ul>
         </div>
     </div>
-    <header>
-        <div class="container clearfix">
-            <div id="logo" class="float-left">
-                <a href="index.html">
-                    <img src="pics/logo.png" alt="logo"></a>
 
-            </div>
 
-            <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="header my-2">
+        <div class="container ">
+
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+                <a id="logo" class="navbar-brand" href="index.html"><img src="pics/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -117,26 +119,27 @@
                         </li>
                         <li class="nav-item shopping_cart">
 
-                            <a class="nav-link " href="#"><i class="fas fa-shopping-bag"></i>
-                                <div class="word float-right">SHOPPING CART
+                            <a class="nav-link " href="#"><i class="fas fa-shopping-bag mr-2"></i>
+                                <div class="word"><strong>SHOPPING CART</strong>
                                     <br>3 items
-                                    $74.00</div>
+                                    $74.00
+                                </div>
                             </a>
                         </li>
 
 
                     </ul>
 
+
                 </div>
             </nav>
         </div>
-
-    </header>
+    </div>
     <div class="main_items">
 
         <div class="container">
-            <div class="row top clearfix">
-                <div class="new_collection col-md-6 "><img class="" src="pics/new_collection.png" alt="new_collection">
+            <div class="row top">
+                <div class="new_collection col-md-12 col-lg-6 "><img class="" src="pics/new_collection.png" alt="new_collection">
                     <div class="words">
                         <p class="tag">FURNITURE DESIGNS IDEAS</p>
                         <h3 class="title">New</h3>
@@ -145,13 +148,13 @@
                         <h4 class="price">$ 79.00</h4>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-md-6 middle_item">
                             <img src="pics/leather_sofa.png" alt="leather_sofa">
                             <p class="category">SOFAS & ARMCHAIRS</p>
                             <h3 class="title">3 Seater Leather <br> Sofa</h3>
-                            <div class="price">
+                            <div class="blue_circle_price">
                                 <p><span>$ 659.00</span> <br> $499.00 </p>
                             </div>
                             <div class="shopnow_angle"><a href="#">
@@ -213,18 +216,10 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
             </div>
             <div class="row bottom clearfix">
-                <div class="col-md-4">
-
+                <div class="col-md-12 col-lg-4">
+                    
                     <div class="top">
                         <img src="http://unsplash.it/414/260" alt="pic">
                         <div class="words">
@@ -251,8 +246,8 @@
 
 
                 </div>
-                <div class="col-md-8 big_item">
-                                       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="col-md-12 col-lg-8 big_item">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -298,7 +293,7 @@
     </div>
 
 
-  
+
     <div class="feature_bar">
         <div class="container">
             <div class="control_bar clearfix">
@@ -317,17 +312,17 @@
                 </ul>
                 <div class="control_bt float-right">
 
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn owl_prev_bt feature_bt_prev"><i class="fas fa-angle-left"></i></button>
-                            <button type="button" class="btn owl_next_bt feature_bt_next"><i class="fas fa-angle-right"></i></button>
-    
-                        </div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn owl_prev_bt feature_bt_prev"><i class="fas fa-angle-left"></i></button>
+                        <button type="button" class="btn owl_next_bt feature_bt_next"><i class="fas fa-angle-right"></i></button>
+
                     </div>
+                </div>
             </div>
             <div class="moving_products">
                 <div class="owl-carousel owl-theme owl_feature">
 
-                    <div class="item" >
+                    <div class="item">
                         <img src="http://unsplash.it/275/275" alt="pic">
                         <div class="words">
                             <div class="star">
@@ -439,7 +434,7 @@
                     </div>
                 </div>
             </div>
-          
+
 
 
             <div class="still_products">
@@ -768,23 +763,101 @@
             </div>
         </div>
     </div>
-    <div class="brands py-5">
-        <div class="container">
+    <div class="brands">
+        <div class="container ">
             <h2 class="title">
                 BRANDS
                 <small>FURNITURE</small>
             </h2>
-            <div class="row">
-                <div class="col-md-2"><img src="pics/brands/devon.png" alt="devon"></div>
-                <div class="col-md-2"><img src="pics/brands/gan.png" alt="devon"></div>
-                <div class="col-md-2"><img src="pics/brands/artek.png" alt="devon"></div>
-                <div class="col-md-2"><img src="pics/brands/toncelli.png" alt="devon"></div>
-                <div class="col-md-2"><img src="pics/brands/duravit.png" alt="devon"></div>
-                <div class="col-md-2"><img src="pics/brands/zanotta.png" alt="devon"></div>
+            <div class="brands_bar row">
+
+                <div class="col-1"><i class="fas fa-angle-left brands_bt_prev"></i></div>
+                <div class="col-10">
+                    <div class="owl-carousel owl-theme owl_brands">
+
+                        <div class="item">
+
+                            <img src="pics/brands/devon.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/gan.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/artek.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/toncelli.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/duravit.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/zanotta.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/devon.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/gan.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/artek.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/toncelli.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/duravit.png" alt="logo">
+
+
+                        </div>
+                        <div class="item">
+
+                            <img src="pics/brands/zanotta.png" alt="logo">
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-1"><i class="fas fa-angle-right brands_bt_next"></i></div>
 
             </div>
         </div>
+
     </div>
+
+
     <footer>
         <div class="container-fluid">
             <div class="container">

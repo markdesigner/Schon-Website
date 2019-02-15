@@ -149,6 +149,311 @@
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
 }
+.index .main_items .row.top {
+  padding-bottom: 19px;
+}
+.index .main_items .new_collection .words {
+  position: absolute;
+  bottom: calc(79rem/16);
+  left: 68px;
+  color: #ffffff;
+}
+.index .main_items .new_collection .words .tag {
+  letter-spacing: 3px;
+  background-color: #535353;
+  font-size: 0.8rem;
+}
+.index .main_items .new_collection .words .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: -10px;
+}
+.index .main_items .new_collection .words .subtitle {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: -5px;
+}
+.index .main_items .new_collection .words .description {
+  font-size: 0.5rem;
+}
+.index .main_items .new_collection .words .price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.index .main_items .middle_item {
+  color: #ffffff;
+  position: relative;
+}
+.index .main_items .middle_item .category {
+  position: absolute;
+  top: calc(29rem/16);
+  left: calc(24rem/16);
+  font-size: calc(14rem/16);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.index .main_items .middle_item h3 {
+  position: absolute;
+  top: calc(71rem/16);
+  left: calc(25rem/16);
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(24rem/16);
+}
+.index .main_items .middle_item .blue_circle_price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(120rem/16);
+  height: calc(120rem/16);
+  right: calc(31rem/16);
+  bottom: calc(130rem/16);
+  background-color: #62c5de;
+  border-radius: 50%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 0;
+}
+.index .main_items .middle_item .blue_circle_price p {
+  font-size: calc(20rem/16);
+  line-height: 1;
+  margin-top: calc(10rem/16);
+  font-weight: 500;
+  top: 1px;
+}
+.index .main_items .middle_item .blue_circle_price p span {
+  font-size: calc(14rem/16);
+  letter-spacing: 1px;
+  color: #9cd8e8;
+  text-decoration: line-through;
+}
+.index .main_items .middle_item .shopnow_angle {
+  position: absolute;
+  left: calc(32rem/16);
+  bottom: calc(10rem/16);
+  font-family: 'Montserrat', sans-serif;
+}
+.index .main_items .middle_item .shopnow_angle a {
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: calc(0.5rem/16);
+}
+.index .main_items .middle_item .shopnow_angle i {
+  padding: 6px 8px;
+  margin: 10px;
+  border: solid #ffffff 2px;
+  border-radius: 50%;
+}
+.index .main_items .bag {
+  margin-bottom: calc(19rem/16);
+  position: relative;
+}
+.index .main_items .bag .top_words {
+  position: absolute;
+  top: calc(14rem/16);
+  right: calc(10rem/16);
+}
+.index .main_items .bag .top_words .title {
+  color: #939393;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(14rem/16);
+  letter-spacing: 2px;
+  text-align: right;
+  line-height: 2;
+}
+.index .main_items .bag .top_words .star {
+  color: #c8a760;
+  font-size: calc(13rem/16);
+  text-align: right;
+}
+.index .main_items .bag .top_words .star .far {
+  color: #ededed;
+}
+.index .main_items .bag .bottom_words {
+  position: absolute;
+  bottom: calc(25rem/16);
+  right: calc(30rem/16);
+  font-family: 'Montserrat', sans-serif;
+}
+.index .main_items .bag .bottom_words .price {
+  color: #991015;
+  font-size: calc(20rem/16);
+  margin-bottom: 0;
+  text-align: center;
+}
+.index .main_items .bag .bottom_words .shopnow {
+  font-size: calc(10rem/16);
+  color: #ffffff;
+  background-color: #2e2d32;
+  padding: 3px;
+}
+.index .main_items .chair {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+.index .main_items .chair .description {
+  font-size: calc(14rem/16);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #2c3e66;
+  position: absolute;
+  top: calc(20rem/16);
+  left: calc(20rem/16);
+}
+.index .main_items .chair .bottom_words {
+  position: absolute;
+  bottom: calc(64rem/16);
+  left: calc(20rem/16);
+  line-height: 1;
+}
+.index .main_items .chair .bottom_words > div {
+  text-align: left;
+}
+.index .main_items .chair .bottom_words .star {
+  color: #c8a760;
+  font-size: calc(10rem/16);
+}
+.index .main_items .chair .bottom_words .star .far {
+  color: #ededed;
+}
+.index .main_items .chair .bottom_words .price {
+  color: #2c3e65;
+  font-size: calc(20rem/16);
+  margin-bottom: 0;
+}
+.index .main_items .chair .bottom_words .price span {
+  text-decoration-line: line-through;
+  font-size: calc(10rem/16);
+  color: #b3b3b3;
+}
+.index .main_items .chair .shopnow_angle {
+  position: absolute;
+  bottom: calc(20rem/16);
+  left: calc(20rem/16);
+}
+.index .main_items .chair .shopnow_angle a {
+  color: #2c3e65;
+  font-size: calc(10rem/16);
+  font-weight: 600;
+}
+.index .main_items .chair .shopnow_angle a i {
+  padding: 6px 8px;
+  margin: calc(5rem/16);
+  border: solid #2c3e65 2px;
+  border-radius: 50%;
+}
+.index .main_items .row.bottom {
+  font-family: 'Montserrat', sans-serif;
+  align-content: stretch;
+}
+.index .main_items .row.bottom .top {
+  margin-bottom: calc(22rem/16);
+  position: relative;
+  color: #ffffff;
+  font-size: calc(14rem/16);
+}
+.index .main_items .row.bottom .top .words {
+  text-align: right;
+  position: absolute;
+  top: calc(30rem/16);
+  right: calc(40rem/16);
+  line-height: 0.5;
+}
+.index .main_items .row.bottom .top .words .title {
+  font-size: calc(18rem/16);
+}
+.index .main_items .row.bottom .top .words .category {
+  font-size: calc(8rem/16);
+}
+.index .main_items .row.bottom .top .shopnow_angle {
+  position: absolute;
+  right: calc(30rem/16);
+  bottom: calc(10rem/16);
+  font-family: 'Montserrat', sans-serif;
+}
+.index .main_items .row.bottom .top .shopnow_angle a {
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: calc(0.5rem/16);
+}
+.index .main_items .row.bottom .top .shopnow_angle i {
+  padding: 6px 8px;
+  margin: 10px;
+  border: solid #ffffff 2px;
+  border-radius: 50%;
+}
+.index .main_items .row.bottom .bottom {
+  position: relative;
+}
+.index .main_items .row.bottom .bottom .words {
+  text-align: right;
+  position: absolute;
+  top: calc(30rem/16);
+  right: calc(40rem/16);
+  line-height: 0.5;
+}
+.index .main_items .row.bottom .bottom .words .title {
+  font-size: calc(18rem/16);
+  color: #535353;
+}
+.index .main_items .row.bottom .bottom .words .category {
+  font-size: calc(8rem/16);
+  color: #dbdbdb;
+}
+.index .main_items .row.bottom .bottom .shopnow_angle {
+  position: absolute;
+  right: calc(30rem/16);
+  bottom: calc(10rem/16);
+  font-family: 'Montserrat', sans-serif;
+}
+.index .main_items .row.bottom .bottom .shopnow_angle a {
+  color: #979797;
+  font-size: 0.8rem;
+  letter-spacing: calc(0.5rem/16);
+}
+.index .main_items .row.bottom .bottom .shopnow_angle i {
+  padding: 6px 8px;
+  margin: 10px;
+  border: solid #979797 2px;
+  border-radius: 50%;
+}
+.index .main_items .row.bottom .big_item {
+  color: #535353;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.index .main_items .row.bottom .big_item .carousel-caption {
+  text-align: left;
+  top: calc(50rem/16);
+  left: calc(40rem/16);
+  line-height: 1;
+}
+.index .main_items .row.bottom .big_item .carousel-caption .title {
+  font-size: calc(50rem/16);
+}
+.index .main_items .row.bottom .big_item .carousel-caption .tag {
+  font-size: calc(8rem/16);
+}
+.index .brands {
+  padding: 40px 0 80px 0;
+}
+.index .brands .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(20rem/16);
+  padding-bottom: calc(60rem/16);
+}
+.index .brands .title small {
+  color: #dbdbdb;
+  font-size: calc(10rem/16);
+  letter-spacing: 3px;
+}
+.index .brands .owl_brands img {
+  width: 60%;
+  margin: 0 auto;
+}
 .index .feature_bar {
   padding-bottom: calc(60rem/16);
 }
@@ -383,40 +688,31 @@ a:hover {
 .short_info .nav-item:hover {
   background-color: #3f3e43;
 }
-header #logo {
-  margin: 2rem 0 1rem 0;
-}
-header nav {
+.header nav {
   font-family: 'Montserrat', sans-serif;
-  float: right;
 }
-header nav li {
+.header nav li {
   margin: 1.5rem 0.1rem;
 }
-header nav .nav-item {
+.header nav .nav-item {
   font-size: 0.9rem;
 }
-header nav .nav-item .nav-link {
+.header nav .nav-item .nav-link {
   font-weight: 500;
   color: #494949 !important;
   transition: all 0.4s ease;
 }
-header nav .nav-item .nav-link:hover {
+.header nav .nav-item .nav-link:hover {
   color: #dbdbdb !important;
 }
-header nav .search i {
+.header nav .search i {
   font-size: 1.5rem;
 }
-header nav .shopping_cart i {
+.header nav .shopping_cart i {
   font-size: 1.5rem;
   margin-right: 1rem;
 }
-header.full_width .phone {
-  float: left;
-  margin-top: 40px;
-  margin-left: 20px;
-}
-header.full_width .phone a {
+.header.full_width .phone a {
   color: #494949;
   font-family: 'Montserrat', sans-serif;
   font-size: calc(12rem/16);
@@ -445,308 +741,6 @@ header.full_width .phone a {
 .cover .breadcrumb a {
   color: #717171;
   font-size: calc(12rem/16);
-}
-.main_items .row.top {
-  padding-bottom: 19px;
-}
-.main_items .new_collection .words {
-  position: absolute;
-  bottom: calc(79rem/16);
-  left: 68px;
-  color: #ffffff;
-}
-.main_items .new_collection .words .tag {
-  letter-spacing: 3px;
-  background-color: #535353;
-  font-size: 0.8rem;
-}
-.main_items .new_collection .words .title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  margin-bottom: -10px;
-}
-.main_items .new_collection .words .subtitle {
-  font-size: 3rem;
-  font-weight: 200;
-  margin-bottom: -5px;
-}
-.main_items .new_collection .words .description {
-  font-size: 0.5rem;
-}
-.main_items .new_collection .words .price {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-}
-.main_items .middle_item {
-  color: #ffffff;
-  position: relative;
-}
-.main_items .middle_item .category {
-  position: absolute;
-  top: calc(29rem/16);
-  left: calc(24rem/16);
-  font-size: calc(14rem/16);
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-.main_items .middle_item h3 {
-  position: absolute;
-  top: calc(71rem/16);
-  left: calc(25rem/16);
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(24rem/16);
-}
-.main_items .middle_item .price {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: calc(120rem/16);
-  height: calc(120rem/16);
-  right: calc(31rem/16);
-  bottom: calc(130rem/16);
-  background-color: #62c5de;
-  border-radius: 50%;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  margin: auto 0;
-}
-.main_items .middle_item .price p {
-  font-size: calc(20rem/16);
-  line-height: 1;
-  margin-top: calc(10rem/16);
-  font-weight: 500;
-  top: 1px;
-}
-.main_items .middle_item .price p span {
-  font-size: calc(14rem/16);
-  letter-spacing: 1px;
-  color: #9cd8e8;
-  text-decoration: line-through;
-}
-.main_items .middle_item .shopnow_angle {
-  position: absolute;
-  left: calc(32rem/16);
-  bottom: calc(10rem/16);
-  font-family: 'Montserrat', sans-serif;
-}
-.main_items .middle_item .shopnow_angle a {
-  color: #ffffff;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
-}
-.main_items .middle_item .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
-  border: solid #ffffff 2px;
-  border-radius: 50%;
-}
-.main_items .bag {
-  margin-bottom: calc(19rem/16);
-  position: relative;
-}
-.main_items .bag .top_words {
-  position: absolute;
-  top: calc(14rem/16);
-  right: calc(10rem/16);
-}
-.main_items .bag .top_words .title {
-  color: #939393;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(14rem/16);
-  letter-spacing: 2px;
-  text-align: right;
-  line-height: 2;
-}
-.main_items .bag .top_words .star {
-  color: #c8a760;
-  font-size: calc(13rem/16);
-  text-align: right;
-}
-.main_items .bag .top_words .star .far {
-  color: #ededed;
-}
-.main_items .bag .bottom_words {
-  position: absolute;
-  bottom: calc(25rem/16);
-  right: calc(30rem/16);
-  font-family: 'Montserrat', sans-serif;
-}
-.main_items .bag .bottom_words .price {
-  color: #991015;
-  font-size: calc(20rem/16);
-  margin-bottom: 0;
-  text-align: center;
-}
-.main_items .bag .bottom_words .shopnow {
-  font-size: calc(10rem/16);
-  color: #ffffff;
-  background-color: #2e2d32;
-  padding: 3px;
-}
-.main_items .chair {
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-}
-.main_items .chair .description {
-  font-size: calc(14rem/16);
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  color: #2c3e66;
-  position: absolute;
-  top: calc(20rem/16);
-  left: calc(20rem/16);
-}
-.main_items .chair .bottom_words {
-  position: absolute;
-  bottom: calc(64rem/16);
-  left: calc(20rem/16);
-  line-height: 1;
-}
-.main_items .chair .bottom_words > div {
-  text-align: left;
-}
-.main_items .chair .bottom_words .star {
-  color: #c8a760;
-  font-size: calc(10rem/16);
-}
-.main_items .chair .bottom_words .star .far {
-  color: #ededed;
-}
-.main_items .chair .bottom_words .price {
-  color: #2c3e65;
-  font-size: calc(20rem/16);
-  margin-bottom: 0;
-}
-.main_items .chair .bottom_words .price span {
-  text-decoration-line: line-through;
-  font-size: calc(10rem/16);
-  color: #b3b3b3;
-}
-.main_items .chair .shopnow_angle {
-  position: absolute;
-  bottom: calc(20rem/16);
-  left: calc(20rem/16);
-}
-.main_items .chair .shopnow_angle a {
-  color: #2c3e65;
-  font-size: calc(10rem/16);
-  font-weight: 600;
-}
-.main_items .chair .shopnow_angle a i {
-  padding: 6px 8px;
-  margin: calc(5rem/16);
-  border: solid #2c3e65 2px;
-  border-radius: 50%;
-}
-.main_items .row.bottom {
-  font-family: 'Montserrat', sans-serif;
-  align-content: stretch;
-}
-.main_items .row.bottom .top {
-  margin-bottom: calc(22rem/16);
-  position: relative;
-  color: #ffffff;
-  font-size: calc(14rem/16);
-}
-.main_items .row.bottom .top .words {
-  text-align: right;
-  position: absolute;
-  top: calc(30rem/16);
-  right: calc(40rem/16);
-  line-height: 0.5;
-}
-.main_items .row.bottom .top .words .title {
-  font-size: calc(18rem/16);
-}
-.main_items .row.bottom .top .words .category {
-  font-size: calc(8rem/16);
-}
-.main_items .row.bottom .top .shopnow_angle {
-  position: absolute;
-  right: calc(30rem/16);
-  bottom: calc(10rem/16);
-  font-family: 'Montserrat', sans-serif;
-}
-.main_items .row.bottom .top .shopnow_angle a {
-  color: #ffffff;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
-}
-.main_items .row.bottom .top .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
-  border: solid #ffffff 2px;
-  border-radius: 50%;
-}
-.main_items .row.bottom .bottom {
-  position: relative;
-}
-.main_items .row.bottom .bottom .words {
-  text-align: right;
-  position: absolute;
-  top: calc(30rem/16);
-  right: calc(40rem/16);
-  line-height: 0.5;
-}
-.main_items .row.bottom .bottom .words .title {
-  font-size: calc(18rem/16);
-  color: #535353;
-}
-.main_items .row.bottom .bottom .words .category {
-  font-size: calc(8rem/16);
-  color: #dbdbdb;
-}
-.main_items .row.bottom .bottom .shopnow_angle {
-  position: absolute;
-  right: calc(30rem/16);
-  bottom: calc(10rem/16);
-  font-family: 'Montserrat', sans-serif;
-}
-.main_items .row.bottom .bottom .shopnow_angle a {
-  color: #979797;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
-}
-.main_items .row.bottom .bottom .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
-  border: solid #979797 2px;
-  border-radius: 50%;
-}
-.main_items .row.bottom .big_item {
-  color: #535353;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.main_items .row.bottom .big_item .carousel-caption {
-  text-align: left;
-  top: calc(50rem/16);
-  left: calc(40rem/16);
-  line-height: 1;
-}
-.main_items .row.bottom .big_item .carousel-caption .title {
-  font-size: calc(50rem/16);
-}
-.main_items .row.bottom .big_item .carousel-caption .tag {
-  font-size: calc(8rem/16);
-}
-.brands .title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: calc(20rem/16);
-  padding-bottom: calc(60rem/16);
-}
-.brands .title small {
-  color: #dbdbdb;
-  font-size: calc(10rem/16);
-  letter-spacing: 3px;
-}
-.brands .row {
-  width: 95%;
-  margin: 0 auto;
 }
 footer .container-fluid {
   background-color: #f6f6f6;
@@ -924,6 +918,11 @@ footer.simple .all_rights p {
   }
   footer .all_rights .visa img {
     width: 70%;
+  }
+}
+@media (min-width: 992px) {
+  .header nav .shopping_cart .word {
+    float: right;
   }
 }
 /*# sourceMappingURL=main.css.map */
