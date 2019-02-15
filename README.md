@@ -41,3 +41,6 @@ contact與about頁面都建立完成，接下來剩下效果以及RWD的部分�
 也新建index.css把只有home才有的區塊移過去。
 
 
+2019.2.15
+靜態頁面的RWD到位，剩下col微調
+
