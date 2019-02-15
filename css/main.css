@@ -657,6 +657,26 @@
   line-height: 1;
   font-weight: 700;
 }
+@media (max-width: 767.98px) {
+  .index .main_items .row > div {
+    margin-bottom: 15px;
+  }
+  .index .feature_bar {
+    padding-bottom: 15px;
+  }
+  .index .feature_bar .control_bar a {
+    font-size: calc(12rem/16);
+  }
+  .index .still_products .row > div {
+    margin-bottom: 15px;
+  }
+  .index .best_seller .control_bar {
+    padding-bottom: 30px;
+  }
+  .index .best_seller .control_bar .title {
+    margin-top: 10px;
+  }
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
