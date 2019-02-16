@@ -136,12 +136,14 @@
   position: relative;
 }
 .about main .workspace .brands_bar .workspace_bt_prev {
+  padding: 15px;
   z-index: 2;
   position: absolute;
   top: 200px;
   left: 100px;
 }
 .about main .workspace .brands_bar .workspace_bt_next {
+  padding: 15px;
   z-index: 2;
   position: absolute;
   top: 200px;
@@ -177,12 +179,14 @@
     position: relative;
   }
   .about main .workspace .brands_bar .workspace_bt_prev {
+    padding: 15px;
     z-index: 2;
     position: absolute;
     top: 148px;
     left: 40px;
   }
   .about main .workspace .brands_bar .workspace_bt_next {
+    padding: 15px;
     z-index: 2;
     position: absolute;
     top: 148px;
@@ -197,12 +201,14 @@
     position: relative;
   }
   .about main .workspace .brands_bar .workspace_bt_prev {
+    padding: 15px;
     z-index: 2;
     position: absolute;
     top: 144px;
     left: 40px;
   }
   .about main .workspace .brands_bar .workspace_bt_next {
+    padding: 15px;
     z-index: 2;
     position: absolute;
     top: 144px;
