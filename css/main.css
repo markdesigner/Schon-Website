@@ -877,6 +877,9 @@
   .blog-postlist main .sidebar .tag {
     margin: 0 auto;
   }
+  .blog-postlist footer .contact {
+    text-align: center !important;
+  }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
   .blog-postlist .sidebar {
