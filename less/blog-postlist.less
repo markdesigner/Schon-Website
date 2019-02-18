@@ -87,30 +87,34 @@
                 width: 75px;
                 border-top: 4px solid @header_nav;
             }
+
             .title {
                 font-family: @mont;
                 font-size: 22px;
             }
 
             .categories {
-                
-                .category{
-                    color:#727272;
+
+                .category {
+                    color: #727272;
                     font-weight: 300;
                 }
             }
-            .popular_post{
-                .description{
+
+            .popular_post {
+                .description {
                     font-weight: 300;
                     margin-bottom: 0;
 
                 }
-                .date{
+
+                .date {
                     font-style: italic;
-                    color:@grey_deep_text;
+                    color: @grey_deep_text;
                 }
             }
-            .tag{
+
+            .tag {
                 font-weight: 300;
                 width: 200px;
                 margin-left: auto;
@@ -120,7 +124,7 @@
         }
     }
 
-    @import "index.less";
+
 
 
 
@@ -131,110 +135,80 @@
     // iphone
     @media (max-width: 767.98px) {
         main {
-            .who_we_are {
-                .follow {
-                    text-align: center;
-                }
-
-                .social_icon {
-                    text-align: center;
-                }
-
-            }
-
-            .team {
-                .person {
-                    .avatar {
-                        margin: 0 auto;
-                    }
-                }
-
-                .words {
-                    margin-left: 34px;
-
-                }
-
-                .name {
-                    padding-right: 150px;
+            .articles {
+                .blog_meta {
+                    max-width: 270px;
                 }
             }
 
-            .workspace {
+            .sidebar {
+                padding: 60px 0;
+                text-align: center !important;
 
-                .brands_bar {
-                    position: relative;
+                hr {
+                    margin: 0 auto !important;
+                }
 
-                    .workspace_bt_prev {
-                        padding: 15px;
+                .popular_post {
+                    margin-bottom: 30px;
 
-                        z-index: 2;
-                        position: absolute;
-                        top: 148px;
-                        left: 40px;
-                    }
-
-                    .workspace_bt_next {
-                        padding: 15px;
-
-                        z-index: 2;
-                        position: absolute;
-                        top: 148px;
-                        right: 40px;
+                    hr {
+                        margin-bottom: 30px !important;
                     }
                 }
 
+                .post {
+                    text-align: right;
+
+                    .row {
+                        justify-content: center;
+                    }
+                }
+
+                .tag {
+                    margin: 0 auto;
+                }
 
             }
-
         }
     }
+
+
 
 
 
     // ipad
     @media (max-width: 991.98px)and (min-width:768px) {
-        main {
-            .team {
+        .sidebar {
+            padding: 60px 0;
+            text-align: center !important;
 
-                .name {
-                    padding-right: 150px;
+            hr {
+                margin: 0 auto !important;
+            }
+
+            .popular_post {
+                margin-bottom: 30px;
+
+                hr {
+                    margin-bottom: 30px !important;
                 }
             }
 
-            .workspace {
+            .post {
+                text-align: right;
 
-                .brands_bar {
-                    position: relative;
-
-                    .workspace_bt_prev {
-                        padding: 15px;
-
-                        z-index: 2;
-                        position: absolute;
-                        top: 144px;
-                        left: 40px;
-                    }
-
-                    .workspace_bt_next {
-                        padding: 15px;
-
-                        z-index: 2;
-                        position: absolute;
-                        top: 144px;
-                        right: 40px;
-                    }
+                .row {
+                    justify-content: center;
                 }
-
-
             }
+
+            .tag {
+                margin: 0 auto;
+            }
+
         }
-
     }
-
-    // mac
-    // @media(min-width:992px){
-
-    // }
 
 
 

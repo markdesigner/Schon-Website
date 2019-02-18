@@ -852,59 +852,54 @@
   margin-left: auto;
 }
 @media (max-width: 767.98px) {
-  .blog-postlist main .who_we_are .follow {
-    text-align: center;
+  .blog-postlist main .articles .blog_meta {
+    max-width: 270px;
   }
-  .blog-postlist main .who_we_are .social_icon {
-    text-align: center;
+  .blog-postlist main .sidebar {
+    padding: 60px 0;
+    text-align: center !important;
   }
-  .blog-postlist main .team .person .avatar {
+  .blog-postlist main .sidebar hr {
+    margin: 0 auto !important;
+  }
+  .blog-postlist main .sidebar .popular_post {
+    margin-bottom: 30px;
+  }
+  .blog-postlist main .sidebar .popular_post hr {
+    margin-bottom: 30px !important;
+  }
+  .blog-postlist main .sidebar .post {
+    text-align: right;
+  }
+  .blog-postlist main .sidebar .post .row {
+    justify-content: center;
+  }
+  .blog-postlist main .sidebar .tag {
     margin: 0 auto;
-  }
-  .blog-postlist main .team .words {
-    margin-left: 34px;
-  }
-  .blog-postlist main .team .name {
-    padding-right: 150px;
-  }
-  .blog-postlist main .workspace .brands_bar {
-    position: relative;
-  }
-  .blog-postlist main .workspace .brands_bar .workspace_bt_prev {
-    padding: 15px;
-    z-index: 2;
-    position: absolute;
-    top: 148px;
-    left: 40px;
-  }
-  .blog-postlist main .workspace .brands_bar .workspace_bt_next {
-    padding: 15px;
-    z-index: 2;
-    position: absolute;
-    top: 148px;
-    right: 40px;
   }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
-  .blog-postlist main .team .name {
-    padding-right: 150px;
+  .blog-postlist .sidebar {
+    padding: 60px 0;
+    text-align: center !important;
   }
-  .blog-postlist main .workspace .brands_bar {
-    position: relative;
+  .blog-postlist .sidebar hr {
+    margin: 0 auto !important;
   }
-  .blog-postlist main .workspace .brands_bar .workspace_bt_prev {
-    padding: 15px;
-    z-index: 2;
-    position: absolute;
-    top: 144px;
-    left: 40px;
+  .blog-postlist .sidebar .popular_post {
+    margin-bottom: 30px;
   }
-  .blog-postlist main .workspace .brands_bar .workspace_bt_next {
-    padding: 15px;
-    z-index: 2;
-    position: absolute;
-    top: 144px;
-    right: 40px;
+  .blog-postlist .sidebar .popular_post hr {
+    margin-bottom: 30px !important;
+  }
+  .blog-postlist .sidebar .post {
+    text-align: right;
+  }
+  .blog-postlist .sidebar .post .row {
+    justify-content: center;
+  }
+  .blog-postlist .sidebar .tag {
+    margin: 0 auto;
   }
 }
 body {
