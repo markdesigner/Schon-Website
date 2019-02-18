@@ -23,6 +23,13 @@
 		"oAP": "/about.html",
 		"oF": 0
 		},
+	"/blog-postlist.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/blog-postlist.html",
+		"oF": 0
+		},
 	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -121,6 +128,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/less/blog-postlist.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/blog-postlist.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/less/contact.less": {
 		"aP": 0,
 		"bl": 0,
@@ -171,13 +195,6 @@
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
-		},
-	"/note/note.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/note/note.html",
-		"oF": 0
 		},
 	"/pics/blue_chair.png": {
 		"ft": 32768,
@@ -305,6 +322,17 @@
 		"iS": 2699,
 		"oA": 0,
 		"oAP": "/pics/logo_grey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/logo_small.png": {
+		"ft": 32768,
+		"iS": 1354,
+		"oA": 0,
+		"oAP": "/pics/logo_small.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

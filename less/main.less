@@ -1,6 +1,8 @@
 @import "contact.less";
 @import "about.less";
 @import "index.less";
+@import "blog-postlist.less";
+
 
 
 
@@ -43,11 +45,12 @@ body {
     section {
         margin-bottom: 60px;
     }
+    button, input{
+        outline:none !important;
+        box-shadow: none !important;
+    }
 }
 
-.yellow {
-    background-color: yellow !important;
-}
 
 a {
     &:hover {
@@ -175,6 +178,12 @@ a {
         }
 
     }
+}
+.cover.grey_pad{
+    
+        background-color: #f4f4f4;
+        background-image: none;
+    
 }
 .brands {
     padding: 40px 0 80px 0;
@@ -405,7 +414,6 @@ footer {
         }
     }
 }
-
 footer.simple {
 
     padding-bottom: 100px;
@@ -416,8 +424,42 @@ footer.simple {
         .contact {
             text-align: right;
 
-            img {}
+        
         }
+    }
+
+    .all_rights {
+        text-align: center;
+
+        img {
+            width: 140px;
+            height: 20px;
+        }
+
+        p {
+            color: @footer_link;
+            font-size: calc(12rem/16);
+            ;
+        }
+    }
+}
+footer.simple.grey_pad {
+
+    padding-bottom: 100px;
+
+    .container-fluid {
+        background-color: #f4f4f4;
+        padding-top: 50px;
+        .contact {
+            text-align: right;
+
+            
+        }
+    }
+    .container-big{
+        background-color: #f4f4f4;
+        max-width: 1600px;
+        padding-top: 50px;
     }
 
     .all_rights {

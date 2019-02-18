@@ -59,10 +59,6 @@
     margin-bottom: 10px;
   }
 }
-.about main .cover {
-  background-color: #f4f4f4;
-  background-image: none;
-}
 .about main .who_we_are {
   color: #494949;
 }
@@ -778,6 +774,139 @@
     margin-top: 10px;
   }
 }
+.blog-postlist {
+  color: #494949;
+}
+.blog-postlist main {
+  margin-bottom: 50px;
+}
+.blog-postlist main article .date {
+  float: left;
+  width: 78px;
+  height: 78px;
+  background-color: #919191;
+  color: #ffffff;
+  text-align: center;
+}
+.blog-postlist main article .date .date_words {
+  margin: auto 0;
+  padding-top: 4px;
+}
+.blog-postlist main article .date .day {
+  font-size: 28px;
+  margin-bottom: -6px;
+}
+.blog-postlist main article .date .month {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.blog-postlist main article .blog_meta {
+  max-width: 600px;
+  margin-left: auto;
+}
+.blog-postlist main article .blog_meta .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.blog-postlist main article .blog_meta .info {
+  color: #919191;
+  font-style: italic;
+}
+.blog-postlist main article .blog_meta .readmore {
+  color: #494949;
+  font-weight: 700;
+}
+.blog-postlist main .articles .prev_and_next .button {
+  background-color: transparent;
+  border: solid 3px black;
+  font-weight: 600;
+  padding: 0 12px;
+  cursor: pointer;
+}
+.blog-postlist main .sidebar hr {
+  margin: 0;
+  margin-left: auto;
+  width: 75px;
+  border-top: 4px solid #494949;
+}
+.blog-postlist main .sidebar .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+.blog-postlist main .sidebar .categories .category {
+  color: #727272;
+  font-weight: 300;
+}
+.blog-postlist main .sidebar .popular_post .description {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.blog-postlist main .sidebar .popular_post .date {
+  font-style: italic;
+  color: #808080;
+}
+.blog-postlist main .sidebar .tag {
+  font-weight: 300;
+  width: 200px;
+  margin-left: auto;
+}
+@media (max-width: 767.98px) {
+  .blog-postlist main .who_we_are .follow {
+    text-align: center;
+  }
+  .blog-postlist main .who_we_are .social_icon {
+    text-align: center;
+  }
+  .blog-postlist main .team .person .avatar {
+    margin: 0 auto;
+  }
+  .blog-postlist main .team .words {
+    margin-left: 34px;
+  }
+  .blog-postlist main .team .name {
+    padding-right: 150px;
+  }
+  .blog-postlist main .workspace .brands_bar {
+    position: relative;
+  }
+  .blog-postlist main .workspace .brands_bar .workspace_bt_prev {
+    padding: 15px;
+    z-index: 2;
+    position: absolute;
+    top: 148px;
+    left: 40px;
+  }
+  .blog-postlist main .workspace .brands_bar .workspace_bt_next {
+    padding: 15px;
+    z-index: 2;
+    position: absolute;
+    top: 148px;
+    right: 40px;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .blog-postlist main .team .name {
+    padding-right: 150px;
+  }
+  .blog-postlist main .workspace .brands_bar {
+    position: relative;
+  }
+  .blog-postlist main .workspace .brands_bar .workspace_bt_prev {
+    padding: 15px;
+    z-index: 2;
+    position: absolute;
+    top: 144px;
+    left: 40px;
+  }
+  .blog-postlist main .workspace .brands_bar .workspace_bt_next {
+    padding: 15px;
+    z-index: 2;
+    position: absolute;
+    top: 144px;
+    right: 40px;
+  }
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -788,8 +917,10 @@ body img {
 body section {
   margin-bottom: 60px;
 }
-.yellow {
-  background-color: yellow !important;
+body button,
+body input {
+  outline: none !important;
+  box-shadow: none !important;
 }
 a:hover {
   text-decoration-line: none;
@@ -862,6 +993,10 @@ a:hover {
 .cover .breadcrumb a {
   color: #717171;
   font-size: calc(12rem/16);
+}
+.cover.grey_pad {
+  background-color: #f4f4f4;
+  background-image: none;
 }
 .brands {
   padding: 40px 0 80px 0;
@@ -1031,6 +1166,32 @@ footer.simple .all_rights img {
   height: 20px;
 }
 footer.simple .all_rights p {
+  color: #a0a0a0;
+  font-size: calc(12rem/16);
+}
+footer.simple.grey_pad {
+  padding-bottom: 100px;
+}
+footer.simple.grey_pad .container-fluid {
+  background-color: #f4f4f4;
+  padding-top: 50px;
+}
+footer.simple.grey_pad .container-fluid .contact {
+  text-align: right;
+}
+footer.simple.grey_pad .container-big {
+  background-color: #f4f4f4;
+  max-width: 1600px;
+  padding-top: 50px;
+}
+footer.simple.grey_pad .all_rights {
+  text-align: center;
+}
+footer.simple.grey_pad .all_rights img {
+  width: 140px;
+  height: 20px;
+}
+footer.simple.grey_pad .all_rights p {
   color: #a0a0a0;
   font-size: calc(12rem/16);
 }

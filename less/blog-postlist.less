@@ -1,0 +1,241 @@
+// @white_color: #ffffff;
+// @header_nav:#494949;
+// @short_info_text: #a1a1a1;
+// @top-bar-grey: #282828;
+// @deep-blue: #2c3e65;
+// @grey-text: #dbdbdb;
+// @grey_deep_text: #808080;
+// @black-text: #535353;
+// @grey_shopnow: #979797;
+// @black: #000000;
+// @footer_title: #575757;
+// @grey_91:#919191;
+
+@import "basic.less";
+
+.blog-postlist {
+    color: @header_nav;
+
+    main {
+        margin-bottom: 50px;
+
+        article {
+            .date {
+                float: left;
+                width: 78px;
+                height: 78px;
+                background-color: @grey_91;
+                color: @white_color;
+                text-align: center;
+
+                .date_words {
+                    margin: auto 0;
+                    padding-top: 4px;
+                }
+
+                .day {
+                    font-size: 28px;
+                    margin-bottom: -6px;
+                }
+
+                .month {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+            }
+
+            .blog_meta {
+                max-width: 600px;
+                margin-left: auto;
+
+                .title {
+                    font-family: @mont;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+
+                .info {
+                    color: @grey_91;
+                    font-style: italic;
+                }
+
+                .readmore {
+                    color: @header_nav;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .articles {
+            .prev_and_next {
+                .button {
+                    background-color: transparent;
+                    border: solid 3px black;
+                    font-weight: 600;
+                    padding: 0 12px;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .sidebar {
+            hr {
+                margin: 0;
+                margin-left: auto;
+                width: 75px;
+                border-top: 4px solid @header_nav;
+            }
+            .title {
+                font-family: @mont;
+                font-size: 22px;
+            }
+
+            .categories {
+                
+                .category{
+                    color:#727272;
+                    font-weight: 300;
+                }
+            }
+            .popular_post{
+                .description{
+                    font-weight: 300;
+                    margin-bottom: 0;
+
+                }
+                .date{
+                    font-style: italic;
+                    color:@grey_deep_text;
+                }
+            }
+            .tag{
+                font-weight: 300;
+                width: 200px;
+                margin-left: auto;
+            }
+
+
+        }
+    }
+
+    @import "index.less";
+
+
+
+
+
+    //media query 
+
+    // iphone
+    @media (max-width: 767.98px) {
+        main {
+            .who_we_are {
+                .follow {
+                    text-align: center;
+                }
+
+                .social_icon {
+                    text-align: center;
+                }
+
+            }
+
+            .team {
+                .person {
+                    .avatar {
+                        margin: 0 auto;
+                    }
+                }
+
+                .words {
+                    margin-left: 34px;
+
+                }
+
+                .name {
+                    padding-right: 150px;
+                }
+            }
+
+            .workspace {
+
+                .brands_bar {
+                    position: relative;
+
+                    .workspace_bt_prev {
+                        padding: 15px;
+
+                        z-index: 2;
+                        position: absolute;
+                        top: 148px;
+                        left: 40px;
+                    }
+
+                    .workspace_bt_next {
+                        padding: 15px;
+
+                        z-index: 2;
+                        position: absolute;
+                        top: 148px;
+                        right: 40px;
+                    }
+                }
+
+
+            }
+
+        }
+    }
+
+
+
+    // ipad
+    @media (max-width: 991.98px)and (min-width:768px) {
+        main {
+            .team {
+
+                .name {
+                    padding-right: 150px;
+                }
+            }
+
+            .workspace {
+
+                .brands_bar {
+                    position: relative;
+
+                    .workspace_bt_prev {
+                        padding: 15px;
+
+                        z-index: 2;
+                        position: absolute;
+                        top: 144px;
+                        left: 40px;
+                    }
+
+                    .workspace_bt_next {
+                        padding: 15px;
+
+                        z-index: 2;
+                        position: absolute;
+                        top: 144px;
+                        right: 40px;
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+    // mac
+    // @media(min-width:992px){
+
+    // }
+
+
+
+}
