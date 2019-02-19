@@ -23,6 +23,13 @@
 		"oAP": "/about.html",
 		"oF": 0
 		},
+	"/blog-detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/blog-detail.html",
+		"oF": 0
+		},
 	"/blog-postlist.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -122,6 +129,23 @@
 		"mS": 0,
 		"oA": 1,
 		"oAP": "/less/basic.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/blog-detail.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/blog-detail.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
