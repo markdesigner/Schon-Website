@@ -198,6 +198,22 @@
     margin: 0 auto;
   }
 }
+.index .shopnow_angle {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  color: #979797;
+}
+.index .shopnow_angle a {
+  color: #979797;
+  font-size: 0.8rem;
+  letter-spacing: calc(0.5rem/16);
+}
+.index .shopnow_angle i {
+  padding: 6px 8px;
+  margin: 10px;
+  border: solid #ffffff 2px;
+  border-radius: 50%;
+}
 .index .control_bt button {
   background-color: #eeeeee;
   box-shadow: none;
@@ -304,21 +320,13 @@
   text-decoration: line-through;
 }
 .index .main_items .middle_item .shopnow_angle {
-  position: absolute;
   left: calc(32rem/16);
   bottom: calc(10rem/16);
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 .index .main_items .middle_item .shopnow_angle a {
   color: #ffffff;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
-}
-.index .main_items .middle_item .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
-  border: solid #ffffff 2px;
-  border-radius: 50%;
 }
 .index .main_items .bag {
   margin-bottom: calc(19rem/16);
@@ -405,20 +413,16 @@
   color: #b3b3b3;
 }
 .index .main_items .chair .shopnow_angle {
-  position: absolute;
-  bottom: calc(20rem/16);
-  left: calc(20rem/16);
+  color: #2c3e65;
+  bottom: 20px;
+  left: 20px;
 }
 .index .main_items .chair .shopnow_angle a {
   color: #2c3e65;
-  font-size: calc(10rem/16);
-  font-weight: 600;
+  font-weight: 700;
 }
-.index .main_items .chair .shopnow_angle a i {
-  padding: 6px 8px;
-  margin: calc(5rem/16);
-  border: solid #2c3e65 2px;
-  border-radius: 50%;
+.index .main_items .chair .shopnow_angle i {
+  border-color: #2c3e65;
 }
 .index .main_items .row.bottom {
   font-family: 'Montserrat', sans-serif;
@@ -444,21 +448,13 @@
   font-size: calc(8rem/16);
 }
 .index .main_items .row.bottom .top .shopnow_angle {
-  position: absolute;
-  right: calc(30rem/16);
-  bottom: calc(10rem/16);
+  right: 30px;
+  bottom: 20px;
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 .index .main_items .row.bottom .top .shopnow_angle a {
   color: #ffffff;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
-}
-.index .main_items .row.bottom .top .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
-  border: solid #ffffff 2px;
-  border-radius: 50%;
 }
 .index .main_items .row.bottom .bottom {
   position: relative;
@@ -479,21 +475,15 @@
   color: #dbdbdb;
 }
 .index .main_items .row.bottom .bottom .shopnow_angle {
-  position: absolute;
-  right: calc(30rem/16);
-  bottom: calc(10rem/16);
-  font-family: 'Montserrat', sans-serif;
+  right: 30px;
+  bottom: 10px;
+  color: #979797;
 }
 .index .main_items .row.bottom .bottom .shopnow_angle a {
   color: #979797;
-  font-size: 0.8rem;
-  letter-spacing: calc(0.5rem/16);
 }
 .index .main_items .row.bottom .bottom .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
   border: solid #979797 2px;
-  border-radius: 50%;
 }
 .index .main_items .row.bottom .big_item {
   font-family: 'Source Sans Pro', sans-serif;
@@ -506,10 +496,10 @@
   color: #535353;
 }
 .index .main_items .row.bottom .big_item .carousel-caption .title {
-  font-size: calc(50rem/16);
+  font-size: 50px;
 }
 .index .main_items .row.bottom .big_item .carousel-caption .tag {
-  font-size: calc(8rem/16);
+  font-size: 50px;
 }
 .index .feature_bar {
   padding-bottom: calc(60rem/16);
@@ -589,21 +579,16 @@
   font-size: calc(8rem/16);
 }
 .index .feature_bar .still_products .shopnow_angle {
-  position: absolute;
-  left: calc(30rem/16);
-  bottom: calc(10rem/16);
+  left: 30px;
+  bottom: 10px;
   font-family: 'Montserrat', sans-serif;
+  color: #979797;
 }
 .index .feature_bar .still_products .shopnow_angle a {
   color: #979797;
-  font-size: calc(4rem/16);
-  letter-spacing: calc(0.5rem/16);
 }
 .index .feature_bar .still_products .shopnow_angle i {
-  padding: 6px 8px;
-  margin: 10px;
   border: solid #979797 2px;
-  border-radius: 50%;
 }
 .index .best_seller {
   transition: all 0.5s ease;
