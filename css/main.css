@@ -780,55 +780,12 @@
 .blog-postlist main {
   margin-bottom: 50px;
 }
-.blog-postlist main article .date {
-  float: left;
-  width: 78px;
-  height: 78px;
-  background-color: #919191;
-  color: #ffffff;
-  text-align: center;
-}
-.blog-postlist main article .date .date_words {
-  margin: auto 0;
-  padding-top: 4px;
-}
-.blog-postlist main article .date .day {
-  font-size: 28px;
-  margin-bottom: -6px;
-}
-.blog-postlist main article .date .month {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-.blog-postlist main article .blog_meta {
-  max-width: 600px;
-  margin-left: auto;
-}
-.blog-postlist main article .blog_meta .title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-.blog-postlist main article .blog_meta .info {
-  color: #919191;
-  font-style: italic;
-}
-.blog-postlist main article .blog_meta .readmore {
-  color: #494949;
-  font-weight: 700;
-}
 .blog-postlist main .articles .prev_and_next .button {
   background-color: transparent;
   border: solid 3px black;
   font-weight: 600;
   padding: 0 12px;
   cursor: pointer;
-}
-.blog-postlist main .sidebar hr {
-  margin: 0;
-  margin-left: auto;
-  width: 75px;
-  border-top: 4px solid #494949;
 }
 .blog-postlist main .sidebar .title {
   font-family: 'Montserrat', sans-serif;
@@ -908,11 +865,106 @@
 .blog-detail {
   color: #494949;
 }
-.blog-detail main .post_cover {
+.blog-detail .cover .grey_bar {
+  background-color: #eee;
+  height: 30px;
+  margin-top: 56px;
+}
+.blog-detail .cover .row {
+  margin-left: 0;
+}
+.blog-detail .cover .container_function {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blog-detail .cover ol.breadcrumb {
+  padding: 0;
+}
+.blog-detail .cover .function_bt a {
+  color: #494949;
+}
+.blog-detail main .post_cover .container {
   background-image: url("http://unsplash.it/1200/570");
   background-repeat: cover;
   width: 1200px;
   height: 570px;
+}
+.blog-detail main .post_cover .dates {
+  background-color: white;
+  color: #494949;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.blog-detail main .post_cover .dates .date_words {
+  text-align: center;
+}
+.blog-detail main .post_cover .dates .day {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: -10px;
+  background-color: white;
+}
+.blog-detail main .post_cover .dates .month {
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.blog-detail main .post_cover .social {
+  margin: 40px 50px 0 0;
+}
+.blog-detail main .post_cover .social a {
+  color: #8f8f8f;
+}
+.blog-detail main .article .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.blog-detail main .article .container .content {
+  background-color: #ffffff;
+  margin-top: -100px;
+  width: 90%;
+}
+.blog-detail main .article .container .content .info {
+  font-style: italic;
+}
+.blog-detail main .article .container .content .description {
+  line-height: 1.8;
+}
+.blog-detail main .article .container .content_images .col-md-4 {
+  display: inline-block;
+}
+.blog-detail main .article .container .other_info .writer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+.blog-detail main .article .container .other_info .writer .info {
+  color: #494949;
+  padding-top: 30px;
+}
+.blog-detail main .article .container .other_info .writer .info .social_icon {
+  padding-top: 50px;
+}
+.blog-detail main .article .container .other_info .writer .info a {
+  color: black;
+  padding-right: 15px;
+}
+.blog-detail main .article .container .other_info .leave_comment {
+  margin-bottom: 120px;
+}
+.blog-detail main .article .container .other_info .leave_comment .title {
+  margin-bottom: 30px;
+}
+.blog-detail main .article .container .other_info .leave_comment input,
+.blog-detail main .article .container .other_info .leave_comment textarea {
+  border-radius: 0;
+  background-color: #f7f7f7;
+  border: none;
+}
+.blog-detail main .article .container .other_info .leave_comment .send {
+  color: grey;
+  background-color: #f7f7f7;
+  border-radius: 0;
+  margin-top: 16px;
 }
 @media (max-width: 767.98px) {
   .blog-detail main .articles .blog_meta {
@@ -1075,6 +1127,49 @@ a:hover {
 .brands .owl_brands img {
   width: 60%;
   margin: 0 auto;
+}
+hr.short_strong {
+  margin: 0;
+  margin-left: auto;
+  width: 75px;
+  border-top: 4px solid #494949;
+}
+article .date {
+  float: left;
+  width: 78px;
+  height: 78px;
+  background-color: #919191;
+  color: #ffffff;
+  text-align: center;
+}
+article .date .date_words {
+  margin: auto 0;
+  padding-top: 4px;
+}
+article .date .day {
+  font-size: 28px;
+  margin-bottom: -6px;
+}
+article .date .month {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+article .blog_meta {
+  max-width: 600px;
+  margin-left: auto;
+}
+article .blog_meta .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+article .blog_meta .info {
+  color: #919191;
+  font-style: italic;
+}
+article .blog_meta .readmore {
+  color: #494949;
+  font-weight: 700;
 }
 footer .container-fluid {
   background-color: #f6f6f6;
