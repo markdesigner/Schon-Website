@@ -984,10 +984,17 @@
   .blog-detail .cover .row .bt {
     text-align: center;
   }
-  .blog-detail .post_cover .container {
+  .blog-detail main .post_cover .container {
     width: 100% !important;
   }
-  .blog-detail .writer .info {
+  .blog-detail main .post_cover .dates {
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  .blog-detail main .post_cover .social {
+    margin: 20px 10px 0 0;
+  }
+  .blog-detail main .writer .info {
     padding-top: 0 !important;
   }
 }
