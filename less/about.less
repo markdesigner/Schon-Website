@@ -68,24 +68,13 @@
                 margin-top: 26px;
 
                 .avatar {
-                    padding-right: 20px;
-                    width: calc(280rem/16);
-                    ;
-                    height: calc(280rem/16);
-
                     img {
                         width: 100%;
                         height: 100%;
                     }
                 }
             }
-
-
-            .words {
-                margin-top: 26px;
-            }
-
-
+            
             .block {
                 width: calc(7rem/16);
                 ;
@@ -94,19 +83,18 @@
                 background-color: #eee;
 
             }
+            .words{
+                margin-left: 10px;
+            }
 
             .name {
                 font-family: @mont;
                 font-size: 16px;
-                padding-right: 80px;
-                margin-bottom: 0px;
-                margin-left: 10px;
                 font-weight: 600;
 
             }
 
             .position {
-                margin-left: 10px;
                 font-size: 10px;
                 color: @grey_deep_text;
             }
@@ -129,7 +117,7 @@
                     padding: 15px;
                     z-index: 2;
                     position: absolute;
-                    top: 200px;
+                    top: calc(~"50% - 46px");
                     left: 100px;
                 }
 
@@ -138,7 +126,7 @@
 
                     z-index: 2;
                     position: absolute;
-                    top: 200px;
+                    top: calc(~"50% - 46px");
                     right: 100px;
                 }
             }
@@ -192,15 +180,6 @@
                         margin: 0 auto;
                     }
                 }
-
-                .words {
-                    margin-left: 34px;
-
-                }
-
-                .name {
-                    padding-right: 150px;
-                }
             }
 
             .workspace {
@@ -238,12 +217,7 @@
     // ipad
     @media (max-width: 991.98px)and (min-width:768px) {
         main {
-            .team {
-
-                .name {
-                    padding-right: 150px;
-                }
-            }
+   
 
             .workspace {
 
@@ -276,9 +250,21 @@
     }
 
     // mac
-    // @media(min-width:992px){
+    @media(min-width:992px)and (max-width: 1200px){
+        main{
+            .team {
+                .person {
+                    .avatar {
+                        margin: 0 auto;
+                    }
+                }
+    
+               
+            }
+        }
+       
 
-    // }
+    }
 
 
 
