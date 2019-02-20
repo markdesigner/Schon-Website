@@ -22,12 +22,21 @@
     .cover {
         .grey_bar {
             background-color: #eee;
-            height: 30px;
             margin-top: 56px;
+            font-size: 12px;
         }
 
         .row {
             margin-left: 0;
+         
+            a{
+                color:@header_nav;
+            }
+            .bt{
+                text-align: right;
+                padding: 0;
+            }
+            
         }
 
         .container_function {
@@ -41,13 +50,6 @@
 
 
         }
-
-        .function_bt {
-            a {
-                color: @header_nav;
-            }
-        }
-
     }
 
     main {
@@ -58,7 +60,7 @@
                 background-image: url("http://unsplash.it/1200/570");
                 background-repeat: cover;
                 width: 1200px;
-                height: 570px;
+                height: 35vh;
             }
 
 
@@ -181,9 +183,30 @@
 
     // iphone
     @media (max-width: 767.98px) {
+        .cover{
+            margin-bottom: 30px;
+
+            .grey_bar{
+                padding-bottom: 15px;
+            }
+            .row{
+                &>div{
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+                }
+                .bt{
+                    text-align: center;
+                }
+            }
+        }
         .post_cover{
             .container{
                 width: 100% !important;
+            }
+        }
+        .writer{
+            .info{
+                padding-top: 0 !important;
             }
         }
     }

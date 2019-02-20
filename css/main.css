@@ -867,11 +867,18 @@
 }
 .blog-detail .cover .grey_bar {
   background-color: #eee;
-  height: 30px;
   margin-top: 56px;
+  font-size: 12px;
 }
 .blog-detail .cover .row {
   margin-left: 0;
+}
+.blog-detail .cover .row a {
+  color: #494949;
+}
+.blog-detail .cover .row .bt {
+  text-align: right;
+  padding: 0;
 }
 .blog-detail .cover .container_function {
   max-width: 1200px;
@@ -880,14 +887,11 @@
 .blog-detail .cover ol.breadcrumb {
   padding: 0;
 }
-.blog-detail .cover .function_bt a {
-  color: #494949;
-}
 .blog-detail main .post_cover .container {
   background-image: url("http://unsplash.it/1200/570");
   background-repeat: cover;
   width: 1200px;
-  height: 570px;
+  height: 35vh;
 }
 .blog-detail main .post_cover .dates {
   background-color: white;
@@ -967,8 +971,24 @@
   margin-top: 16px;
 }
 @media (max-width: 767.98px) {
+  .blog-detail .cover {
+    margin-bottom: 30px;
+  }
+  .blog-detail .cover .grey_bar {
+    padding-bottom: 15px;
+  }
+  .blog-detail .cover .row > div {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .blog-detail .cover .row .bt {
+    text-align: center;
+  }
   .blog-detail .post_cover .container {
     width: 100% !important;
+  }
+  .blog-detail .writer .info {
+    padding-top: 0 !important;
   }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -1300,31 +1320,14 @@ footer.simple .all_rights p {
   color: #a0a0a0;
   font-size: calc(12rem/16);
 }
-footer.simple.grey_pad {
-  padding-bottom: 100px;
-}
-footer.simple.grey_pad .container-fluid {
+footer.grey_pad .container-fluid {
   background-color: #f4f4f4;
   padding-top: 50px;
 }
-footer.simple.grey_pad .container-fluid .contact {
-  text-align: right;
-}
-footer.simple.grey_pad .container-big {
+footer.grey_pad .container-big {
   background-color: #f4f4f4;
   max-width: 1600px;
   padding-top: 50px;
-}
-footer.simple.grey_pad .all_rights {
-  text-align: center;
-}
-footer.simple.grey_pad .all_rights img {
-  width: 140px;
-  height: 20px;
-}
-footer.simple.grey_pad .all_rights p {
-  color: #a0a0a0;
-  font-size: calc(12rem/16);
 }
 @media (max-width: 767.98px) {
   .short_info .info_container {

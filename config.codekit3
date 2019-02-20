@@ -220,6 +220,39 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/pics/blog-detail/girl1.jpg": {
+		"ft": 16384,
+		"iS": 39883,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/blog-detail/girl1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/pics/blog-detail/girl2.jpg": {
+		"ft": 16384,
+		"iS": 26241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/blog-detail/girl2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/pics/blog-detail/man1.jpg": {
+		"ft": 16384,
+		"iS": 22276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/blog-detail/man1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/pics/blue_chair.png": {
 		"ft": 32768,
 		"iS": 56011,
