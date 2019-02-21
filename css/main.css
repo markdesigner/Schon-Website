@@ -1054,16 +1054,20 @@
   background-color: #ffffff;
   border-radius: 0px;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 .page404 .all .input-group {
-  width: 60%;
-}
-.page404 .all .search {
-  margin-left: 10px;
-  color: #ffffff;
-  background-color: transparent;
   border: solid 2px white;
   border-radius: 0;
+}
+.page404 .all .user_action .fa-search {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.page404 .all .search {
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
 }
 .page404 .all .search::placeholder {
   color: #ffffff;
@@ -1084,8 +1088,8 @@
   .page404 .all {
     padding-top: 100px;
   }
-  .page404 .all .search {
-    margin: 10px 0 0 0;
+  .page404 .all .homepage {
+    margin-bottom: 10px;
   }
   .page404 .all .title_404 {
     margin: 89px 0px 0px -20px;
@@ -1096,11 +1100,8 @@
   .page404 .all {
     padding-top: 100px;
   }
-  .page404 .all .search {
-    margin: 10px 0 0 0;
-  }
   .page404 .all .title_404 {
-    margin: 20px 0px 20px -35px;
+    margin: 46px 0px 20px 20px;
   }
 }
 body {
@@ -1419,6 +1420,9 @@ footer.grey_pad .container-big {
 }
 .rounded_bt {
   border-radius: 25px !important;
+}
+.fontAwesome {
+  font-family: 'FontAwesome';
 }
 @media (max-width: 767.98px) {
   .short_info .info_container {

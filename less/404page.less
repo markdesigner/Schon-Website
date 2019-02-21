@@ -14,92 +14,106 @@
 
 
 .page404 {
-    .wrap{
+    .wrap {
         background-image: url(../pics/404bg.png);
         background-size: cover;
         height: 40vh;
-        
+
     }
-    .all{
+
+    .all {
         padding-top: 180px;
-    color: @white_color;
-    .title{
-        font-family: @mont;
-        font-size: 26px;
-        font-weight: 600;
-    }
-    .homepage{
-        background-color:@white_color;
-        border-radius: 0px;
-        font-weight: 600;
+        color: @white_color;
 
-    }
-    .input-group{
-        width: 60%;
-    }
+        .title {
+            font-family: @mont;
+            font-size: 26px;
+            font-weight: 600;
+        }
 
-    .search{
-        margin-left: 10px;
-        color:@white_color;
-        background-color: transparent;
-        border: solid 2px white;
-        border-radius: 0;
-        &::placeholder{
-            color:@white_color;
-            font-size: 16px;
+        .homepage {
+            background-color: @white_color;
+            border-radius: 0px;
+            font-weight: 600;
+            padding-bottom: 10px;
+
+        }
+
+        .input-group {
+            border: solid 2px white;
+            border-radius: 0;
+
+        }
+        .user_action{
+            .fa-search{
+                margin-right: 15px;
+                margin-top: 10px;
+            }
+        }
+
+        .search {
+            border:none;
+            color: @white_color;
+            background-color: transparent;
+            
+            
+            &::placeholder {
+                color: @white_color;
+                font-size: 16px;
+
+            }
+
 
         }
         
 
-    }
-        .title_404{
+        .title_404 {
             margin-left: 50px;
             text-align: center;
             font-size: 180px;
             line-height: 0.5;
-            font-family:@mont;
+            font-family: @mont;
             font-weight: 700;
         }
-    
+
 
     }
 
     //media query 
 
-// iphone
-@media (max-width: 767.98px){
-    .wrap{
-        height: 100vh;
-    }
-    .all{
-        padding-top: 100px;
-        .search{
-            margin: 10px 0 0 0;
+    // iphone
+    @media (max-width: 767.98px) {
+        .wrap {
+            height: 100vh;
         }
-        .title_404{
-            margin: 89px 0px 0px -20px;
-            font-size: 150px;
-        }
-    }
-}
+        .all {
+            padding-top: 100px;
+            .homepage{
+                margin-bottom: 10px;
 
-// ipad
-@media (max-width: 991.98px)and (min-width:768px) {
-    .all{
-        padding-top: 100px;
-        .search{
-            margin: 10px 0 0 0;
-        }
-        .title_404{
-            margin: 20px 0px 20px -35px;
+            }
+            .title_404 {
+                margin: 89px 0px 0px -20px;
+                font-size: 150px;
+            }
         }
     }
-}
 
-// mac
-// @media(min-width:992px)and(max-width:1200){
+    // ipad
+    @media (max-width: 991.98px)and (min-width:768px) {
+        .all {
+            padding-top: 100px;
 
-// }
+            .title_404 {
+                margin: 46px 0px 20px 20px;
+            }
+        }
+    }
+
+    // mac
+    // @media(min-width:992px)and(max-width:1200){
+
+    // }
 
 
 }
