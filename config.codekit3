@@ -101,6 +101,23 @@
 		"oAP": "/build/js",
 		"oF": 0
 		},
+	"/less/404page.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/404page.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/less/about.less": {
 		"aP": 0,
 		"bl": 0,
@@ -219,6 +236,24 @@
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
+		},
+	"/page404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page404.html",
+		"oF": 0
+		},
+	"/pics/404bg.png": {
+		"ft": 32768,
+		"iS": 1004471,
+		"oA": 0,
+		"oAP": "/pics/404bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/pics/about/avatar-1.jpg": {
 		"ft": 16384,

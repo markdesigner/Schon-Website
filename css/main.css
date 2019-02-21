@@ -738,6 +738,9 @@
   font-weight: 700;
 }
 @media (max-width: 767.98px) {
+  .index .modal .modal-body .input-group {
+    width: 60%;
+  }
   .index .main_items .row > div {
     margin-bottom: 15px;
   }
@@ -1031,6 +1034,73 @@
   }
   .blog-detail .sidebar .tag {
     margin: 0 auto;
+  }
+}
+.page404 .wrap {
+  background-image: url(../pics/404bg.png);
+  background-size: cover;
+  height: 40vh;
+}
+.page404 .all {
+  padding-top: 180px;
+  color: #ffffff;
+}
+.page404 .all .title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+.page404 .all .homepage {
+  background-color: #ffffff;
+  border-radius: 0px;
+  font-weight: 600;
+}
+.page404 .all .input-group {
+  width: 60%;
+}
+.page404 .all .search {
+  margin-left: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 0;
+}
+.page404 .all .search::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+}
+.page404 .all .title_404 {
+  margin-left: 50px;
+  text-align: center;
+  font-size: 180px;
+  line-height: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+@media (max-width: 767.98px) {
+  .page404 .wrap {
+    height: 100vh;
+  }
+  .page404 .all {
+    padding-top: 100px;
+  }
+  .page404 .all .search {
+    margin: 10px 0 0 0;
+  }
+  .page404 .all .title_404 {
+    margin: 89px 0px 0px -20px;
+    font-size: 150px;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .page404 .all {
+    padding-top: 100px;
+  }
+  .page404 .all .search {
+    margin: 10px 0 0 0;
+  }
+  .page404 .all .title_404 {
+    margin: 20px 0px 20px -35px;
   }
 }
 body {
