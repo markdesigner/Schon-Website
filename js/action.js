@@ -1,12 +1,11 @@
 $(document).ready(function(){
-
-  $(document).click(function(e){
-    // var height= $('body').scroll()
-    // if(){}      
+   $('.follow').click(function(e){
+       $('#subModal').modal('show');
+   })
+   $(document).one('scroll',function(e){
     $('#subModal').modal('show');
-    event.stopPropagation();
-  })
 
+   })
     $('.owl_feature').owlCarousel({
         loop:true,
         margin:10,
