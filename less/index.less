@@ -16,10 +16,62 @@
 @import "basic.less";
 
 .index {
+    .modal {
+        .modal-dialog {
+            max-width: 750px;
+        }
+
+        .modal-content {
+            background-image: url(../pics/index/modal_background.png)
+        }
+
+        .modal-body {
+            padding-left: 50px;
+
+            .title {
+                font-family: @mont;
+                font-weight: 600;
+                font-size: 30px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+            }
+
+            .description {
+                color: @grey_shopnow;
+                margin-bottom: 40px;
+
+                span {
+                    color: #f53434;
+                    font-weight: 600;
+                }
+            }
+
+            .input-group {
+                width: 40%;
+            }
+
+            .input_email {
+                border: none;
+                background-color: @cover_grey;
+                border-radius: 25px;
+            }
+
+            .subscribe {
+                color: @white_color;
+                background-color: #ff8283;
+            }
+
+            .not_again {
+                margin-top: 60px;
+                color: @grey_shopnow;
+            }
+        }
+    }
+
     .shopnow_angle {
         position: absolute;
         font-family: @mont;
-        color:@grey_shopnow;
+        color: @grey_shopnow;
 
         a {
             color: @grey_shopnow;
@@ -185,7 +237,7 @@
                 left: calc(32rem/16);
                 bottom: calc(10rem/16);
                 font-family: @mont;
-                color:@white_color;
+                color: @white_color;
 
                 a {
                     color: @white_color;
@@ -313,7 +365,7 @@
             }
 
             .shopnow_angle {
-                color:@deep-blue;
+                color: @deep-blue;
                 bottom: 20px;
                 left: 20px;
 
@@ -323,11 +375,12 @@
                     color: @deep-blue;
                     font-weight: 700;
                 }
-                i{
-                    border-color:@deep-blue;
+
+                i {
+                    border-color: @deep-blue;
                 }
-            
-                
+
+
             }
 
         }
@@ -370,6 +423,7 @@
                     bottom: 20px;
                     font-family: @mont;
                     color: @white_color;
+
                     a {
                         color: @white_color;
                     }
@@ -405,9 +459,11 @@
                     right: 30px;
                     bottom: 10px;
                     color: @grey_shopnow;
+
                     a {
                         color: @grey_shopnow;
                     }
+
                     i {
                         border: solid @grey_shopnow 2px;
                     }
@@ -429,8 +485,9 @@
                     .title {
                         font-size: 50px;
                     }
+
                     .tag {
-                        font-size:50px;
+                        font-size: 50px;
                     }
                 }
             }
@@ -441,7 +498,7 @@
 
     }
 
-   
+
 
 
     .feature_bar {
@@ -562,6 +619,7 @@
                 a {
                     color: @grey_shopnow;
                 }
+
                 i {
                     border: solid @grey_shopnow 2px;
                 }
@@ -685,7 +743,7 @@
             }
 
             .new {
-                font-size: calc(10rem/16);  
+                font-size: calc(10rem/16);
                 font-family: @mont;
                 color: @white_color;
                 background-color: @black;
@@ -758,8 +816,9 @@
                     margin-top: 10px;
                 }
             }
-            .owl_best{
-                .cover{
+
+            .owl_best {
+                .cover {
                     padding: 20px 60px;
                     left: 40px;
                     font-size: calc(16rem/16);
@@ -776,10 +835,11 @@
                 margin-bottom: 15px;
 
             }
-            .bag{
+
+            .bag {
                 margin-bottom: calc(35rem/16);
             }
-            
+
         }
 
         .feature_bar {

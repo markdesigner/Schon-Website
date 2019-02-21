@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+  $(document).click(function(e){
+    // var height= $('body').scroll()
+    // if(){}      
+    $('#subModal').modal('show');
+    event.stopPropagation();
+  })
+
     $('.owl_feature').owlCarousel({
         loop:true,
         margin:10,
