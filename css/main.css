@@ -265,7 +265,7 @@
 .index .search_box .modal-body .mic_bt {
   font-size: 20px;
   margin-top: 10px;
-  margin-right: 10px;
+  padding-right: 0;
   color: #A0A0A0;
 }
 .index .search_box .modal-body .search_bt {
@@ -1200,6 +1200,80 @@ a:hover {
 }
 .header nav .nav-item .nav-link:hover {
   color: #dbdbdb !important;
+}
+.header nav #products-modal .modal-dialog {
+  max-width: 70vw;
+  margin-top: 110px;
+  color: #808080;
+}
+.header nav #products-modal .modal-dialog #triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 25px;
+  border-color: transparent transparent #ffffff transparent;
+  position: absolute;
+  top: -9px;
+  right: 15%;
+}
+.header nav #products-modal .modal-dialog .modal-body {
+  padding: 65px;
+}
+.header nav #products-modal .modal-dialog .modal-body .menu {
+  padding-bottom: 60px;
+}
+.header nav #products-modal .modal-dialog hr {
+  padding-bottom: 16px;
+}
+.header nav #products-modal .modal-dialog .list-group-item {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 0;
+  border: none;
+  margin: 0;
+  padding: 5px 0 5px 0;
+}
+.header nav #products-modal .modal-dialog .list-group-item a {
+  color: #808080;
+  font-size: 14px;
+}
+.header nav #products-modal .modal-dialog .list-group-item.title {
+  color: #535353;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.header nav #products-modal .modal-dialog .hot_products .words {
+  color: #535353;
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-1 .words {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-1 .words .hot-1-title {
+  letter-spacing: 30px;
+  font-weight: 700;
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-1 .words .discount {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-2 .words {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  padding-right: 35px;
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-2 .words .hot-2-title {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.header nav #products-modal .modal-dialog .hot_products .hot-2 .words a {
+  color: #a1a1a1;
+  font-size: 14px;
+  font-weight: 600;
 }
 .header nav .search i {
   font-size: 1.5rem;

@@ -607,6 +607,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/products_dropdown/product-1.png": {
+		"ft": 32768,
+		"iS": 59435,
+		"oA": 0,
+		"oAP": "/pics/products_dropdown/product-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/products_dropdown/product-2.png": {
+		"ft": 32768,
+		"iS": 9917,
+		"oA": 0,
+		"oAP": "/pics/products_dropdown/product-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/red_bag.png": {
 		"ft": 32768,
 		"iS": 44009,
