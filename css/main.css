@@ -1199,7 +1199,11 @@ a:hover {
   transition: all 0.4s ease;
 }
 .header nav .nav-item .nav-link:hover {
-  color: #dbdbdb !important;
+  color: wheat !important;
+}
+.header nav button.products_dropdown {
+  background: none;
+  border: none;
 }
 .header nav #products-modal .modal-dialog {
   max-width: 70vw;
@@ -1546,6 +1550,18 @@ footer.grey_pad .container-big {
   .short_info .info_container {
     max-width: 328px;
   }
+  .header nav #products-modal .modal-dialog {
+    margin: 35% auto 0 auto;
+  }
+  .header nav #products-modal .modal-dialog #triangle {
+    display: none;
+  }
+  .header nav #products-modal .modal-dialog .modal-body .menu {
+    padding-bottom: 0;
+  }
+  .header nav #products-modal .modal-dialog .hot_products {
+    display: none;
+  }
   footer .guarantee .col-md-3 {
     padding-bottom: 20px;
   }
@@ -1573,6 +1589,11 @@ footer.grey_pad .container-big {
   }
   footer.simple .container-fluid .contact {
     text-align: center;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .header nav #products-modal .modal-dialog #triangle {
+    display: none;
   }
 }
 @media (min-width: 992px) {

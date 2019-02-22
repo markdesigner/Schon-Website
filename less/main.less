@@ -112,12 +112,15 @@ a {
                 transition: all .4s ease;
 
                 &:hover {
-                    color: @grey-text  !important;
+                    color:  wheat !important;
                 }
             }
 
         }
-
+        button.products_dropdown{
+            background: none;
+            border: none;
+        }
         #products-modal {
             .modal-dialog {
 
@@ -645,6 +648,23 @@ footer {
             max-width: 328px;
         }
     }
+    .header nav #products-modal .modal-dialog {
+        margin: 35% auto 0 auto;
+
+        #triangle{
+            display: none;
+        }
+        .modal-body{
+            .menu{
+                padding-bottom: 0;
+            }
+        }
+        
+        .hot_products{
+            display: none;
+        }
+    }
+
 
 
 
@@ -703,9 +723,11 @@ footer {
 }
 
 // ipad
-// @media (max-width: 991.98px)and (min-width:768px) {
-
-// }
+@media (max-width: 991.98px)and (min-width:768px) {
+    .header nav #products-modal .modal-dialog #triangle {
+        display: none;
+    }
+}
 
 // mac
 
