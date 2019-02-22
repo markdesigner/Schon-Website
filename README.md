@@ -53,3 +53,9 @@ blog主頁製作完成RWD部分也好了。因為blog的靜態的部分構造較
 2019.2.20
 昨天將blog-detail草版刻畫完成，現在細節也調好了。再來就是RWD囉。
 做完RWD囉。也回去把之前頁面的假圖，一些可以換成真圖的換過來了。另外對於首頁的shopnow button，還有一些細節都修正了。還有修正about頁面的title跟圖片比例。
+
+2019.2.21
+
+今天將newsletter 以及404 desktop RWD都做好了。想來記錄一些過程。在newsletter的部分，刻畫畫面相對順利，反而一直在找說要怎麼樣觸發，才能讓畫面一出現時，使用者滾動一下就會自己跑出來newsletter，而且只要「一次」。後來搞了很久，用了jquery的one method，是第一次使用這個method。也有查到可以計算cookie，感覺很酷，但是對cookie完全不熟，所以就沒有往那個方法去走。
+另外404也相對順利，反而是中間有一個input的placeholder，要放放大鏡，做的時候才發現以前好像沒做過這種。搞來搞去發現要把icon直接寫在placeholder裡面有點困難，後來換了一個方法。在input外面包一層div並且用span的方式附上icon，就可以了。
+中間雖然一個button與input看起來就是要用column，但是因為設計稿的兩個物件相離很近，用column很難那麼近，於是我就嘗試自己手刻，用float的方式。還去每個breakpoint調整。搞到後來還是有些地方會破到，於是我就放棄了，把原本寫好的media query都刪掉，用grid的方式慢慢修。雖然在某個尺寸button會變成兩行，但至少RWD的部分變得很ok。 權衡之下就採取這個方法了！
