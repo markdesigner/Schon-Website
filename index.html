@@ -18,16 +18,10 @@
 </head>
 
 <body class="index">
-
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-      </button> -->
-
     <!-- Modal -->
     <div class="modal fade" id="subModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
+            <div class="modal-content newsletter_content">
                 <div class="modal-header border-0">
                     <h5 class="modal-title" id="exampleModalLabel"></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -52,6 +46,25 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="search_box">
+        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="input-group m-auto">
+                            <input type="text" class="search form-control" placeholder="Search..." aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-sm">
+                            <span class="mic_bt"><i class="fas fa-microphone"></i></span> <span class="search_bt"><i class="fas fa-search"></i></span>
+                        </div>
+                        <button type="button" class="cancel btn btn-primary">&times;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <div class="short_info">
@@ -146,8 +159,9 @@
                             <a class="nav-link" href="contact.html">CONTACT</a>
                         </li>
                         <li class="nav-item search">
-                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-                        </li>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#search-modal">
+                                <i class="fas fa-search"></i>
+                            </button> </li>
                         <li class="nav-item shopping_cart">
 
                             <a class="nav-link " href="#"><i class="fas fa-shopping-bag mr-2"></i>
