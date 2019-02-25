@@ -4,6 +4,7 @@
 @import "blog-postlist.less";
 @import "blog-detail.less";
 @import "404page.less";
+@import "product-list.less";
 
 
 
@@ -51,7 +52,7 @@ body {
     }
 
     button,
-    input {
+    input,a {
         outline: none !important;
         box-shadow: none !important;
     }
@@ -249,12 +250,10 @@ a {
 }
 
 .cover {
-
-    // background-image: url(http://unsplash.it/1902/207);
-    background-image: url(../pics/contact_pad.png);
+    &.image{
+        background-image: url(../pics/contact_pad.png);
     background-size: cover;
-
-
+    }
     .title {
         font-weight: 600;
         letter-spacing: 1px;
@@ -291,22 +290,63 @@ a {
     background-image: none;
 
 }
+.moving_products {
+    position: relative;
+    padding-bottom: 73px;
+    ;
+
+    .words {
+        text-align: left;
+
+        .star {
+            text-align: left;
+            color: #c8a760;
+            font-size: 15px;
+
+            .far {
+                color: #ededed;
+            }
+        }
+
+        .title {
+            font-size: 14px;
+            color: #808080;
+
+        }
+
+        .price {
+            color: @deep-blue;
+            font-size: 18px;
+            line-height: 1;
+            font-weight: 700;
+
+        }
+
+        .discount {
+            position: absolute;
+            top: 45px;
+            left: 0;
+            background-color: #b2cc29;
+            padding: 0 5px;
+        }
+    }
+}
 
 .brands {
     padding: 40px 0 80px 0;
 
     .title {
         font-family: @mont;
-        font-size: calc(20rem/16);
+        font-size: 20px;
         ;
 
         small {
             color: @grey-text;
-            font-size: calc(10rem/16);
+            font-size: 12px;
             letter-spacing: 3px;
         }
 
-        padding-bottom: calc(60rem/16);
+        padding-bottom: 60px;
         ;
     }
 
@@ -619,6 +659,15 @@ footer {
 // 一些button和其他元素的設定寫在下面
 .rounded_bt {
     border-radius: 25px !important;
+}
+.circle_bt{
+    border-radius: 50% !important;
+}
+.square_bt{
+    border-radius: 0 !important;
+}
+.noborder{
+    border:none !important;
 }
 
 // 以上為小元素設定

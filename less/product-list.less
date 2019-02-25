@@ -1,0 +1,218 @@
+// @white_color: #ffffff;
+// @header_nav:#494949;
+// @short_info_text: #a1a1a1;
+// @top-bar-grey: #282828;
+// @deep-blue: #2c3e65;
+// @grey-text: #dbdbdb;
+// @grey_deep_text: #808080;
+// @black-text: #535353;
+// @grey_shopnow: #979797;
+// @black: #000000;
+// @footer_title: #575757;
+// @aside_grey:#a0a0a0;
+
+@import "basic.less";
+
+
+.product-list {
+    main {
+        aside {
+            .strong_black {
+                font-size: 22px;
+                font-weight: 600;
+                color: @header_nav;
+                font-family: @mont;
+            }
+
+            .filter {
+                background-color: #f4f4f4;
+                padding: 30px;
+
+                .by_brands {
+                    color: @aside_grey;
+
+                    &>div {
+                        margin-bottom: -5px;
+                        font-weight: 200;
+                    }
+
+                    .custom-control {
+                        &.overflow-checkbox {
+                            .overflow-control-input {
+                                display: none;
+
+                                &:checked~.overflow-control-indicator {
+                                    &::after {
+                                        transform: rotateZ(45deg) scale(1);
+                                        top: -6px;
+                                        left: 5px;
+                                    }
+
+                                    &::before {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+
+                            .overflow-control-indicator {
+                                border-radius: 3px;
+                                display: inline-block;
+                                position: absolute;
+                                top: 4px;
+                                left: 0;
+                                width: 16px;
+                                height: 16px;
+                                border: 2px solid #aaa;
+
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 16px;
+                                    height: 16px;
+                                    transition: .3s;
+                                    transform: rotateZ(90deg) scale(0);
+                                    width: 10px;
+                                    border-bottom: 4px solid #aaa;
+                                    border-right: 4px solid #aaa;
+                                    border-radius: 3px;
+                                    top: -2px;
+                                    left: 2px;
+                                }
+
+                                &::before {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 16px;
+                                    height: 16px;
+                                    transition: .3s;
+                                    width: 10px;
+                                    border-right: 7px solid #fff;
+                                    border-radius: 3px;
+                                    transform: rotateZ(45deg) scale(1);
+                                    top: -4px;
+                                    left: 5px;
+                                    opacity: 0;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+            .category {
+                &>div {
+                    margin-bottom: -24px;
+                    color: @aside_grey;
+                    font-family: @mont;
+
+                    a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: @aside_grey;
+                    }
+                }
+            }
+
+            .hot_sale {
+                .row {
+                    margin-bottom: 15px;
+                }
+
+                .words {
+
+                    .title {
+                        font-size: 16px;
+                    }
+
+                    .original_price {
+                        color: @grey_deep_text;
+                    }
+
+                    .discount_price {
+                        color: #29292C;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+
+        .allproducts {
+            .page_info {
+                font-weight: 300;
+                color: @grey_deep_text;
+            }
+
+            .present_setting {
+                button {
+                    color: #A5A5A5;
+                    border: solid 1px #DBDBDB;
+                    margin-right: 10px;
+                }
+
+                .circle_bt {
+                    padding: 6px 10px;
+                }
+            }
+
+            .products {
+                .row>div {
+                    padding-bottom: 20px;
+                } 
+            }
+            .page_number {
+                .nav-item{
+                    margin-right: 5px;
+                }
+                a {
+                    background-color: #f6f6f6;
+                    color: #BABABA;
+                    font-family: @mont;
+                    border-radius: 0;
+
+                }
+            }
+        }
+    }
+
+    //media query 
+
+    // iphone
+    @media (max-width: 767.98px) {
+        .user_input {
+
+            .contact_ways {
+                margin-top: -30px;
+                margin-bottom: 30px;
+            }
+
+            .contact_ways>div {
+                text-align: center;
+            }
+
+            .user_form {
+                .title {
+                    text-align: center;
+                }
+            }
+        }
+
+        .map {
+            margin-bottom: 10px;
+        }
+    }
+
+    // ipad
+    // @media (max-width: 991.98px)and (min-width:768px) {
+    // }
+
+    // mac
+    // @media(min-width:992px){
+
+    // }
+
+
+}
