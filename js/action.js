@@ -238,11 +238,25 @@ var owl4 = $('.owl_workspace');
     $('.other_products_bt_next').click(function() {
         owl6.trigger('next.owl.carousel');
     })
+
+    //control price range slider
     
+        $( "#slider-range" ).slider({
+          range: true,
+          min: 100,
+          max: 900,
+          values: [ 200, 599 ],
+          slide: function( event, ui ) {
+            $( "#amount_min" ).val( "$" + ui.values[ 0 ] + " "+ "\u2014");
+            $( "#amount_max" ).val( " "+ "$" + ui.values[ 1 ] );
+            
+             //+ " - $" + ui.values[ 1 ] );
+          }
+        });
+        $( "#amount_min" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " "+ "\u2014");
+        $( "#amount_max" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ) );// +
+         // " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+      
     
-
-
-
-
    
   })
