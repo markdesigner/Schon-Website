@@ -632,7 +632,7 @@
 }
 @media (max-width: 767.98px) {
   .index .modal .modal-body .input-group {
-    width: 60%;
+    width: 60% !important;
   }
   .index .main_items .row > div {
     margin-bottom: 15px;
