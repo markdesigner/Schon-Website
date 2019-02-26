@@ -142,6 +142,29 @@ $(document).ready(function(){
 
 
     })
+    $('.owl_cover_img').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:false,
+        autoplay:false,
+    autoplayTimeout:3500,
+    autoplayHoverPause:true,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            992:{
+                items:1
+            }
+        }
+
+
+    })
     
 
 
@@ -209,6 +232,13 @@ var owl4 = $('.owl_workspace');
     $('.other_products_bt_next').click(function() {
         owl5.trigger('next.owl.carousel');
     })
+
+    var owl6 = $('.owl_cover_img');
+   
+    $('.other_products_bt_next').click(function() {
+        owl6.trigger('next.owl.carousel');
+    })
+    
     
 
 
