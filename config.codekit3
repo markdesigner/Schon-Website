@@ -237,6 +237,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/less/product-detail.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/product-detail.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/less/product-list.less": {
 		"aP": 0,
 		"bl": 0,
@@ -886,6 +903,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/product-detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/product-detail.html",
+		"oF": 0
 		},
 	"/product-list.html": {
 		"cB": 0,

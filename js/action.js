@@ -96,6 +96,53 @@ $(document).ready(function(){
 
 
     })
+    $('.owl_other_products').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:false,
+        autoplay:false,
+    autoplayTimeout:3500,
+    autoplayHoverPause:true,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:4
+            }
+        }
+
+
+    })
+    $('.owl_related_products').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dots:false,
+        autoplay:true,
+    autoplayTimeout:3500,
+    autoplayHoverPause:true,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:5
+            }
+        }
+
+
+    })
+    
 
 
     // feature control
@@ -156,6 +203,13 @@ var owl4 = $('.owl_workspace');
     $('.workspace_bt_next').click(function() {
         owl4.trigger('next.owl.carousel');
     })
+
+    var owl5 = $('.owl_other_products');
+   
+    $('.other_products_bt_next').click(function() {
+        owl5.trigger('next.owl.carousel');
+    })
+    
 
 
 

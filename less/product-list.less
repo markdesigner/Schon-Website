@@ -17,13 +17,7 @@
 .product-list {
     main {
         aside {
-            .strong_black {
-                font-size: 22px;
-                font-weight: 600;
-                color: @header_nav;
-                font-family: @mont;
-            }
-
+           
             .filter {
                 background-color: #f4f4f4;
                 padding: 30px;
@@ -182,32 +176,26 @@
 
     // iphone
     @media (max-width: 767.98px) {
-        .user_input {
-
-            .contact_ways {
-                margin-top: -30px;
+        .hot_sale{
+            .col-lg-7{
                 margin-bottom: 30px;
             }
-
-            .contact_ways>div {
-                text-align: center;
-            }
-
-            .user_form {
-                .title {
-                    text-align: center;
-                }
-            }
-        }
-
-        .map {
-            margin-bottom: 10px;
         }
     }
 
     // ipad
-    // @media (max-width: 991.98px)and (min-width:768px) {
-    // }
+    @media (max-width: 991.98px)and (min-width:768px) {
+        aside{
+            .hot_sale{
+                .col-md-3{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .page_number{
+            margin-bottom: 100px;
+        }
+    }
 
     // mac
     // @media(min-width:992px){
