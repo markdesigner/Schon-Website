@@ -17,7 +17,7 @@
 .product-detail {
     main{
         .product_images{
-            padding: 80px 60px;
+            padding: 80px 20px;
             .social{
                 margin-bottom: 20px;
                 margin-top: -20px;
@@ -82,7 +82,7 @@
             .quantity{
                 margin-top: 25px;
                 .name{
-                    margin-top: 10px;
+                    margin-top: 6px;
                 }
                 .custom-select{
                     max-width: 60px;
@@ -128,11 +128,40 @@
 
     // iphone
     @media (max-width: 767.98px) {
-        .hot_sale{
-            .col-lg-7{
-                margin-bottom: 30px;
+        main{
+            .product_images{
+                padding-bottom: 20px;
+                .control{
+                    margin-left: -5px;
+                    .control_bt{
+                        padding: 26px 15px 26px 8px;
+                    }
+                }
+            }
+            .product_intro{
+                padding-top: 20px;
+                .social{
+                    a{
+                        display: block;
+                        margin: 10px 0;
+                    }
+                }
+            }
+            .info{
+                .nav-link{
+                        font-size: 14px;
+                }
+            }
+
+        }
+        footer{
+            .main_footer{
+                .subscribe{
+                    text-align: center !important;
+                }
             }
         }
+        
     }
 
     // ipad
