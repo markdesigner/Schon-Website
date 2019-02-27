@@ -6,6 +6,8 @@
 @import "404page.less";
 @import "product-list.less";
 @import "product-detail.less";
+@import "shopping-cart.less";
+
 
 
 
@@ -73,7 +75,9 @@ a {
     font-size: calc(14rem/16);
     ;
     background-color: @top-bar-grey;
-
+&.no_bg{
+    background: transparent;
+}
     .nav-item {
 
 
@@ -284,7 +288,7 @@ a {
 
 }
 
-.cover.grey_pad {
+.grey_pad {
 
     background-color: #f4f4f4;
     background-image: none;
@@ -556,7 +560,10 @@ article {
 footer {
     .container-fluid {
         background-color: #f6f6f6;
-
+        padding-top: 50px;
+        &.middle_size{
+            max-width: 1600px;
+        }
         .main_footer {
             padding-top: calc(20rem/16);
             ;

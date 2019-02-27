@@ -1243,7 +1243,6 @@
 }
 .product-detail footer .container-fluid {
   padding-top: 50px;
-  max-width: 1600px;
 }
 @media (max-width: 767.98px) {
   .product-detail main .product_images {
@@ -1277,6 +1276,161 @@
     margin-bottom: 100px;
   }
 }
+.shopping-cart .header_wrap .grey_pad .headline {
+  font-size: 36px;
+  margin-top: 40px;
+}
+.shopping-cart .header_wrap .grey_pad .breadcrumb {
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+.shopping-cart .navigation .number {
+  border: solid 2px #dbdbdb;
+  color: #9f9f9f;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  z-index: 2;
+}
+.shopping-cart .navigation .line {
+  line-height: 70px;
+  color: #EFEFEF;
+  z-index: -1;
+}
+.shopping-cart .navigation .title {
+  font-size: 12px;
+  width: 90px;
+  font-weight: 700;
+  text-align: center;
+}
+.shopping-cart .product {
+  margin-bottom: 40px;
+}
+.shopping-cart .product .table thead th {
+  border-top: none;
+  color: #808080;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.shopping-cart .product .table tr th img {
+  width: 106px;
+  height: 106px;
+}
+.shopping-cart .product .table tr td {
+  vertical-align: middle;
+}
+.shopping-cart .product .table tr .name {
+  color: #808080;
+  font-weight: 600;
+}
+.shopping-cart .product .table tr .price {
+  font-weight: 600;
+}
+.shopping-cart .product .table tr .total {
+  font-weight: 600;
+}
+.shopping-cart .product .table tr .cancel {
+  font-weight: 800;
+  font-size: 20px;
+  color: #f53434;
+}
+.shopping-cart .product .table tr .quantity {
+  padding-left: 20px;
+}
+.shopping-cart .product .table tr .custom-select {
+  width: 32%;
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+.shopping-cart .discount_code .code_input {
+  font-size: 14px;
+  border-radius: 0;
+  padding: 18px 5px 18px 16px;
+}
+.shopping-cart .discount_code .apply {
+  background-color: #c8a760;
+  color: white;
+  border-radius: 0;
+  padding: 5px 40px;
+}
+.shopping-cart .discount_code .input {
+  margin-bottom: 60px;
+}
+.shopping-cart .discount_code .user_input .col-8 {
+  padding-right: 10px;
+}
+.shopping-cart .discount_code .user_input .col-4 {
+  padding-left: 0;
+}
+.shopping-cart .calculate .district select {
+  margin-bottom: 15px;
+  height: 50px;
+  color: #808080;
+}
+.shopping-cart .calculate .district .update {
+  background-color: #f4f4f4;
+  color: #808080;
+}
+.shopping-cart .calculate .summary .block {
+  border: solid 1px #dbdbdb;
+}
+.shopping-cart .calculate .summary .wrap {
+  padding: 30px 40px;
+}
+.shopping-cart .calculate .summary tbody .first {
+  border-top: none;
+}
+.shopping-cart .calculate .summary tbody th {
+  color: #808080;
+  font-weight: 500;
+}
+.shopping-cart .calculate .summary tbody td {
+  text-align: right;
+  font-weight: 600;
+}
+.shopping-cart .calculate .summary .checkout {
+  background-color: #88bd6e;
+  color: white;
+  border-radius: 0;
+  margin-top: 10px;
+}
+@media (max-width: 767.98px) {
+  .shopping-cart main .product_images {
+    padding-bottom: 20px;
+  }
+  .shopping-cart main .product_images .control {
+    margin-left: -5px;
+  }
+  .shopping-cart main .product_images .control .control_bt {
+    padding: 26px 15px 26px 8px;
+  }
+  .shopping-cart main .product_intro {
+    padding-top: 20px;
+  }
+  .shopping-cart main .product_intro .social a {
+    display: block;
+    margin: 10px 0;
+  }
+  .shopping-cart main .info .nav-link {
+    font-size: 14px;
+  }
+  .shopping-cart footer .main_footer .subscribe {
+    text-align: center !important;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .shopping-cart aside .hot_sale .col-md-3 {
+    margin-bottom: 30px;
+  }
+  .shopping-cart .page_number {
+    margin-bottom: 100px;
+  }
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -1299,6 +1453,9 @@ a:hover {
 .short_info {
   font-size: calc(14rem/16);
   background-color: #282828;
+}
+.short_info.no_bg {
+  background: transparent;
 }
 .short_info .nav-item {
   color: #a1a1a1;
@@ -1443,7 +1600,7 @@ a:hover {
   color: #717171;
   font-size: calc(12rem/16);
 }
-.cover.grey_pad {
+.grey_pad {
   background-color: #f4f4f4;
   background-image: none;
 }
@@ -1641,6 +1798,10 @@ article .blog_meta .readmore {
 }
 footer .container-fluid {
   background-color: #f6f6f6;
+  padding-top: 50px;
+}
+footer .container-fluid.middle_size {
+  max-width: 1600px;
 }
 footer .container-fluid .main_footer {
   padding-top: calc(20rem/16);

@@ -37,6 +37,13 @@
 		"oAP": "/blog-postlist.html",
 		"oF": 0
 		},
+	"/checkout.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/checkout.html",
+		"oF": 0
+		},
 	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -266,6 +273,23 @@
 		"oA": 1,
 		"oAP": "/css/contact.css",
 		"oF": 2,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/shopping-cart.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/shopping-cart.css",
+		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
 		"sI": 0,
@@ -1034,6 +1058,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/shopping-cart.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/shopping-cart.html",
+		"oF": 0
 		}
 	},
 "hooks": [
