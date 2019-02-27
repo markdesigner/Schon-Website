@@ -51,9 +51,8 @@
         }
 
         .line {
-            line-height: 70px;
+            width: 80px;
             color: #EFEFEF;
-            z-index: -1;
         }
 
         .title {
@@ -61,6 +60,13 @@
             width: 90px;
             font-weight: 700;
             text-align: center;
+        }
+        hr{
+            margin-top: 40px;
+        }
+        .wrap{
+            max-width: 500px;
+            margin: 0 auto;
         }
     }
 
@@ -194,6 +200,36 @@
     // iphone
     @media (max-width: 767.98px) {
        main{
+           .navigation{
+               .wrap{
+                   max-width: 300px;
+                   .number{
+                       font-size: 12px;
+                       width: 60px;
+                       height: 60px;
+                       line-height: 60px;
+
+                   }
+                   .title{
+                       font-size: 12px;
+                   }
+                   .one{
+                    margin-right: -28px;
+                   }
+                   .two{
+                    margin-right: -28px;
+                   }
+                   .three{
+                    margin-right: -28px;
+                   }
+                   .line{
+                       width: 25px;
+                   }
+                   hr{
+                       margin-top: 34px;
+                   }
+               }
+           }
            .summary{
                .title{
                    margin-top: 40px;
