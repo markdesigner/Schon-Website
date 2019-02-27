@@ -66,5 +66,5 @@ blog主頁製作完成RWD部分也好了。因為blog的靜態的部分構造較
 最後調整來調整去，差不多到位了。然而小三角形目前用absolute定位，只要螢幕稍微調整，就不會對到products。直覺的想法是直接綁到products的button底下，然而，又要是modal，點了才一起顯示，目前還不知道怎麼解決。
 
 2019.2.27
-前幾天有許多進度，但沒有記下，今天來做個紀錄。今天把shopping cart desktop RWD都完成，整個算是順利，因為很多東西是延用之前的，然而在圈圈的進度表卡比較久。原本是用grid去做，後來會跑版。所以換成一般的float去做。而直線是用<hr> margin-top推下來完成的。  另外把checkout的html草版架構好了。下週來把它css雕好。
+前幾天有許多進度，但沒有記下，今天來做個紀錄。今天把shopping cart desktop RWD都完成，整個算是順利，因為很多東西是延用之前的，然而在圈圈的進度表卡比較久。原本是用grid去做，後來會跑版。所以換成一般的float去做。而直線是用 \"hr\" margin-top推下來完成的。  另外把checkout的html草版架構好了。下週來把它css雕好。
 另外前幾天完成的是 product-list以及product-detail，算是整個作品複雜度比較高的部分。花了滿多時間做的。也各自有js的運用。還好最後有順利完成。也讓我更了解owl-carousel的運用。
