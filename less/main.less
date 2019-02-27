@@ -7,12 +7,7 @@
 @import "product-list.less";
 @import "product-detail.less";
 @import "shopping-cart.less";
-
-
-
-
-
-
+@import "checkout.less";
 
 // 以上為import
 
@@ -55,7 +50,8 @@ body {
     }
 
     button,
-    input,a {
+    input,
+    a {
         outline: none !important;
         box-shadow: none !important;
     }
@@ -75,9 +71,11 @@ a {
     font-size: calc(14rem/16);
     ;
     background-color: @top-bar-grey;
-&.no_bg{
-    background: transparent;
-}
+
+    &.no_bg {
+        background: transparent;
+    }
+
     .nav-item {
 
 
@@ -118,15 +116,17 @@ a {
                 transition: all .4s ease;
 
                 &:hover {
-                    color:  #c8a760 !important;
+                    color: #c8a760 !important;
                 }
             }
 
         }
-        button.products_dropdown{
+
+        button.products_dropdown {
             background: none;
             border: none;
         }
+
         #products-modal {
             .modal-dialog {
 
@@ -254,11 +254,62 @@ a {
 
 }
 
-.cover {
-    &.image{
-        background-image: url(../pics/contact_pad.png);
-    background-size: cover;
+.header_wrap {
+
+    .grey_pad {
+        .headline {
+            font-size: 36px;
+            margin-top: 40px;
+        }
+
+        .breadcrumb {
+            justify-content: flex-start;
+            padding-bottom: 30px;
+        }
     }
+}
+.navigation {
+
+    .number {
+        border: solid 2px @grey-text;
+        color: #9f9f9f;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 50%;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        z-index: 2;
+    }
+
+    .line {
+        width: 80px;
+        color: #EFEFEF;
+    }
+   
+
+    .title {
+        font-size: 12px;
+        width: 90px;
+        font-weight: 700;
+        text-align: center;
+        color:#9f9f9f;
+    }
+    hr{
+        margin-top: 40px;
+    }
+    .wrap{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+.cover {
+    &.image {
+        background-image: url(../pics/contact_pad.png);
+        background-size: cover;
+    }
+
     .title {
         font-weight: 600;
         letter-spacing: 1px;
@@ -268,6 +319,7 @@ a {
         margin-bottom: -6px;
     }
 }
+
 .breadcrumb {
     justify-content: center;
     background-color: transparent;
@@ -287,6 +339,14 @@ a {
     }
 
 }
+.wrap_check{
+    .checkout{
+        background-color: #88bd6e;
+        color:white;
+        border-radius: 0;
+        margin-top: 10px;
+    }
+}
 
 .grey_pad {
 
@@ -294,6 +354,7 @@ a {
     background-image: none;
 
 }
+
 .moving_products {
     position: relative;
     padding-bottom: 73px;
@@ -302,7 +363,7 @@ a {
     .words {
         text-align: left;
 
-      
+
 
         .title {
             font-size: 14px;
@@ -327,6 +388,7 @@ a {
         }
     }
 }
+
 .best_seller {
     transition: all .5s ease;
     position: relative;
@@ -406,8 +468,8 @@ a {
             color: @white_color;
             background-color: @black;
             position: absolute;
-            top:45px;
-            left:0;
+            top: 45px;
+            left: 0;
             padding: 3px 5px;
         }
 
@@ -561,9 +623,11 @@ footer {
     .container-fluid {
         background-color: #f6f6f6;
         padding-top: 50px;
-        &.middle_size{
+
+        &.middle_size {
             max-width: 1600px;
         }
+
         .main_footer {
             padding-top: calc(20rem/16);
             ;
@@ -718,20 +782,21 @@ footer {
                             border-bottom-right-radius: 200px;
                             color: @white_color;
                         }
-                        &.hollow{
 
-                                input.user_email {
-                                    background-color: transparent;
-                                    border: 1px solid;
-                                    border-right: none;
-                                }
-            
-                                button.sub_bt {
-                                    background-color: transparent;
-                                    border-left: none;
-                                    color: @footer_link ;
-                                }
-                            
+                        &.hollow {
+
+                            input.user_email {
+                                background-color: transparent;
+                                border: 1px solid;
+                                border-right: none;
+                            }
+
+                            button.sub_bt {
+                                background-color: transparent;
+                                border-left: none;
+                                color: @footer_link ;
+                            }
+
                         }
                     }
 
@@ -820,14 +885,17 @@ footer {
 .rounded_bt {
     border-radius: 25px !important;
 }
-.circle_bt{
+
+.circle_bt {
     border-radius: 50% !important;
 }
-.square_bt{
+
+.square_bt {
     border-radius: 0 !important;
 }
-.noborder{
-    border:none !important;
+
+.noborder {
+    border: none !important;
 }
 
 .star {
@@ -839,6 +907,7 @@ footer {
         color: #ededed;
     }
 }
+
 .social {
     margin: 40px 50px 0 0;
 
@@ -846,10 +915,12 @@ footer {
         color: #8f8f8f;
     }
 }
+
 .red_round_bt {
     color: @white_color;
     background-color: #ff8283;
 }
+
 .strong_black {
     font-size: 22px;
     font-weight: 600;
@@ -884,19 +955,21 @@ footer {
             max-width: 328px;
         }
     }
+
     .header nav #products-modal .modal-dialog {
         margin: 35% auto 0 auto;
 
-        #triangle{
+        #triangle {
             display: none;
         }
-        .modal-body{
-            .menu{
+
+        .modal-body {
+            .menu {
                 padding-bottom: 0;
             }
         }
-        
-        .hot_products{
+
+        .hot_products {
             display: none;
         }
     }

@@ -19,10 +19,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>Schon Shopping Cart</title>
+    <title>Schon Checkout</title>
 </head>
 
-<body class="shopping-cart">
+<body class="checkout">
     <section class="header_wrap">
         <div class="grey_pad">
             <div class="container">
@@ -110,7 +110,7 @@
                                     <li class="nav-item shopping_cart">
 
                                         <a class="nav-link " href="#"><i class="fas fa-shopping-bag mr-2"></i>
-                                            <div class="word"><strong>SHOPPING CART</strong>
+                                            <div class="word"><strong>SHOPPINT CART</strong>
                                                 <br>3 items
                                                 $74.00
                                             </div>
@@ -125,173 +125,178 @@
                         </nav>
                     </div>
                 </header>
-                <h2 class="headline strong_black text-center">SHOPPING CART</h2>
+                <h2 class="headline strong_black text-center">CHECKOUT</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="product-list.html">Products</a></li>
-                        <li class="breadcrumb-item" aria-current="page"><a href="product-detail.html">Chair</a></li>
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="checkout.html">CheckOut</a></li>
                     </ol>
                 </nav>
             </div>
         </div>
     </section>
+    <section class="navigation">
+        <div class="container">
+            <div class="wrap clearfix">
+                <div class="one float-left">
+                    <p class="number">01</p>
+                    <p class="title">Shopping Cart</p>
+
+
+                </div>
+                <div class="line float-left mx-2">
+                    <hr>
+                </div>
+                <div class="two float-left">
+                    <p class="number">02</p>
+                    <p class="title">Check Out</p>
+
+
+                </div>
+                <div class="line float-left mx-2">
+                    <hr>
+                </div>
+
+                <div class="three float-left">
+                    <p class="number">03</p>
+                    <p class="title">Order Complete</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <main>
-        <section class="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-md-3"></div>
-                    <div class="col-12 col-md-6">
-                        <div class="row nav">
-                            <div class="col-2">
-                                <p class="number">01</p>
-                                <p class="title">Shopping Cart</p>
+        <section class="main_info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 user_form">
+                    <p class="title">BILLING DETAILS</p>
+                    <select class="country custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <input type="text" class="name float-left w-50 form-control" placeholder="Name" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="text" class="last_name w-50 form-control" placeholder="Last Name" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="text" class="company_name form-control" placeholder="Company Name" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <textarea class="address form-control" placeholder="Address" aria-label="With textarea"></textarea>
+                    <input type="text" class="town form-control" placeholder="Town/City" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="text" class="State form-control" placeholder="State/Country" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="text" class="zip form-control" placeholder="Postcode/Zip" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="text" class="email float-left w-50 form-control" placeholder="Email Address"
+                        aria-label="Name" aria-describedby="basic-addon2">
+                    <input type="text" class="phone w-50 form-control" placeholder="Phone Number" aria-label="Name"
+                        aria-describedby="basic-addon2">
+                    <input type="checkbox" class="ship" aria-label="Checkbox for following text input">Ship to a
+                    different address?
+                    <textarea class="notes form-control" placeholder="Order Notes" aria-label="With textarea"></textarea>
+
+                </div>
+                <div class="col-md-6 sheet">
+                    <div class="container">
+                        <div class="grey_pad">
+                            <div class="order mb-5">
+                                <p class="title mb-5">YOUR ORDER</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>PRODUCTS</th>
+                                            <th>TOTALS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th class="first" scope="row">Marvelous Modern 3 Seater x1</th>
+                                            <td class="first"> $299,00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Bombi Chair x1</th>
+                                            <td>$532,00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">CART TOTAL</th>
+                                            <td>$532,00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">SHIPPING</th>
+                                            <td>Free Shipping</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">ORDER TOTAL</th>
+                                            <td>1299,00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <div class="col-2 line">__________</div>
-                            <div class="col-2">
-                                <p class="number">02</p>
-                                <p class="title">Check Out</p>
+                            <div class="payment">
+                                <p class="title mb-5">PAYMENT METHODS</p>
+                                <div class="transfer">DIRECT BANK TRANSFER<input type="checkbox" aria-label="Checkbox for following text input"></div>
+                                <p class="description border-top">Make your payment directly into our bank account.
+                                    Please
+                                    use your order id as the payment reference. Your order wont be shippided until the
+                                    funds have cleared in our account</p>
+                                <div class="check">CHECK PAYMENT<input type="checkbox" aria-label="Checkbox for following text input"></div>
+                                <div class="paypal border-top">PAYPAL<input type="checkbox" aria-label="Checkbox for following text input"></div>
+
+
                             </div>
-                            <div class="col-2 line">__________</div>
-                            <div class="col-2">
-                                <p class="number">03</p>
-                                <p class="title">Order Complete</p>
-                            </div>
+
+
+                        </div>
+                        <div class="read">I’ve read & accept the <strong>terms & conditions</strong> <input type="checkbox" aria-label="Checkbox for following text input"></div>
+                        <div class="wrap_check d-flex"> <a class="btn checkout ml-auto" href="checkout.html">PAY
+                                MONEY <i class="fas fa-check"></i></a>
                         </div>
                     </div>
-                    <div class="offset-md-3"></div>
-                </div>
-            </div>
-        </section>
-        <section class="product">
-            <div class="container">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col image">PRODUCT</th>
-                            <th scope="col name"></th>
-                            <th scope="col price">PRICE</th>
-                            <th scope="col quantity">QUANTITY</th>
-                            <th scope="col total">TOTAL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                <img src="http://unsplash.it/106/106" alt="product">
-                            </th>
-                            <td>Marvelous Modern 3 Seater</td>
-                            <td>$599,00</td>
-                            <td>
-                                <select class="custom-select " id="inlineFormCustomSelectPref">
-                                    <option selected>1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                </select>
-                            </td>
-                            <td>$599,00</td>
-                            <td>&times;</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <img src="http://unsplash.it/106/106" alt="product">
-                            </th>
-                            <td>Marvelous Modern 3 Seater</td>
-                            <td>$599,00</td>
-                            <td>
-                                <select class="custom-select " id="inlineFormCustomSelectPref">
-                                    <option selected>1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                </select>
-                            </td>
-                            <td>$599,00</td>
-                            <td>&times;</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <img src="http://unsplash.it/106/106" alt="product">
-                            </th>
-                            <td>Marvelous Modern 3 Seater</td>
-                            <td>$599,00</td>
-                            <td>
-                                <select class="custom-select " id="inlineFormCustomSelectPref">
-                                    <option selected>1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                </select>
-                            </td>
-                            <td>$599,00</td>
-                            <td>&times;</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <hr>
-            </div>
-        
-        </section>
-        <section class="discount_code">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-md-4"></div>
-                    <div class="col-12 col-md-4">
-                            <div class="row">
-                                    <div class="col-8">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <button type="submit" class="send btn btn-link px-3">Submit</button>
-                                    </div>
-                                </div>
-                    </div>
-                    <div class="offset-md-4"></div>
-                </div>
-               <hr>
-            </div>
-        </section>
-        <section class="calculate">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="title black_strong">CALCULATE SHIPPING</p>
-                        <select class="custom-select country" id="inlineFormCustomSelectPref">
-                                <option selected>Select Country</option>
-                                <option value="2">Taiwan</option>
-                                <option value="3">USA</option>
-                                <option value="4">Japna</option>
-                                <option value="4">Britian</option>
-                            </select>
-                            <select class="custom-select state" id="inlineFormCustomSelectPref">
-                                    <option selected>State / Province</option>
-                                    <option value="2">Taichung</option>
-                                    <option value="3">Tainan</option>
-                                    <option value="4">Kaohsiung</option>
-                                    <option value="4">Taipei</option>
-                                </select>
-                                <select class="custom-select country" id="inlineFormCustomSelectPref">
-                                        <option selected>Zip / Postal Code</option>
-                                        <option value="2">403</option>
-                                        <option value="3">401</option>
-                                        <option value="4">402</option>
-                                        <option value="4">407</option>
-                                    </select>
-                                    <button type="submit" class="send btn btn-link px-3">UPDATE TOTAL <i class="fas fa-sync-alt"></i></button>
 
-        
-                    </div>
-                    <div class="col-md-6"></div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
     <footer>
         <div class="container-fluid middle_size">
             <div class="container">
                 <div class="main_footer">
+                    <div class="guarantee">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <i class="fas fa-plane float-left"></i>
+                                <div class="words float-right">
+                                    <span class="font-weight-bold title">FREE SHIPPING</span> <br>
+                                    <span class="description">Free shipping on all US order</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <i class="far fa-life-ring"></i>
+                                <div class="words float-right">
+                                    <span class="font-weight-bold title">SUPPROT 24/7</span> <br>
+                                    <span class="description">We support 24 hours a day</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <i class="fas fa-box-open"></i>
+                                <div class="words float-right">
+                                    <span class="font-weight-bold title">GIFT CARDS</span> <br>
+                                    <span class="description">Give perfect gift</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <i class="far fa-money-bill-alt"></i>
+                                <div class="words float-right">
+                                    <span class="title font-weight-bold">PAYMENT 100% SECURE</span> <br>
+                                    <span class="description">Payment 100% secure</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
                     <div class="row footer_info">
                         <div class="col-md-3 contact">
                             <img class="logo" src="pics/logo_grey.png" alt="logo">
@@ -355,15 +360,10 @@
                         </div>
                         <div class="col-md-3 subscribe">
                             <p class="title">Sign Up Newsletter</p>
-                            <p class="description">Subscribe now to get 15% off
-                                on any product</p>
-                            <div class="input-group user_input hollow">
+                            <div class="input-group user_input">
                                 <input type="text" class="form-control user_email" placeholder=" Your email" aria-label="email"
                                     aria-describedby="email">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary sub_bt" type="button" id="subscribe"><i
-                                            class="fas fa-angle-right"></i></button>
-                                </div>
+                                <button class="btn btn-outline-secondary sub_bt " type="button" id="subscribe">Subscribe</button>
                             </div>
                             <p class="font-weight-bold follow">Follow Us</p>
                             <div class="social_icon">
@@ -397,6 +397,7 @@
 
         </div>
     </footer>
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
