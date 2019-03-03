@@ -56,8 +56,8 @@
                         <div class="input-group m-auto">
                             <input type="text" class="search form-control" placeholder="Search..." aria-label="Sizing example input"
                                 aria-describedby="inputGroup-sizing-sm">
-                                <button type="button" class="mic_bt btn"><i class="fas fa-microphone"></i></button>
-                                <button type="button" class="search_bt btn" data-dismiss="modal"><i class="fas fa-search"></i></button>
+                            <button type="button" class="mic_bt btn"><i class="fas fa-microphone"></i></button>
+                            <button type="button" class="search_bt btn" data-dismiss="modal"><i class="fas fa-search"></i></button>
                         </div>
                         <button type="button" class="cancel btn" data-dismiss="modal">&times;</button>
                     </div>
@@ -91,7 +91,7 @@
                     <a class="nav-link" href="#">My Account</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Checkout</a>
+                    <a class="nav-link" href="checkout.html">Checkout</a>
                 </li>
             </ul>
         </div>
@@ -113,26 +113,201 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+
+                            <button type="button" class="nav-link mx-auto products_dropdown" data-toggle="modal"
+                                data-target="#products-modal">
                                 PRODUCTS <i class="fas fa-angle-down"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                   
-                            </div>
+                            </button>
+                            <div id="triangle"></div>
                         </li>
+                        <div class="modal fade" id="products-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content text-left">
+                                    <div id="triangle"></div>
+                                    <div class="modal-body">
+                                        <div class="row menu">
+                                            <div class="col-md-6 col-lg categories">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item title">SOFAS & ARMCHAIRS</li>
+                                                    <hr class="short_strong text-left mr-auto ml-0">
+                                                    <li class="list-group-item"><a href="product-list.html">Sofas</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Armchairs</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Poufs</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Footstools</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Lounge Chairs</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg categories">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item title">TABLES & CHAIRS</li>
+                                                    <hr class="short_strong text-left mr-auto ml-0">
+                                                    <li class="list-group-item"><a href="product-list.html">Chairs</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Stools</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Benches</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Coffe Tables</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Console Tables</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Secretary Desks</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg categories">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item title">KITCHEN FURNITURE</li>
+                                                    <hr class="short_strong text-left mr-auto ml-0">
+                                                    <li class="list-group-item"><a href="product-list.html">Kitchen Taps</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Breakfast time</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Cooking</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Food Storage Boxes</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Spice Jars</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Napskins</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Oven Gloves</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg categories">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item title">OFFICE</li>
+                                                    <hr class="short_strong text-left mr-auto ml-0">
+                                                    <li class="list-group-item"><a href="product-list.html">office Desks</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Meeting Tables</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Task Chairs</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg categories">
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item title">LIGHTING</li>
+                                                    <hr class="short_strong text-left mr-auto ml-0">
+                                                    <li class="list-group-item"><a href="product-list.html">FLOOR Lamps</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Wall Lamps</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Ceiling Lamps</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Table Lamps</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Spotlights</a></li>
+                                                    <li class="list-group-item"><a href="product-list.html">Light Letters</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row hot_products">
+                                            <div class="col-md-12 col-lg-6 pb-4">
+                                                <div class="hot-1 position-relative">
+                                                    <img class="photo" src="pics/products_dropdown/product-1.png" alt="hot-product-1">
+                                                    <div class="words position-absolute">
+                                                        <h3 class="hot-1-title text-center">SOFAS</h3>
+                                                        <p class="discount text-center">50% OFF</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6">
+                                                <div class="hot-2 position-relative">
+                                                    <img class="hot-2" src="pics/products_dropdown/product-2.png" alt="hot-product-2">
+                                                    <div class="words position-absolute">
+                                                        <h4 class="hot-2-title">TOTEM FLOOR LAMP</h4>
+                                                        <a class="action" href="#">SHOP NOW</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+
+                            <button type="button" class="nav-link mx-auto products_dropdown" data-toggle="modal"
+                                data-target="#products-modal">
                                 PAGES <i class="fas fa-angle-down"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                            </button>
+                            <div id="triangle"></div>
                         </li>
+                        <div class="modal fade" id="products-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content text-left">
+                                <div id="triangle"></div>
+                                <div class="modal-body">
+                                    <div class="row menu">
+                                        <div class="col-md-6 col-lg categories">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item title">SOFAS & ARMCHAIRS</li>
+                                                <hr class="short_strong text-left mr-auto ml-0">
+                                                <li class="list-group-item"><a href="product-list.html">Sofas</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Armchairs</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Poufs</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Footstools</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Lounge Chairs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg categories">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item title">TABLES & CHAIRS</li>
+                                                <hr class="short_strong text-left mr-auto ml-0">
+                                                <li class="list-group-item"><a href="product-list.html">Chairs</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Stools</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Benches</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Coffe Tables</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Console Tables</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Secretary Desks</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg categories">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item title">KITCHEN FURNITURE</li>
+                                                <hr class="short_strong text-left mr-auto ml-0">
+                                                <li class="list-group-item"><a href="product-list.html">Kitchen Taps</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Breakfast time</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Cooking</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Food Storage Boxes</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Spice Jars</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Napskins</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Oven Gloves</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg categories">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item title">OFFICE</li>
+                                                <hr class="short_strong text-left mr-auto ml-0">
+                                                <li class="list-group-item"><a href="product-list.html">office Desks</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Meeting Tables</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Task Chairs</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg categories">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item title">LIGHTING</li>
+                                                <hr class="short_strong text-left mr-auto ml-0">
+                                                <li class="list-group-item"><a href="product-list.html">FLOOR Lamps</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Wall Lamps</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Ceiling Lamps</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Table Lamps</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Spotlights</a></li>
+                                                <li class="list-group-item"><a href="product-list.html">Light Letters</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row hot_products">
+                                        <div class="col-md-12 col-lg-6 pb-4">
+                                            <div class="hot-1 position-relative">
+                                                <img class="photo" src="pics/products_dropdown/product-1.png" alt="hot-product-1">
+                                                <div class="words position-absolute">
+                                                    <h3 class="hot-1-title text-center">SOFAS</h3>
+                                                    <p class="discount text-center">50% OFF</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-6">
+                                            <div class="hot-2 position-relative">
+                                                <img class="hot-2" src="pics/products_dropdown/product-2.png" alt="hot-product-2">
+                                                <div class="words position-absolute">
+                                                    <h4 class="hot-2-title">TOTEM FLOOR LAMP</h4>
+                                                    <a class="action" href="#">SHOP NOW</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                         <li class="nav-item">
@@ -147,7 +322,8 @@
                         <li class="nav-item search">
                             <button type="button" class="btn" data-toggle="modal" data-target="#search-modal">
                                 <i class="fas fa-search"></i>
-                            </button> </li>
+                            </button> 
+                        </li>
                         <li class="nav-item shopping_cart">
 
                             <a class="nav-link " href="shopping-cart.html"><i class="fas fa-shopping-bag mr-2"></i>
@@ -176,7 +352,9 @@
                         <h3 class="title">New</h3>
                         <p class="subtitle">Collection</p>
                         <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
-                        <h4 class="price">$ 79.00</h4>
+                        <h4 class="price">
+                            <a href="product-detail.html"> $ 79.00</a>
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
@@ -214,7 +392,7 @@
                                     </div>
                                     <div class="bottom_words">
                                         <h4 class="price">$ 99.00</h4>
-                                        <a class="shopnow" href="#">SHOP NOW</a>
+                                        <a class="shopnow" href="product-detail.html">SHOP NOW</a>
                                     </div>
 
                                 </div>
@@ -234,7 +412,7 @@
 
                                         <div class="price"><span>$ 129.00 </span><br> $ 99.00 </div>
                                     </div>
-                                    <div class="shopnow_angle"><a href="#">
+                                    <div class="shopnow_angle"><a href="product-detail.html">
                                             HURRY UP!<i class="fas fa-angle-right"></i>
                                         </a>
                                     </div>
@@ -257,7 +435,7 @@
                             <p class="category">Chairs</p>
                             <h3 class="title">ZIO FINNING CHAIR</h3>
                         </div>
-                        <div class="shopnow_angle"><a href="#">
+                        <div class="shopnow_angle"><a href="product-detail.html">
                                 <span>SHOP NOW</span><i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -269,7 +447,7 @@
                             <p class="category">Accessories / Lighting</p>
                             <h3 class="title">TOTEM FLOOR LAMP</h3>
                         </div>
-                        <div class="shopnow_angle"><a href="#">
+                        <div class="shopnow_angle"><a href="product-detail.html">
                                 <span>SHOP NOW</span><i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -476,7 +654,7 @@
                             <p class="description">Wall Decor</p>
                             <h3 class="title">CLOCKs</h3>
                         </div>
-                        <div class="shopnow_angle"><a href="#">
+                        <div class="shopnow_angle"><a href="product-detail.html">
                                 <span>VIEW</span><i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -487,7 +665,7 @@
                             <p class="description">Coffee Tables</p>
                             <h3 class="title">S.O.S BLOCKS</h3>
                         </div>
-                        <div class="shopnow_angle"><a href="#">
+                        <div class="shopnow_angle"><a href="product-detail.html">
                                 <span>VIEW</span><i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -498,7 +676,7 @@
                             <p class="description">Floor Lamps</p>
                             <h3 class="title">ROCKING LAMP</h3>
                         </div>
-                        <div class="shopnow_angle"><a href="#">
+                        <div class="shopnow_angle"><a href="product-detail.html">
                                 <span>VIEW</span><i class="fas fa-angle-right"></i>
                             </a>
                         </div>
@@ -951,12 +1129,12 @@
                                 <div class="col-md-4 categories">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item title">Categories</li>
-                                        <li class="list-group-item"><a href="#">Chairs</a></li>
-                                        <li class="list-group-item"><a href="#">Sofas</a></li>
-                                        <li class="list-group-item"><a href="#">Living</a></li>
-                                        <li class="list-group-item"><a href="#">Bedroom</a></li>
-                                        <li class="list-group-item"><a href="#">Tables</a></li>
-                                        <li class="list-group-item"><a href="#">New</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">Chairs</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">Sofas</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">Living</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">Bedroom</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">Tables</a></li>
+                                        <li class="list-group-item"><a href="product-list.html">New</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4">
@@ -965,19 +1143,19 @@
                                         <li class="list-group-item"><a href="about.html">About us</a></li>
                                         <li class="list-group-item"><a href="contact.html">Contact Us</a></li>
                                         <li class="list-group-item"><a href="blog-postlist.html">Blog</a></li>
-                                        <li class="list-group-item"><a href="#">Privacy Policy</a></li>
-                                        <li class="list-group-item"><a href="#">Customer Service</a></li>
+                                        <li class="list-group-item"><a href="page404.html">Privacy Policy</a></li>
+                                        <li class="list-group-item"><a href="page404.html">Customer Service</a></li>
                                         <li class="list-group-item"><a href="#">FAQs</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-4">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item title">Account</li>
-                                        <li class="list-group-item"><a href="#">My Account</a></li>
-                                        <li class="list-group-item"><a href="#">Order Tracking</a></li>
-                                        <li class="list-group-item"><a href="#">Wish List</a></li>
-                                        <li class="list-group-item"><a href="#">Shopping Cart</a></li>
-                                        <li class="list-group-item"><a href="#">Checkout</a></li>
+                                        <li class="list-group-item"><a href="page404.html">My Account</a></li>
+                                        <li class="list-group-item"><a href="page404.html">Order Tracking</a></li>
+                                        <li class="list-group-item"><a href="page404.html">Wish List</a></li>
+                                        <li class="list-group-item"><a href="shopping-cart.html">Shopping Cart</a></li>
+                                        <li class="list-group-item"><a href="checkout.html">Checkout</a></li>
 
                                     </ul>
                                 </div>
@@ -988,7 +1166,7 @@
                             <div class="input-group user_input">
                                 <input type="text" class="form-control user_email" placeholder=" Your email" aria-label="email"
                                     aria-describedby="email">
-                                    <button class="btn btn-outline-secondary sub_bt " type="button" id="subscribe">Subscribe</button>
+                                <button class="btn btn-outline-secondary sub_bt " type="button" id="subscribe">Subscribe</button>
                             </div>
                             <p class="font-weight-bold follow">Follow Us</p>
                             <div class="social_icon">
