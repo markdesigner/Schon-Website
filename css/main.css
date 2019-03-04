@@ -1213,11 +1213,6 @@
 .shopping-cart .product .table tr .total {
   font-weight: 600;
 }
-.shopping-cart .product .table tr .cancel {
-  font-weight: 800;
-  font-size: 20px;
-  color: #f53434;
-}
 .shopping-cart .product .table tr .quantity {
   padding-left: 20px;
 }
@@ -1588,6 +1583,41 @@ a:hover {
 .header_wrap .grey_pad .breadcrumb {
   justify-content: flex-start;
   padding-bottom: 30px;
+}
+.shopping_cart .dropdown-menu {
+  height: 520px;
+  width: 415px;
+  top: 150%;
+  left: -70%;
+}
+.shopping_cart .dropdown-menu .container {
+  padding: 40px;
+  font-size: 14px;
+  color: #808080;
+}
+.shopping_cart .dropdown-menu .container .price {
+  color: #494949;
+  font-weight: 600;
+}
+.shopping_cart .dropdown-menu .container .total {
+  font-weight: 600;
+}
+.shopping_cart .dropdown-menu .container .col-2 {
+  align-self: center;
+}
+.shopping_cart .dropdown-menu .container button {
+  background-color: white;
+  border: solid 2px black;
+}
+.shopping_cart .dropdown-menu .container button a {
+  color: black;
+  font-weight: 600;
+}
+.shopping_cart .dropdown-menu .container button:hover {
+  background-color: black;
+}
+.shopping_cart .dropdown-menu .container button:hover a {
+  color: white;
 }
 .search_box .modal-dialog {
   max-width: 1200px;
@@ -2159,6 +2189,11 @@ footer.grey_pad .container-big {
   font-weight: 600;
   color: #494949;
   font-family: 'Montserrat', sans-serif;
+}
+.cancel {
+  font-weight: 800;
+  font-size: 20px;
+  color: #f53434;
 }
 @media (max-width: 767.98px) {
   .short_info .info_container {

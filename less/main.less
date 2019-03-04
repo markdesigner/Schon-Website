@@ -268,6 +268,45 @@ a {
         }
     }
 }
+.shopping_cart{
+    .dropdown-menu{
+        
+        height: 520px;
+        width: 415px;
+        top: 150%;
+        left: -70%;
+        .container{
+            padding: 40px;
+            font-size: 14px;
+            color:@grey_deep_text;
+            .price{
+                color:@header_nav;
+                font-weight: 600;
+            }
+            .total{
+                font-weight: 600;
+            }
+            .col-2{
+                align-self:center;
+            }
+            button{
+                background-color: white;
+                border:solid 2px black;
+                a{
+                    color:black;
+                    font-weight: 600;
+                }
+                &:hover{
+                    background-color: black;
+                    a{
+                        color:white;
+                    }
+                }
+            }
+        }
+        
+    }
+}
 .search_box {
     .modal-dialog {
         max-width: 1200px;
@@ -1054,6 +1093,11 @@ footer {
     font-weight: 600;
     color: @header_nav;
     font-family: @mont;
+}
+.cancel {
+    font-weight: 800;
+    font-size: 20px;
+    color: @red_button;
 }
 
 // 以上為小元素設定 small-item 
