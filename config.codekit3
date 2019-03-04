@@ -193,23 +193,6 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/less/checkout.less": {
-		"aP": 0,
-		"bl": 0,
-		"eJ": 0,
-		"ft": 1,
-		"ie": 0,
-		"iI": 0,
-		"ma": 1,
-		"mS": 0,
-		"oA": 1,
-		"oAP": "/less/checkout.css",
-		"oF": 0,
-		"oS": 0,
-		"rwU": 0,
-		"sI": 0,
-		"sU": 0
-		},
 	"/less/contact.less": {
 		"aP": 0,
 		"bl": 0,
@@ -484,17 +467,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/pics/checkout_banner.png": {
-		"ft": 32768,
-		"iS": 525487,
-		"oA": 0,
-		"oAP": "/pics/checkout_banner.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/pics/clothes/jean-shirt/414566_sub1.jpg": {
 		"ft": 16384,
 		"iS": 150964,
@@ -599,83 +571,6 @@
 		"iS": 307200,
 		"oA": 0,
 		"oAP": "/pics/contact_pad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair1.png": {
-		"ft": 32768,
-		"iS": 111369,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair2.png": {
-		"ft": 32768,
-		"iS": 217492,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair3.png": {
-		"ft": 32768,
-		"iS": 190567,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair4.png": {
-		"ft": 32768,
-		"iS": 199235,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair5.png": {
-		"ft": 32768,
-		"iS": 199906,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair6.png": {
-		"ft": 32768,
-		"iS": 264446,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair6.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/pics/furniture/office chair/chair7.png": {
-		"ft": 32768,
-		"iS": 304467,
-		"oA": 0,
-		"oAP": "/pics/furniture/office chair/chair7.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

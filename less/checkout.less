@@ -46,6 +46,75 @@
         }
      }
    }
+   .main_info{
+       .row{
+        .title{
+            font-weight: 700;
+            font-size: 20px;
+            font-family: @mont;
+            color:black;
+           }
+       }
+   }
+   .user_form{
+      
+       &>select, input{
+           height: 50px;
+           margin-bottom: 15px;
+       }
+       .half{
+           width: 47%;
+
+       }
+       .name{
+           margin-right: 6%;
+       }
+       .email{
+        margin-right: 6%;
+       }
+       .ship_wrap{
+           height: inherit;
+           .overflow-control-description{
+               color:@grey_deep_text;
+           }
+       }
+       
+   }
+   .sheet{
+       color:@grey_deep_text;
+       .container{
+           padding: 50px;
+       }
+       .table{
+           th{
+               font-weight: 600;
+           }
+           td{
+               color:@header_nav;
+               font-weight: 600;
+           }
+       }
+       thead, .user_buy{
+           th, td{
+            border:none;
+           }
+        }
+        .user_buy{
+            font-size: 14px;
+            height: 12px;
+            line-height: 0px;
+        }
+        .payment{
+            .description{
+                font-size: 14px;
+                color:@grey_91;
+            }
+            &>div{
+                font-weight: 600;
+            }
+        }
+       
+   }
 
 
     //media query 
