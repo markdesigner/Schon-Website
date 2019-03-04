@@ -1382,7 +1382,7 @@
 .checkout .sheet .user_buy {
   font-size: 14px;
   height: 12px;
-  line-height: 0px;
+  line-height: 16px;
 }
 .checkout .sheet .payment .description {
   font-size: 14px;
@@ -1392,35 +1392,38 @@
   font-weight: 600;
 }
 @media (max-width: 767.98px) {
-  .checkout main .navigation .wrap {
+  .checkout .navigation .wrap {
     max-width: 300px;
   }
-  .checkout main .navigation .wrap .number {
+  .checkout .navigation .wrap .number {
     font-size: 12px;
     width: 60px;
     height: 60px;
     line-height: 60px;
   }
-  .checkout main .navigation .wrap .title {
+  .checkout .navigation .wrap .title {
     font-size: 12px;
   }
-  .checkout main .navigation .wrap .one {
+  .checkout .navigation .wrap .one {
     margin-right: -28px;
   }
-  .checkout main .navigation .wrap .two {
+  .checkout .navigation .wrap .two {
     margin-right: -28px;
   }
-  .checkout main .navigation .wrap .three {
+  .checkout .navigation .wrap .three {
     margin-right: -28px;
   }
-  .checkout main .navigation .wrap .line {
+  .checkout .navigation .wrap .line {
     width: 25px;
   }
-  .checkout main .navigation .wrap hr {
+  .checkout .navigation .wrap hr {
     margin-top: 34px;
   }
-  .checkout main .summary .title {
-    margin-top: 40px;
+  .checkout .sheet .grey_pad .container {
+    margin-top: 30px;
+  }
+  .checkout .sheet .grey_pad .container .user_buy {
+    line-height: 16px;
   }
   .checkout footer .main_footer .subscribe {
     text-align: center !important;
