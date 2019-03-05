@@ -1004,6 +1004,9 @@
   background-color: #b3b3b3;
   height: 8px;
 }
+.product-list main aside .filter .by_price .dash {
+  margin-left: -11px;
+}
 .product-list main aside .filter .by_price .irs-bar {
   background: #000 !important;
   height: 7px;
