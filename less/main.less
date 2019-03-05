@@ -131,7 +131,7 @@ a {
             .modal-dialog {
 
                 max-width: 70vw;
-                margin-top: 110px;
+                margin-top: 140px;
                 color: @grey_deep_text;
 
                 #triangle {
@@ -269,12 +269,13 @@ a {
     }
 }
 .shopping_cart{
+    z-index: 1000;
     .dropdown-menu{
         
         height: 520px;
-        width: 415px;
-        top: 150%;
-        left: -70%;
+        width: 400px;
+    top: 150%;
+    left: -116%;
         .container{
             padding: 40px;
             font-size: 14px;
@@ -1099,6 +1100,78 @@ footer {
     font-size: 20px;
     color: @red_button;
 }
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 25px 25px;
+    border-color: transparent transparent #ffffff transparent;
+    position: absolute;
+    transition: all .2s .25s ease;
+}
+#shopping_triangle{
+    top: -16px;
+    left: 200px;
+}
+#triangle_products{
+    top: 30px;
+    right: 35px;
+}
+#shopping_cart_shadow{
+    // visibility: hidden;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:100;
+    // transition: opacity .2s linear;
+}
+// .active_tri{
+//     visibility: visible !important;
+//         opacity: 1 !important;
+//         z-index: 10000;
+//         transform: translateY(15px);
+// }
+// .negative_tri{
+//     visibility: hidden;
+//     opacity: 0;
+//     z-index: 100000;
+
+// }
+#full_grey_pad{
+visibility: hidden;
+opacity: 0;
+background-color: #000;
+position: fixed;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+}
+.pad_active{
+    visibility: visible !important;
+    opacity: .5 !important;
+    z-index: 100 !important;
+}
+#shopping_menu{
+    transition: all .2s linear;
+}
+.shopping_cart_a{
+    z-index: 101;
+}
+
+// .show_shadow{
+//     visibility: visible !important;
+//     opacity: .5 !important;
+// }
+// .fade_shadow{
+//     visibility: hidden !important;
+//     opacity: 0 !important;
+// }
 
 // 以上為小元素設定 small-item 
 
@@ -1122,6 +1195,7 @@ footer {
 
 // iphone
 @media (max-width: 767.98px) {
+    
     .short_info {
         .info_container {
             max-width: 328px;
@@ -1145,9 +1219,6 @@ footer {
             display: none;
         }
     }
-
-
-
 
     footer {
         .guarantee {
@@ -1201,7 +1272,25 @@ footer {
         }
 
     }
+    // shopping cart 相關
+    .shopping_cart{
+        .triangle{
+            display: none !important;
+         }
+         #shopping_menu{
+            height: 680px;
+            width: 305px;
+         }
+         .view_cart{
+            margin-bottom: 20px;
+            margin-right: 0 !important;
+         }
+    }
+
+ 
 }
+
+
 
 // ipad
 @media (max-width: 991.98px)and (min-width:768px) {
