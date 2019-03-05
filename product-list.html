@@ -277,26 +277,14 @@
                             </div>
                             <hr>
                             <div class="by_price">
-                                <p class="description">
+                                <p class="description mb-0">
                                     Filter by Price
                                 </p>
-                                <div class="range_slider">
-                                <div id="slider-range"></div>
-                                <p>
-                                        <p class="tag float-left">Price</p>
-                                        <input class="price_display float-left" type="text" id="amount_min" >
-                                        <input class="price_display float-left" type="text" id="amount_max" >
-                                        <button type="button" class="filter_btn btn-dark">Filter</button>
-                                    </p>
+                                <input type="text" class="ion-range-slider" name="my_range"/>
+                                <div class="value mt-3"> <span class="mr-3" >Price </span> <input type="text" id="ion-min" class="price_display"><input type="text" id="ion-max" class="price_display"></span> 
                                 </div>
-                                <input type="text" class="js-range-slider" name="my_range" value=""
-        data-type="double"
-        data-min="0"
-        data-max="1000"
-        data-from="200"
-        data-to="500"
-        data-grid="true"
-    />
+                                <div class="search d-flex justify-content-center mt-3"><button type="button" class=" px-5 filter_btn btn-dark btn">Search</button></div> 
+                                
                             </div>
 
                         </div>

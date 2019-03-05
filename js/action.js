@@ -6,9 +6,29 @@ $(document).ready(function () {
     $('#full_grey_pad').click(function(e){
         $(this).removeClass('pad_active');
     })
-    $(".js-range-slider").ionRangeSlider({
-        skin: "round"
+
+    // Price Range Slider
+    $(".ion-range-slider").ionRangeSlider({
+        skin: "round",
+        grid:false,
+        type:"double",
+        min:100,
+        max:1000,
+        from:250,
+        to:600,
+        hide_min_max:true,
+        prefix:"$",
+        onChange: function (data) {
+            var ionmin=$('.irs-from').html();  
+        var ionmax=$('.irs-to').html();  
+        $('#ion-min').val(ionmin+ " " + "\u2014");
+        $('#ion-max').val(ionmax);
+            // fired then range slider is ready
+        },
+
     });
+    
+    
     
 // //  shopping cart nav
 

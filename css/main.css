@@ -1000,6 +1000,21 @@
   font-size: 14px ;
   border-radius: 5px;
 }
+.product-list main aside .filter .by_price .irs-line {
+  background-color: #b3b3b3;
+  height: 8px;
+}
+.product-list main aside .filter .by_price .irs-bar {
+  background: #000 !important;
+  height: 7px;
+}
+.product-list main aside .filter .by_price .irs-handle {
+  border-color: #000;
+}
+.product-list main aside .filter .by_price .irs-from,
+.product-list main aside .filter .by_price .irs-to {
+  display: none;
+}
 .product-list main aside .category > div {
   margin-bottom: -24px;
   color: #a0a0a0;
