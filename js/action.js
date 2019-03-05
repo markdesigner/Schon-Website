@@ -6,6 +6,9 @@ $(document).ready(function () {
     $('#full_grey_pad').click(function(e){
         $(this).removeClass('pad_active');
     })
+    $(".js-range-slider").ionRangeSlider({
+        skin: "round"
+    });
     
 // //  shopping cart nav
 

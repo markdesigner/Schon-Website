@@ -68,6 +68,16 @@
 		"oAP": "/css/bootstrap.min.css.map",
 		"oF": 0
 		},
+	"/css/ion.rangeSlider.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/ion.rangeSlider.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -676,6 +686,17 @@
 		"iS": 304467,
 		"oA": 0,
 		"oAP": "/pics/furniture/office chair/chair7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair8.png": {
+		"ft": 32768,
+		"iS": 327670,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
