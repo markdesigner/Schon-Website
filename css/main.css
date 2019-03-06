@@ -675,9 +675,21 @@
   width: 200px;
   margin-left: auto;
 }
+@media (max-width: 375px) {
+  .blog-postlist main .blog_meta .info > div {
+    float: none !important;
+  }
+}
 @media (max-width: 767.98px) {
+  .blog-postlist main .blog_thumbnail {
+    position: relative;
+  }
+  .blog-postlist main .date {
+    position: absolute;
+    top: 0;
+  }
   .blog-postlist main .articles .blog_meta {
-    max-width: 270px;
+    margin: 0 auto;
   }
   .blog-postlist main .sidebar {
     padding: 60px 0;
@@ -706,6 +718,16 @@
   }
 }
 @media (max-width: 991.98px) and (min-width: 768px) {
+  .blog-postlist main .blog_thumbnail {
+    position: relative;
+  }
+  .blog-postlist main .date {
+    position: absolute;
+    top: 0;
+  }
+  .blog-postlist main .blog_meta {
+    margin: 0 auto;
+  }
   .blog-postlist .sidebar {
     padding: 60px 0;
     text-align: center !important;
@@ -1999,8 +2021,8 @@ article .date .month {
   margin-bottom: 0;
 }
 article .blog_meta {
-  max-width: 600px;
-  margin-left: auto;
+  max-width: 620px;
+  margin-left: 80px;
 }
 article .blog_meta .title {
   font-family: 'Montserrat', sans-serif;
