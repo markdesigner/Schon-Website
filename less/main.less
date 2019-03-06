@@ -41,7 +41,7 @@ body {
 
     img {
         width: 100%;
-        height: auto;
+        height: 100%;
 
     }
 
@@ -730,6 +730,18 @@ a {
         }
 
     }
+    .brands_bar{
+        .fas{
+            top:40%;
+            z-index: 100;
+        }
+        .brands_bt_prev{
+            left:0;
+        }
+        .brands_bt_next{
+            right:0;
+        }
+    }
 
 }
 
@@ -1117,8 +1129,12 @@ footer {
     left: 200px;
 }
 #triangle_products{
-    top: 30px;
-    right: 35px;
+    top: -15px;
+    right: calc(100%/2 + 30px);
+}
+#triangle_page{
+    top: -15px;
+    right: calc(100%/2 -50px);
 }
 #shopping_cart_shadow{
     // visibility: hidden;
@@ -1257,6 +1273,9 @@ height: 100%;
                 margin-bottom: calc(16rem/16);
                 ;
             }
+            .subscribe{
+                text-align: center !important;
+            }
 
         }
 
@@ -1266,7 +1285,7 @@ height: 100%;
 
             .visa {
                 display: flex;
-                justify-content: center;
+                justify-content: center ;
 
                 img {
                     width: 70%;
@@ -1274,6 +1293,7 @@ height: 100%;
             }
 
         }
+
     }
 
     footer.simple {
@@ -1303,9 +1323,15 @@ height: 100%;
             margin-right: 0 !important;
          }
     }
+    // 小元素 small items
+#triangle_products{
+    display: none;
+}
 
  
 }
+
+
 
 
 
@@ -1329,9 +1355,13 @@ height: 100%;
             margin-right: 10px !important;
          }
     }
+    #triangle_products{
+        display: none;
+    }
 }
 
-// mac
+
+// desktop
 
 @media(min-width:992px) {
     .header {
@@ -1342,5 +1372,13 @@ height: 100%;
                 }
             }
         }
+    }
+}
+
+// mac only
+@media(min-width:992px)and(max-width:1200px){
+    #triangle_products{
+        top: -15px;
+        right: calc(100%/2 + 120px);
     }
 }

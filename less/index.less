@@ -257,9 +257,14 @@
                 // }
             }
         }
+        .right_item{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
 
         .bag {
-            margin-bottom: calc(19rem/16);
+
             position: relative;
 
             .top_words {
@@ -387,12 +392,14 @@
 
         }
 
-
-
         .row.bottom {
             font-family: @mont;
             align-content: stretch;
-
+            .left_item{
+                display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
             .top {
 
 
@@ -569,7 +576,7 @@
             }
 
             .shopnow_angle {
-                left: 30px;
+                left: 43px;
                 bottom: 10px;
                 font-family: @mont;
                 color: @grey_shopnow;
@@ -590,6 +597,17 @@
     }
     // media query 
 
+    // super small phone
+    @media (max-width: 374px) {
+       .feature_bar{
+           .control_bar{
+               .control_bt{
+                   display: none;
+               }
+           }
+       }
+    }
+
     // iphone
     @media (max-width: 767.98px) {
         .modal .modal-body .input-group {
@@ -605,6 +623,11 @@
                 bottom: 28px;
                 left: 38px;
                 color: #fff;
+            }
+            .right_item{
+                .top{
+                    margin-bottom: 10px;
+                }
             }
         }
          
@@ -655,10 +678,6 @@
 
             }
 
-            .bag {
-                margin-bottom: calc(35rem/16);
-            }
-
         }
 
         .feature_bar {
@@ -676,6 +695,12 @@
             .row>div {
                 margin-bottom: 15px;
 
+            }
+            .title{
+                font-size: 16px !important;
+            }
+            .shopnow_angle {
+                bottom: -3px !important;
             }
         }
 

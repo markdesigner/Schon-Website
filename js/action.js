@@ -202,7 +202,6 @@ $(document).ready(function () {
     var owl3 = $('.owl_brands');
     $('.brands_bt_prev').click(function (e) {
         owl3.trigger('prev.owl.carousel', [300]);
-
     })
     $('.brands_bt_next').click(function () {
         owl3.trigger('next.owl.carousel');
