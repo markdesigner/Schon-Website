@@ -100,8 +100,12 @@ a {
 
     nav {
         font-family: 'Montserrat', sans-serif;
-
-
+        .navbar-toggler{
+            border:none;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+          }
 
         li {
             margin: 1.5rem 0.1rem;
@@ -427,9 +431,8 @@ a {
     margin: 0 auto;
 
     .breadcrumb-item+.breadcrumb-item::before {
-        content: ">";
-
-
+        content: '\f105'; 
+        font-family: "fontello";  
     }
 
     a {
@@ -1199,7 +1202,20 @@ height: 100%;
     .short_info {
         .info_container {
             max-width: 328px;
+            .nav{
+                float: none !important;
+            }
+            .contact_info{
+                font-size: 12px;
+                .phone{
+                    a{
+                        padding-left: 27px;
+                    }
+                    
+                }
+            }
         }
+        
     }
 
     .header nav #products-modal .modal-dialog {

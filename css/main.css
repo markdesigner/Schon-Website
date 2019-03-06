@@ -1005,7 +1005,7 @@
   height: 8px;
 }
 .product-list main aside .filter .by_price .dash {
-  margin-left: -11px;
+  margin-left: -8px;
 }
 .product-list main aside .filter .by_price .irs-bar {
   background: #000 !important;
@@ -1503,6 +1503,12 @@ a:hover {
 .header nav {
   font-family: 'Montserrat', sans-serif;
 }
+.header nav .navbar-toggler {
+  border: none;
+}
+.header nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 .header nav li {
   margin: 1.5rem 0.1rem;
 }
@@ -1749,7 +1755,8 @@ a:hover {
   margin: 0 auto;
 }
 .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: ">";
+  content: '\f105';
+  font-family: "fontello";
 }
 .breadcrumb a {
   color: #717171;
@@ -2281,6 +2288,15 @@ footer.grey_pad .container-big {
 @media (max-width: 767.98px) {
   .short_info .info_container {
     max-width: 328px;
+  }
+  .short_info .info_container .nav {
+    float: none !important;
+  }
+  .short_info .info_container .contact_info {
+    font-size: 12px;
+  }
+  .short_info .info_container .contact_info .phone a {
+    padding-left: 27px;
   }
   .header nav #products-modal .modal-dialog {
     margin: 35% auto 0 auto;
