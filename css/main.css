@@ -2415,6 +2415,9 @@ footer.grey_pad .container-big {
     width: 305px;
     margin: 0 auto;
   }
+  .shopping_cart #shopping_menu img {
+    height: auto;
+  }
   .shopping_cart .view_cart {
     margin-bottom: 20px;
     margin-right: 0 !important;
