@@ -844,9 +844,11 @@
   background-color: #f4f4f4;
   padding: 20px 0;
 }
+.blog-detail main .article .container .other_info .writer img {
+  height: auto;
+}
 .blog-detail main .article .container .other_info .writer .info {
   color: #494949;
-  padding-top: 30px;
 }
 .blog-detail main .article .container .other_info .writer .info .social_icon {
   padding-top: 50px;
