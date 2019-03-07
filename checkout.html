@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="pics/logo_small.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="plug_in/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="plug_in/jquery-ui/jquery-ui.theme.css">
-
     <link rel="stylesheet" href="plug_in/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="plug_in/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i|Oxygen:300,400,700"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/fontello.css">
-
+    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Schon Checkout</title>
@@ -28,34 +25,34 @@
     <section class="header_wrap">
         <div class="grey_pad">
             <div class="container">
-                    <div class="short_info no_bg">
-                            <div class="clearfix info_container">
-                                <ul class="nav contact_info float-left">
-                                    <li class="nav-item">
-                                        <div class="mail">
-                                            <a class="nav-link" href="mailto:info@schon.chair"><i class="far fa-envelope"></i>
-                                                info@schon.chair</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <ul class="nav user_bt float-right">
-                                    <li class="nav-item">
-                                        <a class="nav-link border-right" href="page404.html">Login or Create Account</a>
-                                    </li>
-                                   
-                                    <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
-                                            <div class="dropdown-menu">
-                                              <a class="dropdown-item" href="#">繁體中文</a>
-                                              <a class="dropdown-item" href="#">English</a>
-                                              <a class="dropdown-item" href="#">Japanese</a>
-                                              <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item" href="#">Separated link</a>
-                                            </div>
-                                          </li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="short_info order no_bg">
+                    <div class="container clearfix info_container">
+                        <ul class="nav contact_info float-left">
+                            <li class="nav-item">
+                                <div class="mail">
+                                    <a class="nav-link" href="mailto:info@schon.chair"><i class="far fa-envelope"></i>
+                                        info@schon.chair</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="nav user_bt float-right">
+                            <li class="nav-item">
+                                <a class="nav-link login" href="page404.html">Login or Create Account</a>
+                            </li>
+                            <span class="divider_line">|</span>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Language</a>
+                                <div class="dropdown-menu language">
+                                    <a class="dropdown-item" href="#">繁體中文</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">日本語</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <header class="header my-2">
                     <div class="bg-white">
 
@@ -201,126 +198,132 @@
                                 <span class="overflow-control-description">Ship to a different address?</span>
                             </label>
                         </div>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Order Notes"></textarea>
-                    </div>            
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Order Notes"></textarea>
+                    </div>
                     <div class="col-md-6 sheet">
-                            <div class="grey_pad">
-                                <div class="container">
-                                    <div class="order mb-5">
-                                        <p class="title mb-5">YOUR ORDER</p>
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>PRODUCTS</th>
-                                                    <th>TOTALS</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="user_buy">
-                                                <tr>
-                                                    <th class="first" scope="row">Marvelous Modern 3 Seater x1</th>
-                                                    <td class="first"> $299,00</td>
-                                                </tr>
-                                                <tr class="mb-3">
-                                                    <th scope="row">Bombi Chair x1</th>
-                                                    <td>$532,00</td>
-                                                </tr>
-                                            </tbody >
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">CART TOTAL</th>
-                                                    <td>$831,00</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">SHIPPING</th>
-                                                    <td>Free Shipping</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">ORDER TOTAL</th>
-                                                    <td>831,00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="payment">
-                                        <p class="title mb-5">PAYMENT METHODS</p>
-                                        <div class="transfer d-flex">DIRECT BANK TRANSFER
-                                                <label class="custom-control overflow-checkbox d-flex ml-auto">
-                                                        <input type="checkbox" class="overflow-control-input">
-                                                        <span class="overflow-control-indicator"></span>
-                                                    </label></div>
-                                        <p class="description border-top border-bottom py-2">Make your payment directly into our bank
-                                            account.
-                                            Please
-                                            use your order id as the payment reference. Your order wont be shippided
-                                            until
-                                            the
-                                            funds have cleared in our account</p>
-                                        <div class="check d-flex my-3">CHECK PAYMENT <label class="custom-control overflow-checkbox d-flex ml-auto">
-                                                <input type="checkbox" class="overflow-control-input">
-                                                <span class="overflow-control-indicator"></span>
-                                            </label></div>
-                                        <div class="d-flex paypal border-top pt-3">PAYPAL <label class="custom-control overflow-checkbox d-flex ml-auto">
-                                                <input type="checkbox" class="overflow-control-input">
-                                                <span class="overflow-control-indicator"></span>
-                                            </label></div>
-
-
-                                    </div>
+                        <div class="grey_pad">
+                            <div class="container">
+                                <div class="order mb-5">
+                                    <p class="title mb-5">YOUR ORDER</p>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>PRODUCTS</th>
+                                                <th>TOTALS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="user_buy">
+                                            <tr>
+                                                <th class="first" scope="row">Marvelous Modern 3 Seater x1</th>
+                                                <td class="first"> $299,00</td>
+                                            </tr>
+                                            <tr class="mb-3">
+                                                <th scope="row">Bombi Chair x1</th>
+                                                <td>$532,00</td>
+                                            </tr>
+                                        </tbody>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">CART TOTAL</th>
+                                                <td>$831,00</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">SHIPPING</th>
+                                                <td>Free Shipping</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">ORDER TOTAL</th>
+                                                <td>831,00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="payment">
+                                    <p class="title mb-5">PAYMENT METHODS</p>
+                                    <div class="transfer d-flex">DIRECT BANK TRANSFER
+                                        <label class="custom-control overflow-checkbox d-flex ml-auto">
+                                            <input type="checkbox" class="overflow-control-input">
+                                            <span class="overflow-control-indicator"></span>
+                                        </label></div>
+                                    <p class="description border-top border-bottom py-2">Make your payment directly
+                                        into our bank
+                                        account.
+                                        Please
+                                        use your order id as the payment reference. Your order wont be shippided
+                                        until
+                                        the
+                                        funds have cleared in our account</p>
+                                    <div class="check d-flex my-3">CHECK PAYMENT <label class="custom-control overflow-checkbox d-flex ml-auto">
+                                            <input type="checkbox" class="overflow-control-input">
+                                            <span class="overflow-control-indicator"></span>
+                                        </label></div>
+                                    <div class="d-flex paypal border-top pt-3">PAYPAL <label class="custom-control overflow-checkbox d-flex ml-auto">
+                                            <input type="checkbox" class="overflow-control-input">
+                                            <span class="overflow-control-indicator"></span>
+                                        </label></div>
 
 
                                 </div>
+
+
                             </div>
-                            <div class="read d-flex p-5"> <p>I’ve read & accept the  <strong>terms & conditions</strong> </p>  <label class="custom-control overflow-checkbox d-flex ml-auto">
-                                    <input type="checkbox" class="overflow-control-input">
-                                    <span class="overflow-control-indicator"></span>
-                                </label></div>
-                        <div class="wrap_check d-flex "> <a class="btn checkout ml-auto" href="checkout.html">PROCEED TO CHECKOUT
+                        </div>
+                        <div class="read d-flex p-5">
+                            <p>I’ve read & accept the <strong>terms & conditions</strong> </p> <label class="custom-control overflow-checkbox d-flex ml-auto">
+                                <input type="checkbox" class="overflow-control-input">
+                                <span class="overflow-control-indicator"></span>
+                            </label>
+                        </div>
+                        <div class="wrap_check d-flex "> <a class="btn checkout ml-auto" href="checkout.html">PROCEED
+                                TO CHECKOUT
                                 <i class="fas fa-check"></i></a>
                         </div>
-                     </div>
-                
+                    </div>
+
                 </div>
             </div>
         </section>
     </main>
     <footer>
-           
+        <div class="container">
+            <div class="guarantee order">
+                <div class="row">
+                    <div class="col-md-3">
+                        <i class="fas fa-plane float-left"></i>
+                        <div class="words float-right">
+                            <span class="font-weight-bold title">FREE SHIPPING</span> <br>
+                            <span class="description">Free shipping on all US order</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <i class="far fa-life-ring"></i>
+                        <div class="words float-right">
+                            <span class="font-weight-bold title">SUPPROT 24/7</span> <br>
+                            <span class="description">We support 24 hours a day</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-box-open"></i>
+                        <div class="words float-right">
+                            <span class="font-weight-bold title">GIFT CARDS</span> <br>
+                            <span class="description">Give perfect gift</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 payment">
+                        <i class="far fa-money-bill-alt"></i>
+                        <div class="words float-right">
+                            <span class="title font-weight-bold">PAYMENT 100% SECURE</span> <br>
+                            <span class="description">Payment 100% secure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid middle_size">
             <div class="container">
                 <div class="main_footer">
-                    <div class="guarantee">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <i class="fas fa-plane float-left"></i>
-                                <div class="words float-right">
-                                    <span class="font-weight-bold title">FREE SHIPPING</span> <br>
-                                    <span class="description">Free shipping on all US order</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <i class="far fa-life-ring"></i>
-                                <div class="words float-right">
-                                    <span class="font-weight-bold title">SUPPROT 24/7</span> <br>
-                                    <span class="description">We support 24 hours a day</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <i class="fas fa-box-open"></i>
-                                <div class="words float-right">
-                                    <span class="font-weight-bold title">GIFT CARDS</span> <br>
-                                    <span class="description">Give perfect gift</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <i class="far fa-money-bill-alt"></i>
-                                <div class="words float-right">
-                                    <span class="title font-weight-bold">PAYMENT 100% SECURE</span> <br>
-                                    <span class="description">Payment 100% secure</span>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
+
                     <div class="row footer_info">
                         <div class="col-md-3 contact">
                             <img class="logo" src="pics/logo_grey.png" alt="logo">
@@ -385,15 +388,15 @@
                         <div class="col-md-3 subscribe">
                             <p class="title">Sign Up Newsletter</p>
                             <p class="description">Subscribe now to get 15% off
-                                    on any product</p>
-                                <div class="input-group user_input hollow">
-                                    <input type="text" class="form-control user_email" placeholder=" Your email" aria-label="email"
-                                        aria-describedby="email">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-secondary sub_bt" type="button" id="subscribe"><i
-                                                class="fas fa-angle-right"></i></button>
-                                    </div>
+                                on any product</p>
+                            <div class="input-group user_input hollow">
+                                <input type="text" class="form-control user_email" placeholder=" Your email" aria-label="email"
+                                    aria-describedby="email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary sub_bt" type="button" id="subscribe"><i
+                                            class="fas fa-angle-right"></i></button>
                                 </div>
+                            </div>
                             <p class="font-weight-bold follow">Follow Us</p>
                             <div class="social_icon">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -427,11 +430,15 @@
         </div>
     </footer>
 
-
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
     <script src="plug_in/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="plug_in/jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/action.js"></script>
 </body>
 
