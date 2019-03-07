@@ -2368,6 +2368,9 @@ footer.grey_pad .container-big {
   .navbar .phone {
     display: none;
   }
+  .short_info.order a {
+    font-size: 12px;
+  }
 }
 @media (max-width: 767.98px) {
   .short_info .info_container {
