@@ -263,6 +263,17 @@ a {
         }
 
         .shopping_cart {
+            &.position-relative{
+                span{
+                    top: 24px;
+                    right: 5px;
+                    background-color: @star;
+                    width: 20px;
+                    border-radius: 50%;
+                    height: 21px;
+                    color: #fff;
+                }
+            }
             i {
                 font-size: 1.5rem;
                 margin-right: 1rem;
@@ -1343,6 +1354,7 @@ height: 100%;
     }
     // shopping cart 相關
     .shopping_cart{
+       
         .triangle{
             display: none !important;
          }
