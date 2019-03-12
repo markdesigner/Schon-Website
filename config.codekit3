@@ -1091,6 +1091,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/share-cover.jpg": {
+		"ft": 16384,
+		"iS": 506317,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/share-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/pics/workspace/1.jpg": {
 		"ft": 16384,
 		"iS": 255375,
