@@ -51,13 +51,11 @@
                                 data-target="#products-modal">
                                 PRODUCTS <i class="fas fa-angle-down"></i>
                             </button>
-                            <div id="triangle"></div>
                         </li>
                         <div class="modal fade" id="products-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content text-left">
-                                    <div id="triangle"></div>
                                     <div class="modal-body">
                                         <div class="row menu">
                                             <div class="col-md-6 col-lg categories">
@@ -147,20 +145,9 @@
 
                         <!-- </div> -->
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                PAGES <i class="fas fa-angle-down"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog-detail.html">PAGES</a>
                         </li>
-
-
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">ABOUT</a>
                         </li>
@@ -171,13 +158,35 @@
                             <a class="nav-link" href="contact.html">CONTACT</a>
                         </li>
                         <li class="nav-item search">
-                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#search-modal">
+                                <i class="fas fa-search"></i>
+                            </button>
                         </li>
+                        <div class="search_box">
+                            <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="input-group m-auto">
+                                                <input type="text" class="search form-control" placeholder="Search..."
+                                                    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                                <button type="button" class="mic_bt btn"><i class="fas fa-microphone"></i></button>
+                                                <button type="button" class="search_bt btn" data-dismiss="modal"><i
+                                                        class="fas fa-search"></i></button>
+                                            </div>
+                                            <button type="button" class="cancel btn" data-dismiss="modal">&times;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <li class="nav-item search">
                             <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
                         </li>
-                        <li class="nav-item shopping_cart">
+                        <li class="nav-item shopping_cart position-relative">
                             <a class="nav-link " href="shopping-cart.html"><i class="fas fa-shopping-bag mr-2"></i>
+                                <span class="position-absolute">3</span>
                             </a>
                         </li>
 
@@ -418,9 +427,8 @@
                 <div class="owl-carousel owl-theme owl_related_products">
 
                     <div class="item">
-
                         <div class="product">
-                            <img src="http://unsplash.it/213/213" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product8.png" alt="pic"></a> 
                             <div class="tag">
                                 <p class="new"> NEW</p>
                             </div>
@@ -456,7 +464,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/213/212" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product7.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">
@@ -480,7 +488,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/212/213" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product6.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">
@@ -503,7 +511,7 @@
                     </div>
                     <div class="item">
                         <div class="product best_4">
-                            <img src="http://unsplash.it/213/211" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product5.png" alt="pic"></a> 
                             <div class="tag">
                                 <p class="discount">15% Off</p>
                                 <p class="new"> NEW</p>
@@ -530,7 +538,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/211/213" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product4.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">
@@ -552,9 +560,8 @@
                         </div>
                     </div>
                     <div class="item ">
-
                         <div class="product">
-                            <img src="http://unsplash.it/212/212" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product3.png" alt="pic"></a> 
                             <div class="tag">
                                 <p class="new"> NEW</p>
                             </div>
@@ -590,7 +597,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/212/211" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product2.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">
@@ -614,7 +621,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/211/212" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product1.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">
@@ -637,7 +644,7 @@
                     </div>
                     <div class="item">
                         <div class="product best_4">
-                            <img src="http://unsplash.it/210/213" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product9.png" alt="pic"></a> 
                             <div class="tag">
                                 <p class="discount">15% Off</p>
                                 <p class="new"> NEW</p>
@@ -664,7 +671,7 @@
                     </div>
                     <div class="item">
                         <div class="product">
-                            <img src="http://unsplash.it/213/210" alt="pic">
+                            <a href="product-detail.html"><img src="pics/product-list/product8.png" alt="pic"></a> 
                             <div class="cover">
                                 <ul class="nav">
                                     <li class="nav-item ">

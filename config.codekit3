@@ -51,6 +51,16 @@
 		"oAP": "/contact.html",
 		"oF": 0
 		},
+	"/css/bootstrap.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/bootstrap.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -67,6 +77,16 @@
 		"oA": 0,
 		"oAP": "/css/bootstrap.min.css.map",
 		"oF": 0
+		},
+	"/css/fontello.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontello-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/main.css": {
 		"aP": 1,
@@ -94,6 +114,44 @@
 		"oAP": "/css/normalize-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/font/fontello.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/font/fontello.eot",
+		"oF": 0
+		},
+	"/font/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/font/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/font/fontello.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/font/fontello.ttf",
+		"oF": 0
+		},
+	"/font/fontello.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/font/fontello.woff",
+		"oF": 0
+		},
+	"/font/fontello.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/font/fontello.woff2",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -187,6 +245,23 @@
 		"mS": 0,
 		"oA": 1,
 		"oAP": "/less/blog-postlist.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/checkout.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/less/checkout.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -357,6 +432,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/pics/bar.png": {
+		"ft": 32768,
+		"iS": 3534,
+		"oA": 0,
+		"oAP": "/pics/bar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/blog-detail/girl1.jpg": {
 		"ft": 16384,
 		"iS": 39883,
@@ -461,6 +547,27 @@
 		"iS": 4698,
 		"oA": 0,
 		"oAP": "/pics/brands/zanotta.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/breadcrumb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/pics/breadcrumb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/pics/checkout_banner.png": {
+		"ft": 32768,
+		"iS": 525487,
+		"oA": 0,
+		"oAP": "/pics/checkout_banner.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -577,9 +684,97 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/furniture/office chair/chair1.png": {
+		"ft": 32768,
+		"iS": 111369,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair2.png": {
+		"ft": 32768,
+		"iS": 217492,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair3.png": {
+		"ft": 32768,
+		"iS": 190567,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair4.png": {
+		"ft": 32768,
+		"iS": 199235,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair5.png": {
+		"ft": 32768,
+		"iS": 199906,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair6.png": {
+		"ft": 32768,
+		"iS": 264446,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair7.png": {
+		"ft": 32768,
+		"iS": 304467,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/furniture/office chair/chair8.png": {
+		"ft": 32768,
+		"iS": 327670,
+		"oA": 0,
+		"oAP": "/pics/furniture/office chair/chair8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/index/blue-chair.png": {
 		"ft": 32768,
-		"iS": 49853,
+		"iS": 26657,
 		"oA": 0,
 		"oAP": "/pics/index/blue-chair.png",
 		"oF": 0,
@@ -764,6 +959,105 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/pics/product-list/product1.png": {
+		"ft": 32768,
+		"iS": 226093,
+		"oA": 0,
+		"oAP": "/pics/product-list/product1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product2.png": {
+		"ft": 32768,
+		"iS": 291962,
+		"oA": 0,
+		"oAP": "/pics/product-list/product2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product3.png": {
+		"ft": 32768,
+		"iS": 132718,
+		"oA": 0,
+		"oAP": "/pics/product-list/product3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product4.png": {
+		"ft": 32768,
+		"iS": 377905,
+		"oA": 0,
+		"oAP": "/pics/product-list/product4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product5.png": {
+		"ft": 32768,
+		"iS": 290949,
+		"oA": 0,
+		"oAP": "/pics/product-list/product5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product6.png": {
+		"ft": 32768,
+		"iS": 310884,
+		"oA": 0,
+		"oAP": "/pics/product-list/product6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product7.png": {
+		"ft": 32768,
+		"iS": 324712,
+		"oA": 0,
+		"oAP": "/pics/product-list/product7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product8.png": {
+		"ft": 32768,
+		"iS": 239116,
+		"oA": 0,
+		"oAP": "/pics/product-list/product8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/pics/product-list/product9.png": {
+		"ft": 32768,
+		"iS": 439714,
+		"oA": 0,
+		"oAP": "/pics/product-list/product9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/pics/products_dropdown/product-1.png": {
 		"ft": 32768,
 		"iS": 59435,
@@ -797,57 +1091,145 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/pics/workspace/workspace_1.jpg": {
+	"/pics/workspace/1.jpg": {
 		"ft": 16384,
-		"iS": 364097,
+		"iS": 255375,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/pics/workspace/workspace_1.jpg",
+		"oAP": "/pics/workspace/1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/pics/workspace/workspace_2.jpg": {
+	"/pics/workspace/10.jpg": {
 		"ft": 16384,
-		"iS": 331978,
+		"iS": 267319,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/pics/workspace/workspace_2.jpg",
+		"oAP": "/pics/workspace/10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/plug_in/jquery-ui/jquery-ui.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/pics/workspace/2.jpg": {
+		"ft": 16384,
+		"iS": 89349,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/plug_in/jquery-ui/jquery-ui.min-min.css",
+		"oAP": "/pics/workspace/2.jpg",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
-	"/plug_in/jquery-ui/jquery-ui.min.js": {
+	"/pics/workspace/3.jpg": {
+		"ft": 16384,
+		"iS": 381443,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pics/workspace/4.jpg": {
+		"ft": 16384,
+		"iS": 298449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/pics/workspace/5.jpg": {
+		"ft": 16384,
+		"iS": 256266,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pics/workspace/6.jpg": {
+		"ft": 16384,
+		"iS": 208481,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pics/workspace/7.jpg": {
+		"ft": 16384,
+		"iS": 288454,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pics/workspace/8.jpg": {
+		"ft": 16384,
+		"iS": 198324,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/pics/workspace/9.jpg": {
+		"ft": 16384,
+		"iS": 224253,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pics/workspace/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/plug_in/ion-slider/ion.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/plug_in/jquery-ui/jquery-ui.min-min.js",
+		"oAP": "/plug_in/ion-slider/ion-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/plug_in/jquery-ui/jquery-ui.theme.css": {
+	"/plug_in/ion-slider/ion.rangeSlider.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/plug_in/jquery-ui/jquery-ui.theme-min.css",
+		"oAP": "/plug_in/ion-slider/ion.rangeSlider.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/plug_in/ion-slider/ion.rangeSlider.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/plug_in/ion-slider/ion.rangeSlider.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/plug_in/OwlCarousel2-2.3.4/.gitattributes": {
 		"cB": 0,

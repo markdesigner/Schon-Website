@@ -1394,6 +1394,9 @@
   background-image: url(../pics/checkout_banner.png);
   background-size: cover;
 }
+.checkout .header_wrap .grey_pad #products-modal a {
+  color: inherit !important;
+}
 .checkout .header_wrap .grey_pad a,
 .checkout .header_wrap .grey_pad .divider_line {
   color: white !important;
