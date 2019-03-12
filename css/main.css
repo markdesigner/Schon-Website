@@ -604,9 +604,6 @@
   }
 }
 @media (max-width: 767.98px) {
-  .index .modal .modal-body .input-group {
-    width: 60% !important;
-  }
   .index .main_items .row > div {
     margin-bottom: 15px;
   }
@@ -1674,7 +1671,7 @@ a:hover {
 }
 .header nav .shopping_cart.position-relative span {
   top: 24px;
-  right: 5px;
+  right: calc(50% - 15px);
   background-color: #c8a760;
   width: 20px;
   border-radius: 50%;
@@ -2385,6 +2382,9 @@ footer.grey_pad .container-big {
   }
 }
 @media (max-width: 767.98px) {
+  .modal .modal-body .input-group {
+    width: 60% !important;
+  }
   .short_info .info_container {
     max-width: 328px;
   }

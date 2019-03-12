@@ -123,8 +123,6 @@ a {
 
 
 .header {
-
-
     nav {
         font-family: 'Montserrat', sans-serif;
         .navbar-toggler{
@@ -266,7 +264,7 @@ a {
             &.position-relative{
                 span{
                     top: 24px;
-                    right: 5px;
+                    right: calc(50% - 15px);
                     background-color: @star;
                     width: 20px;
                     border-radius: 50%;
@@ -1252,7 +1250,9 @@ height: 100%;
  }
 // iphone
 @media (max-width: 767.98px) {
-    
+    .modal .modal-body .input-group {
+        width: 60% !important;
+    }
     .short_info {
         .info_container {
             max-width: 328px;
